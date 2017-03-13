@@ -14,7 +14,7 @@ public:
         helper(root, prev, minDiff);
         return minDiff == INT_MAX ? 0 : minDiff;
     }
-    void helper(TreeNode* root, int& prev, int& minDiff) //int& prev.....也要修改的，忘了
+    void helper(TreeNode* root, int& prev, int& minDiff) 
     {
         if(!root)  return;
         helper(root->left, prev, minDiff);
