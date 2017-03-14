@@ -2,8 +2,7 @@ class Solution {
 public:
     int reverse(int x) {
         long res = 0;
-        while( x )
-        {
+        while (x) {
             res = res*10 + x%10;
             x /= 10;
         }
