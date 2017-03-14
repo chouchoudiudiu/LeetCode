@@ -22,7 +22,7 @@ public:
         if (m == 0) return n%2 ? nums2[n/2] : (nums2[n/2 - 1] + nums2[n/2])/2.0;//index base 0
         if (n == 0) return m%2 ? nums1[m/2] : (nums1[m/2 - 1] + nums1[m/2])/2.0;
         int total = m + n;
-        if(total % 2)
+        if (total % 2)
             return findKthElement(&nums1[0], m, &nums2[0], n, total/2 + 1); //the kth element, index base 1
         else
             return (findKthElement(&nums1[0], m, &nums2[0], n, total/2) +  findKthElement(&nums1[0], m, &nums2[0], n, total/2 + 1))/2.0;
