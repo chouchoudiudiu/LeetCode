@@ -1,6 +1,6 @@
 
 
- #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note
+ No  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note
 -----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------| -----
 1 | [Two Sum](https://leetcode.com/problems/two-sum/#/description/) | [Hash Table](./src/1.Two_Sum.cpp)  |  O(n)    |  O(n)        | Easy         ||
 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description/) | [LinkedList](./src/2.Add_Two_Numbers.cpp)  |  O(n)    |  O(1)        | Medium         ||
