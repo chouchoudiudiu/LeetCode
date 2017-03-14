@@ -1,9 +1,9 @@
 class Solution {
 public:
     bool isPalindrome(int n) {
-	    if (n < 0 || (n != 0 && n%10 == 0)) //no leading zeros
-	        return false;
-	    int sum = 0;
+	if (n < 0 || (n != 0 && n%10 == 0)) //no leading zeros
+	    return false;
+	int sum = 0;
         while (n > sum) {
             sum = sum*10 + n%10;
             n /= 10;
