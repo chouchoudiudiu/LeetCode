@@ -21,4 +21,6 @@
 18 | [4Sum](https://leetcode.com/problems/4sum/#/description/) | [Two Pointers](./src/018.4Sum.cpp) |  O(n^3)    |  O(1) |Medium |  |  use set; or skip duplicates ||
 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/#/description/) | [Two Pointers](./src/019.Remove_Nth_Node_From_End_of_List.cpp) |  O(n)    |  O(1) |Medium | Y | delete head, tail cases  ||
 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/#/description/) | [Stack](./src/020.Valid_Parentheses.cpp) |  O(n)    |  O(n) |Easy |  |   ||
+21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/#/description/) | [LinkedList](./src/021.Merge_Two_Sorted_Lists.cpp) |  O(n)    |  O(1) |Easy |  |   ||
+22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/#/description/) | [DFS](./src/022.Generate_Parentheses.cpp) |  ?   |  O(1) |Medium | Y |   ||
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
