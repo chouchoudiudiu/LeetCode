@@ -9,7 +9,7 @@
 class Solution {
 public:
     struct comp {
-        bool operator() (ListNode* a, ListNode* b) {
+        bool operator() (const ListNode* a, const ListNode* b) {
             return a->val > b->val;
         }
     };
@@ -18,9 +18,9 @@ public:
         priority_queue<ListNode*, vector<ListNode*>, comp> pq;
         ListNode* dummy = new ListNode(0);
         ListNode* head = dummy;
-        for (int i = 0; i < lists.size(); ++i) {
-            if (lists[i]) //not null
-                pq.push(lists[i]);//head of each list
+        for (auto l:lists) {
+            if (l) //not null
+                pq.push(l);//head of each list
         }
         while (!pq.empty()) {
             ListNode* node = pq.top();
