@@ -11,6 +11,7 @@
 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/#/description/) | [Math](./src/007.Reverse_Integer.cpp)  |  O(n)    |  O(1)        |Easy |  |use long for Overflow        ||
 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/#/description/) | [String](./src/008.String_to_Integer_(atoi).cpp)  |  O(n)    |  O(1)        |Medium |  |long long       ||
 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/#/description/) | [Math](./src/009.Palindrome_Number1.cpp) \|  [Math](./src/009.Palindrome_Number2.cpp) |  O(x) (O(1))    |  O(1)        |Easy |  |compare half, overflow      ||
+10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/#/description/) | [Recursion](./src/010.Regular_Expression_Matching.cpp) \|  [DP]() |  O(e?)    |  O(1)        |Hard | Y |DP      ||
 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/#/description/) | [Two Pointers](./src/011.Container_With_Most_Water.cpp) |  O(n)    |  O(1)        |Medium | Y |   ||
 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/#/description/) | [Solution](./src/012.Integer_to_Roman.cpp) |  O(n)    |  O(1)        |Medium |  |   ||
 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/#/description/) | [Solution](./src/013.Roman_to_Integer.cpp) |  O(n)    |  O(1)        |Easy |  |   ||
@@ -25,7 +26,8 @@
 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/#/description/) | [DFS](./src/022.Generate_Parentheses.cpp) |  ?   |  O(1) |Medium | Y |   ||
 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/#/description/) | [Heap](./src/023.Merge_k_Sorted_Lists.cpp) |   O(n\*k)    |  O(k) | Hard | Y |   ||
 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/#/description/) | [LinkedList](./src/024.Swap_Nodes_in_Pairs1.cpp) \| [Recursion](./src/024.Swap_Nodes_in_Pairs2.cpp)|  O(n)   |  O(1) |Medium | |   ||
+25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/#/description/) | [Recursion](./src/025.Reverse_Nodes_in_k-Group.cpp) |  O(n)   |  O(1) |Hard| |   ||
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/#/description/) | [Two Pointer](./src/026.Remove_Duplicates_from_Sorted_Array.cpp) |  O(n)   |  O(1) | Easy |  |   ||
-27 | [Remove Element](https://leetcode.com/problems/remove-element/#/description/) | [Two Pointer](./src/027.Remove_Element.cpp) |  O(n)   |  O(1) | Easy |  |   ||
+27 | [Remove Element](https://leetcode.com/problems/remove-element/#/description/) | [Two Pointer](./src/027.Remove_Element.cpp) |  O(n)   |  O(1) | Easy |  | rare  ||
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/#/description/) | [Two Pointer](./src/028.Implement_strStr().cpp) |  O(n\*k)   |  O(1) | Easy |  | check KMP?   ||
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
