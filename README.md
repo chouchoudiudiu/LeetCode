@@ -35,6 +35,6 @@
 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/#/description/) | [Binary Search](./src/031.Next_Permutation.cpp) |  O(n)   |  O(1) | Medium | Y | Binary Search    ||
 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/#/description/) | [Stack](./src/032.Longest_Valid_Parentheses.cpp) |  O(n)   |  O(n) | Hard |  |     ||
 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/#/description/) | [Binary Search](./src/033.Search_in_Rotated_Sorted_Array.cpp) |  O(logn)   |  O(1) | Medium | Y  |   <=  ||
-34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/#/description/) | [Binary Search](./src/034.Search_for_a _Range.cpp) |  O(logn)   |  O(1) | Medium |  |     ||
+34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/#/description/) | [Binary Search](./src/034.Search_for_a_Range.cpp) |  O(logn)   |  O(1) | Medium |  |     ||
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/#/description/) | [Binary Search](./src/035.Search_Insert_Position.cpp) |  O(logn)   |  O(1) | Easy |   |    ||
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
