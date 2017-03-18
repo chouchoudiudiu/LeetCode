@@ -32,4 +32,7 @@
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/#/description/) | [Two Pointer](./src/028.Implement_strStr().cpp) |  O(n\*k)   |  O(1) | Easy |  | check KMP?   ||
 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/#/description/) | [Bit Manipulation](./src/029.Divide_Two_Integers.cpp) |  O(logn)   |  O(1) | Medium |  | Y   ||
 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/#/description/) | [Hash Table](./src/030.Substring_with_Concatenation_of_All_Words.cpp) |  O(n)   |  O(n) | Hard |  |    ||
+31 | [Next Permutation](https://leetcode.com/problems/next-permutation/#/description/) | [Binary Search](./src/031.Next_Permutation.cpp) |  O(n)   |  O(1) | Medium | Y | Binary Search    ||
+32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/#/description/) | [Stack](./src/032.Longest_Valid_Parentheses.cpp) |  O(n)   |  O(n) | Hard |  |     ||
+33 | [Search in Rotated Sorted Array]https://leetcode.com/problems/search-in-rotated-sorted-array/#/description/) | [Binary Search](./src/033.Search_in_Rotated_Sorted_Array.cpp) |  O(logn)   |  O(1) | Medium |  |   <=  ||
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
