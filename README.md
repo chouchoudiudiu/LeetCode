@@ -38,6 +38,9 @@
 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/#/description/) | [Binary Search](./src/034.Search_for_a_Range.cpp) |  O(logn)   |  O(1) | Medium |  |     ||
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/#/description/) | [Binary Search](./src/035.Search_Insert_Position.cpp) |  O(logn)   |  O(1) | Easy |   |    ||
 38 | [Count and Say](https://leetcode.com/problems/count-and-say/#/description/) | [Solution](./src/038.Count_and_Say.cpp) |  O(n)   |  O(1) | Easy |   |     ||
-39 | [Combination Sum](https://leetcode.com/problems/combination-sum/#/description/) | [DFS](./src/039.Combination_Sum.cpp) |     |   | Medium |  |     ||
-40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/#/description/) | [DFS](./src/040.Combination_Sum_II.cpp) |     |   | Medium  | Y  |  prev  ||
+39 | [Combination Sum](https://leetcode.com/problems/combination-sum/#/description/) | [DFS](./src/039.Combination_Sum.cpp) |  O(2^n)   | O(1)  | Medium |  |     ||
+40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/#/description/) | [DFS](./src/040.Combination_Sum_II.cpp) | O(2^n)| O(1) | Medium  | Y  |  prev  ||
+41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/#/description/) | [Array](./src/041.First_Missing_Positive.cpp) |  O(n)   |  O(1) | Hard | Y  |     ||
+42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/#/description/) | [Two Pointers](./src/042.Trapping_Rain_Water.cpp) |  O(n)   | O(1)  | Hard |  |     ||
+43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/#/description/) | [String](./src/043.Multiply_Strings.cpp) | O(m\*n)| O(1) | Medium  | Y  |    ||
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
