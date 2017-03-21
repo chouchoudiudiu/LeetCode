@@ -48,5 +48,5 @@
 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/#/description/) | [DFS](./src/047.Permutations_II_1.cpp) \|[Hash Table](./src/047.Permutations_II_2.cpp) | O(n\*n!)| O(n) | Medium  | Y  |    ||
 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/#/description/) | [In Place](./src/048.Rotate_Image.cpp) |  O(n^2)   |  O(1) | Medium |   |     ||
 49 | [Group Anagrams](https://leetcode.com/problems/anagrams/#/description/) | [Hash Table](./src/049.Group_Anagrams.cpp) |  O(m\*n)   | O(1)  | Medium |  |     ||
-50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/#/description/) | [Divide and Conquer](./src/050.Pow(x, n).cpp) | O(logn)| O(1) | Medium  | Y  |    ||
+50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/#/description/) | [Divide and Conquer](./src/050.Pow_x_n.cpp) | O(logn)| O(1) | Medium  | Y  |    ||
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
