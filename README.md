@@ -43,4 +43,7 @@
 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/#/description/) | [Array](./src/041.First_Missing_Positive.cpp) |  O(n)   |  O(1) | Hard | Y  |     ||
 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/#/description/) | [Two Pointers](./src/042.Trapping_Rain_Water.cpp) |  O(n)   | O(1)  | Hard |  |     ||
 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/#/description/) | [String](./src/043.Multiply_Strings.cpp) | O(m\*n)| O(1) | Medium  | Y  |    ||
+45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/#/description/) | [Two Pointer](./src/045.Jump_Game_II.cpp) |  O(n)   |  O(1) | Hard | Y  |     ||
+46 | [Permutations](https://leetcode.com/problems/permutations/#/description/) | [DFS](./src/046.Permutations.cpp) |  O(n\*n!)   | O(n)  | Medium |  |     ||
+47 | [Permutations II](https://leetcode.com/problems/permutations-ii/#/description/) | [DFS](./src/047.Permutations_II_1.cpp) \|[Hash Table](./src/047.Permutations_II_2.cpp) | O(n\*n!)| O(n) | Medium  | Y  |    ||
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
