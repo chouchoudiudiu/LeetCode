@@ -59,5 +59,4 @@
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/#/description/) | [String](058.Length_of_Last_Word.cpp) |  O(n)   |  O(1) | Easy |  |     ||
 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/#/description/) | [In Place](./src/059.Spiral_Matrix_II.cpp) |  O(n^2)   | O(1)  | Medium |  |     ||
 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/#/description/) | [Recursive](./src/060.Permutation_Sequence1.cpp) \| [Iterative](./src/060.Permutation_Sequence2.cpp) | O(n)| O(1) | Medium  | Y |    ||
-
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
