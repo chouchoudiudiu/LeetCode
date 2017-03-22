@@ -49,4 +49,9 @@
 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/#/description/) | [In Place](./src/048.Rotate_Image.cpp) |  O(n^2)   |  O(1) | Medium |   |     ||
 49 | [Group Anagrams](https://leetcode.com/problems/anagrams/#/description/) | [Hash Table](./src/049.Group_Anagrams.cpp) |  O(m\*n)   | O(1)  | Medium |  |     ||
 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/#/description/) | [Divide and Conquer](./src/050.Pow_x_n.cpp) | O(logn)| O(1) | Medium  | Y  |    ||
+51 | [N-Queens](https://leetcode.com/problems/n-queens/#/description/) | [Back Tracking](./src/051.N-Queens.cpp) |  O(exp)   | O(n)  | Hard | Y |     ||
+52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/#/description/) | [Back Tracking](./src/052.N-QueensII.cpp)  | O(exp)| O(n) | Hard  |   |    ||
+53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/#/description/) | [DP](./src/053.Maximum_Subarray.cpp) \| [Greedy](./src/053.Maximum_Subarray2.cpp)  |  O(n)   |  O(1) | Easy | Y |     ||
+54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/#/description/) | [In Place](./src/054.Spiral_Matrix.cpp) |  O(n^2)   | O(1)  | Medium |  |     ||
+55 | [Jump Game](https://leetcode.com/problems/jump-game/#/descriptionn/) | [Greedy](./src/055.Jump_Game.cpp) | O(n)| O(1) | Medium  |   |    ||
 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
