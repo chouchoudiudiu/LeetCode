@@ -64,3 +64,8 @@
 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/#/description/) | [DP](./src/063.Unique_Paths_II.cpp) | O(m\*n)   |  O(m\*n) | Medium |  |     ||
 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/#/description/) | [DP](./src/064.Minimum_Path_Sum.cpp) |  O(m\*n)  | O(m\*n)  | Medium |  |     ||
 65 | [Valid Number](https://leetcode.com/problems/valid-number/#/description/) | [String](./src/065.Valid_Number.cpp) | O(n)| O(1) | Hard | Y |    ||
+66 | [Plus One](https://leetcode.com/problems/plus-one/#/description/) | [Math](./src/066.Plus_One.cpp) |  O(n)   | O(1)  | Easy |  |     ||
+67 | [Add Binary](https://leetcode.com/problems/add-binary/#/description/) | [Math](./src/067.Add_Binary.cpp)  | O(n)| O(1) | Easy  |  |    ||
+68 | [Text Justification](https://leetcode.com/problems/text-justification/#/description/) | [String](./src/068.Text_Justification.cpp) | O(n)   |  O(1) | Hard | Y |     ||
+69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/#/description/) | [Binary Search](./src/069.Sqrt(x).cpp) |  O(logn)  | O(1)  | Easy |  Y |     ||
+70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/#/description/) | [DP](./src/070.Climbing_Stairs.cpp) | O(n)| O(n); O(1) | Easy |  |  Fib  ||
