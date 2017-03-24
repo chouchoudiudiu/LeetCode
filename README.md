@@ -59,4 +59,8 @@
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/#/description/) | [String](./src/058.Length_of_Last_Word.cpp) |  O(n)   |  O(1) | Easy |  |     ||
 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/#/description/) | [In Place](./src/059.Spiral_Matrix_II.cpp) |  O(n^2)   | O(1)  | Medium |  |     ||
 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/#/description/) | [Recursive](./src/060.Permutation_Sequence1.cpp) \| [Iterative](./src/060.Permutation_Sequence2.cpp) | O(n)| O(1) | Medium  | Y |    ||
-530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description/) | [DFS](./src/530.Minimum_Absolute_Difference_in_BST.cpp)  |      |          | Easy         ||
+61 | [Rotate List](https://leetcode.com/problems/rotate-list/#/description/) | [Two Pointers](./src/061.Rotate_List.cpp) |  O(n)   | O(1)  | Medium |  |     ||
+62 | [Unique Paths](https://leetcode.com/problems/unique-paths/#/description/) | [DP](./src/062.Unique_Paths.cpp)  | O(m\*n)| O(m\*n) | Medium  |  |    ||
+63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/#/description/) | [DP](./src/063.Unique_Paths_II.cpp) | O(m\*n)   |  O(m\*n) | Medium |  |     ||
+64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/#/description/) | [DP](./src/064.Minimum_Path_Sum.cpp) |  O(m\*n)  | O(m\*n)  | Medium |  |     ||
+65 | [Valid Number](https://leetcode.com/problems/valid-number/#/description/) | [String](./src/065.Valid_Number.cpp) | O(n)| O(1) | Hard | Y |    ||
