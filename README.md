@@ -69,3 +69,10 @@
 68 | [Text Justification](https://leetcode.com/problems/text-justification/#/description/) | [String](./src/068.Text_Justification.cpp) | O(n)   |  O(1) | Hard | Y |     ||
 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/#/description/) | [Binary Search](./src/069.Sqrt(x).cpp) |  O(logn)  | O(1)  | Easy |  Y |     ||
 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/#/description/) | [DP](./src/070.Climbing_Stairs.cpp) | O(n)| O(n); O(1) | Easy |  |  Fib  ||
+71 | [Simplify Path](https://leetcode.com/problems/simplify-path/#/description/) | [Stack](./src/071.Simplify_Path.cpp) |  O(n)  | O(n)  | Medium |  | Stringstream    ||
+72 | [Edit Distance](https://leetcode.com/problems/edit-distance/#/description/) | [DP](./src/072.Edit_Distance.cpp) | O(n)| O(1) | Hard | Y |    ||
+73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/#/description/) | [Math](./src/073.Set_Matrix_Zeroes.cpp) |  O(n^2)   | O(1)  | Medium |  |     ||
+74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/#/description/) | [Binary Search](./src/074.Search_a_2D_Matrix.cpp)  | O(logn)| O(1) | Medium  |  |    ||
+75 | [Sort Colors](https://leetcode.com/problems/sort-colors/#/description/) | [Two Pointers](./src/075.Sort_Colors.cpp) | O(n)   |  O(1) | Medium |  Y |     ||
+76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/#/description/) | [Two Pointers](./src/076.Minimum_Window_Substring.cpp) |  O(n)  | O(1)  | Hard |  Y |     ||
+
