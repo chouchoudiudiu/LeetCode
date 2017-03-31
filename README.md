@@ -99,7 +99,6 @@
 98 | [Validate Binary Search Tree ](https://leetcode.com/problems/validate-binary-search-tree/#/description/) | [Inorder](./src/098.Validate_Binary_Search_Tree_1.cpp) \| [Recursion](./src/098.Validate_Binary_Search_Tree_2.cpp) | O(2^n)  | O(1) | Medium	  | Y |    ||
 99 | [Recover Binary Search Tree ](https://leetcode.com/problems/recover-binary-search-tree/#/description/) | [Recursion](./src/099.Recover_Binary_Search_Tree.cpp) | O(2^n)   |  O(1) | Hard |   |     ||
 100 | [Same Tree ](https://leetcode.com/problems/same-tree/#/description/) | [Recursion](./src/100.Same_Tree.cpp) |  O(2^n) | O(1)  | Easy |   |     ||
-
 101 | [Symmetric Tree ](https://leetcode.com/problems/symmetric-tree/#/description/) | [DP](./src/101.Symmetric_Tree.cpp	)  |  O(2^n) | O(1)  | Easy|  |   ||
 102 | [Binary Tree Level Order Traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal/#/description/) | [BFS](./src/102.Binary_Tree_Level_Order_Traversal_1.cpp	) \| [DFS](./src/102.Binary_Tree_Level_Order_Traversal_2.cpp	) |  O(2^n) | O(1)  | Medium	 | Y  |    ||
 103 | [Binary Tree Zigzag Level Order Traversal ](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/#/description/) [Stacks](./src/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp) | O(2^n) | O(n) | Medium	  |  |    ||
