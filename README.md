@@ -100,3 +100,9 @@
 99 | [Recover Binary Search Tree ](https://leetcode.com/problems/recover-binary-search-tree/#/description/) | [Recursion](./src/099.Recover_Binary_Search_Tree.cpp) | O(2^n)   |  O(1) | Hard |   |     ||
 100 | [Same Tree ](https://leetcode.com/problems/same-tree/#/description/) | [Recursion](./src/100.Same_Tree.cpp) |  O(2^n) | O(1)  | Easy |   |     ||
 
+101 | [Symmetric Tree ](https://leetcode.com/problems/symmetric-tree/#/description/) | [DP](./src/101.Symmetric_Tree.cpp	)  |  O(2^n) | O(1)  | Easy|  |   ||
+102 | [Binary Tree Level Order Traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal/#/description/) | [BFS](./src/102.Binary_Tree_Level_Order_Traversal_1.cpp	) \| [DFS](./src/102.Binary_Tree_Level_Order_Traversal_2.cpp	) |  O(2^n) | O(1)  | Medium	 | Y  |    ||
+103 | [Binary Tree Zigzag Level Order Traversal ](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/#/description/) [Stacks](./src/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp) | O(2^n) | O(n) | Medium	  |  |    ||
+104 | [Maximum Depth of Binary Tree ](https://leetcode.com/problems/maximum-depth-of-binary-tree/#/description/) | [Recursion](./src/104.Maximum_Depth_of_Binary_Tree.cpp) | O(2^n)   |  O(1) | Easy |   |     ||
+105 | [Construct Binary Tree from Preorder and Inorder Traversal ](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/#/description/) | [Recursion](./src/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp) |  O(2^n) | O(1)  | Medium |   |     ||
+
