@@ -79,3 +79,8 @@
 78 | [Subsets](https://leetcode.com/problems/subsets/#/description/) | [Back Tracking](./src/078.Subsets.cpp)  | O(2^n) | O(1) | Medium  |  |    ||
 79 | [Word Search](https://leetcode.com/problems/word-search/#/description/) | [DFS](./src/079.Word_Search.cpp) | O(m\*n)   |  O(1) | Medium |  Y |     ||
 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/#/description/) | [Two Pointers](./src/080.Remove_Duplicates_from_Sorted_Array_II.cpp) |  O(n)  | O(1)  | Medium |   |     ||
+81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/#/description/) | [Binary Search](./src/081.Search_in_Rotated_Sorted_Array_II.cpp) |  O(logn)  | O(1)  | Medium |  Y | worst case O(n)    ||
+82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/#/description/) | [LinkedList](./src/082.Remove_Duplicates_from_Sorted_List_II.cpp) |  O(n)    | O(1)  | Medium | Y  |    ||
+83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description/) | [LinkedList](./src/083.Remove_Duplicates_from_Sorted_List.cpp)  | O(n) | O(1) | Easy  |  |    ||
+84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/#/description/) | [Stack](./src/084.Largest_Rectangle_in_Histogram.cpp) | O(n)   |  O(n) | Hard |  Y |     ||
+85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/#/description/) | [Stack](./src/085.Maximal_Rectangle.cpp) |  O(m\*n) | O(n)  | Medium |   |     ||
