@@ -88,4 +88,4 @@
 87 | [Scramble String](https://leetcode.com/problems/scramble-string/#/description/) | [Hash Table, DFS](./src/087.Scramble_String.cpp) |  O(exp)    | O(m\*n)  | Hard | Y  |    ||
 88 | [Merge Sorted Array ](s/merge-sorted-array/#/description/) | [Two Pointers](./src/088.Merge_Sorted_Array.cpp)  | O(n) | O(1) | Easy  |  |    ||
 89 | [Gray Code ](https://leetcode.com/problems/gray-code/#/description/) | [Math](./src/089.Gray_Code.cpp) | O(n)   |  O(1) | Medium |   |     ||
-90 | [Subsets II  ](https://leetcode.com/problems/subsets-ii/#/description/) | [DFS1](./src/090.Subsets_II_1.cpp) \| [DFS2](./src/090.Subsets_II_2.cppp)|  O(2^n) | O(1)  | Medium |  Y |  sort first   ||
+90 | [Subsets II  ](https://leetcode.com/problems/subsets-ii/#/description/) | [DFS1](./src/090.Subsets_II_1.cpp) \| [DFS2](./src/090.Subsets_II_2.cpp)|  O(2^n) | O(1)  | Medium |  Y |  sort first   ||
