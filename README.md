@@ -84,3 +84,8 @@
 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description/) | [LinkedList](./src/083.Remove_Duplicates_from_Sorted_List.cpp)  | O(n) | O(1) | Easy  |  |    ||
 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/#/description/) | [Stack](./src/084.Largest_Rectangle_in_Histogram.cpp) | O(n)   |  O(n) | Hard |  Y |     ||
 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/#/description/) | [Stack](./src/085.Maximal_Rectangle.cpp) |  O(m\*n) | O(n)  | Hard |   |     ||
+86 | [Partition List ](https://leetcode.com/problems/partition-list/#/description/) | [LinkedList](./src/086.Partition_List.cpp) |  O(n)  | O(1)  | Medium |   |     ||
+87 | [Scramble String](https://leetcode.com/problems/scramble-string/#/description/) | [Hash Table, DFS](./src/087.Scramble_String.cpp) |  O(exp)    | O(m\*n)  | Hard | Y  |    ||
+88 | [Merge Sorted Array ](s/merge-sorted-array/#/description/) | [Two Pointers](./src/088.Merge_Sorted_Array.cpp)  | O(n) | O(1) | Easy  |  |    ||
+89 | [Gray Code ](https://leetcode.com/problems/gray-code/#/description/) | [Math](./src/089.Gray_Code.cpp) | O(n)   |  O(1) | Medium |   |     ||
+90 | [Subsets II  ](https://leetcode.com/problems/subsets-ii/#/description/) | [DFS1](./src/090.Subsets_II_1.cpp) \| [DFS2](./src/090.Subsets_II_2.cppp)|  O(2^n) | O(1)  | Medium |   |  sort first   ||
