@@ -96,7 +96,7 @@
 95 | [Unique Binary Search Trees II ](https://leetcode.com/problems/unique-binary-search-trees-ii/#/description/) | [DFS](./src/095.Unique_Binary_Search_Trees_II.cpp) |  O(2^n) | O(n)  | Medium |  Y |     ||
 96 | [Unique Binary Search Trees ](https://leetcode.com/problems/unique-binary-search-trees/#/description/) | [DP](./src/096.Unique_Binary_Search_Trees_1.cpp	) \| [Recursion](./src/096.Unique_Binary_Search_Trees_2.cpp	) |  O(n)  | O(n)  | Medium | Y |   ||
 97 | [Interleaving String ](https://leetcode.com/problems/interleaving-string/#/description/) | [DP](./src/097.Interleaving_String.cpp	) |  O(n^2)    | O(n^2)  | Hard	 |   |    ||
-98 | [Validate Binary Search Tree ](https://leetcode.com/problems/validate-binary-search-tree/#/description/) | [Inorder](./src/098.Validate_Binary_Search_Tree_1.cpp) [Recursion](./src/098.Validate_Binary_Search_Tree_2.cpp) | O(2^n)  | O(1) | Medium	  | Y |    ||
-99 | [Recover Binary Search Tree ](https://leetcode.com/problems/recover-binary-search-tree/#/description/) | [Stack](./src/099.Recover_Binary_Search_Tree.cpp) | O(2^n)   |  O(n) | Hard |   |     ||
+98 | [Validate Binary Search Tree ](https://leetcode.com/problems/validate-binary-search-tree/#/description/) | [Inorder](./src/098.Validate_Binary_Search_Tree_1.cpp) \| [Recursion](./src/098.Validate_Binary_Search_Tree_2.cpp) | O(2^n)  | O(1) | Medium	  | Y |    ||
+99 | [Recover Binary Search Tree ](https://leetcode.com/problems/recover-binary-search-tree/#/description/) | [Recursion](./src/099.Recover_Binary_Search_Tree.cpp) | O(2^n)   |  O(n) | Hard |   |     ||
 100 | [Same Tree ](https://leetcode.com/problems/same-tree/#/description/) | [Recursion](./src/100.Same_Tree.cpp) |  O(2^n) | O(1)  | Easy |   |     ||
 
