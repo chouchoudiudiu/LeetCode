@@ -109,7 +109,7 @@
 108 | [Convert Sorted Array to Binary Search Tree ](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/#/description/) | [Divide and Conquer](./src/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp) | O(logn) | O(1) | Easy  |  |    ||
 109 | [Convert Sorted List to Binary Search Tree ](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/#/description/) | [Divide and Conquer](./src/109.Convert_Sorted_List_to_Binary_Search_Tree.cpp) | O(logn)   |  O(1) | Medium | Y  |     ||
 110 | [Balanced Binary Tree   ](https://leetcode.com/problems/balanced-binary-tree/#/description/) | [Recursion](./src/110.Balanced_Binary_Tree.cpp) |  O(n) | O(h)  | Easy |   |     ||
-111 | [Minimum Depth of Binary Tree  ](https://leetcode.com/problems/path-sum/#/description/) | [Recusion](./src/111.Minimum_Depth_of_Binary_Tree.cpp	)  |  O(n) | O(1)  | Easy|  |   ||
+111 | [Minimum Depth of Binary Tree  ](https://leetcode.com/problems/path-sum/#/description/) | [Recusion](./src/111.Minimum_Depth_of_Binary_Tree.cpp	)  |  O(n) | O(1)  | Easy|  |  null? ||
 112 | [Path Sum](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/#/description/) | [Recusion](./src/112.Path_Sum.cpp) |  O(n) | O(1)  | Easy	 | Y  |    ||
 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/#/description/) | [Recusion](./src/113.Path_Sum_II.cpp) | O(n) | O(1) | Medium  |  |    ||
 114 | [Flatten Binary Tree to Linked List ](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/#/description/) | [Recusion](./src/114.Flatten_Binary_Tree_to_Linked_List.cpp) | O(n)   |  O(1) | Medium | Y  |     ||
