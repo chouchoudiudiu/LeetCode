@@ -114,5 +114,9 @@
 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/#/description/) | [Recusion](./src/113.Path_Sum_II.cpp) | O(n) | O(1) | Medium  |  |    ||
 114 | [Flatten Binary Tree to Linked List ](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/#/description/) | [Recusion](./src/114.Flatten_Binary_Tree_to_Linked_List.cpp) | O(n)   |  O(1) | Medium | Y  |     ||
 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/#/description/) | [DP](./src/115.Distinct_Subsequences.cpp) |  O(m\*n)  | O(m\*n)   | Hard | Y  |     ||
-
+116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/#/description/) | [Recusion](./src/116.Populating_Next_Right_Pointers_in_Each_Node.cpp)  |  O(n) | O(1)  | Medium |  |   ||
+117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/#/description/) | [Recusion](./src/117.Populating_Next_Right_Pointers_in_Each_Node_II.cpp) |  O(n) | O(1)  | Medium	 | Y  |    ||
+118 | [Pascal's Triangle  ](https://leetcode.com/problems/pascals-triangle-ii/#/description/) | [Math](./src/118.Pascal's_Triangle.cpp) | O(n^2) | O(1) | Easy  |  |    ||
+119 | [Pascal's Triangle II ](https://leetcode.com/problems/pascals-triangle-ii/#/description/) | [Math](./src/119.Pascal's_Triangle_II.cpp) | O(n^2)   |  O(1) | Easy | Y  |     ||
+121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description/) | [Math](./src/121.Best_Time_to_Buy_and_Sell_Stock.cpp) |  O(n)  | O(1)   | Easy |  |     ||
 
