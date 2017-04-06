@@ -128,4 +128,4 @@
 128 | [Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/#/description/) | [Hash Table](./src/128.Longest_Consecutive_Sequence.cpp)  |  O(n) | O(n)  | Hard	 | Y  |    ||
 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/#/description/) | [DFS](./src/129.Sum_Root_to_Leaf_Numbers.cpp) | O(n) | O(n) | Medium  |  |    ||
 130 | [Surrounded Regions ](https://leetcode.com/problems/surrounded-regions/#/description/) | [DFS](./src/130.Surrounded_Regions.cpp) |  O(m\*n)   |  O(1) | Medium |  Y |     ||
-131 | [Palindrome Partitioning ](https://leetcode.com/problems/palindrome-partitioning/#/description/) | [DFS](./src/131.Palindrome_Partitioning.cpp	) |   O(n^2)  | O(n)   | Medium | Y |     ||
+131 | [Palindrome Partitioning ](https://leetcode.com/problems/palindrome-partitioning/#/description/) | [DFS](./src/131.Palindrome_Partitioning.cpp	) |   O(n^2)  | O(n)   | Medium |  |     ||
