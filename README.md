@@ -124,3 +124,8 @@
 124 | [Binary Tree Maximum Path Sum ](https://leetcode.com/problems/binary-tree-maximum-path-sum/#/description/) | [Recusion](./src/124.Binary_Tree_Maximum_Path_Sum.cpp) | O(n) | O(n) | Hard  | Y |    ||
 125 | [Valid Palindrome  ](https://leetcode.com/problems/valid-palindrome/#/description/) | [String](./src/125.Valid_Palindrome.cpp) | O(n)   |  O(1) | Easy |   |     ||
 126 | [Word Ladder II ](https://leetcode.com/problems/word-ladder-ii/#/description/) | [BFS](./src/126.Word_Ladder_II.cpp	) |  O(exp)  | O(n)   | Hard | Y |     ||
+127 | [Word Ladder ](https://leetcode.com/problems/word-ladder/#/description/) | [BFS](./src/127.Word_Ladder.cpp)  |  O(n) | O(n)  | Medium | Y |   ||
+128 | [Longest Consecutive Sequence ](https://leetcode.com/problems/longest-consecutive-sequence/#/description/) | [Hash Table](./src/128.Longest_Consecutive_Sequence.cpp)  |  O(n) | O(n)  | Hard	 | Y  |    ||
+129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/#/description/) | [DFS](./src/129.Sum_Root_to_Leaf_Numbers.cpp) | O(n) | O(n) | Medium  |  |    ||
+130 | [Surrounded Regions ](https://leetcode.com/problems/surrounded-regions/#/description/) | [DFS](./src/130.Surrounded_Regions.cpp) |  O(m\*n)   |  O(1) | Medium |  Y |     ||
+131 | [Palindrome Partitioning ](https://leetcode.com/problems/palindrome-partitioning/#/description/) | [DFS](./src/131.Palindrome_Partitioning.cpp	) |   O(n^2)  | O(n)   | Medium | Y |     ||
