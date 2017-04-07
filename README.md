@@ -129,3 +129,9 @@
 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/#/description/) | [DFS](./src/129.Sum_Root_to_Leaf_Numbers.cpp) | O(n) | O(n) | Medium  |  |    ||
 130 | [Surrounded Regions ](https://leetcode.com/problems/surrounded-regions/#/description/) | [DFS](./src/130.Surrounded_Regions.cpp) |  O(m\*n)   |  O(1) | Medium |  Y |     ||
 131 | [Palindrome Partitioning ](https://leetcode.com/problems/palindrome-partitioning/#/description/) | [DFS](./src/131.Palindrome_Partitioning.cpp	) |   O(n^2)  | O(n)   | Medium |  |     ||
+132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/#/description/) | [DP](./src/132.Palindrome_Partitioning_II.cpp)  |  O(n^2) | O(n^2)  |  | |   ||
+133 | [Clone Graph ](https://leetcode.com/problems/clone-graph/#/descriptionn/) | [BFS](./src/133.Clone_Graph.cpp)  |  O(n) | O(n)  | Medium | Y  |    ||
+134 | [Gas Station ](https://leetcode.com/problems/gas-station/#/description/) | [Greedy](./src/134.Gas_Station.cpp) | O(n) | O(1) | Medium  |  |    ||
+136 | [Single Number  ](https://leetcode.com/problems/single-number/#/description/) | [Bit Manipulation](./src/136.Single_Number.cpp) |  O(n)   |  O(1) | Easy |   |     ||
+137 | [Single Number II ](https://leetcode.com/problems/single-number-ii/#/description/) | [Bit Manipulation](./src/137.Single_Number_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
+
