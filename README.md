@@ -130,8 +130,14 @@
 130 | [Surrounded Regions ](https://leetcode.com/problems/surrounded-regions/#/description/) | [DFS](./src/130.Surrounded_Regions.cpp) |  O(m\*n)   |  O(1) | Medium |  Y |     ||
 131 | [Palindrome Partitioning ](https://leetcode.com/problems/palindrome-partitioning/#/description/) | [DFS](./src/131.Palindrome_Partitioning.cpp	) |   O(n^2)  | O(n)   | Medium |  |     ||
 132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/#/description/) | [DP](./src/132.Palindrome_Partitioning_II.cpp)  |  O(n^2) | O(n^2)  |  | |   ||
-133 | [Clone Graph ](https://leetcode.com/problems/clone-graph/#/descriptionn/) | [BFS](./src/133.Clone_Graph.cpp)  |  O(n) | O(n)  | Medium | Y  |    ||
+133 | [Clone Graph ](https://leetcode.com/problems/clone-graph/#/description/) | [BFS, Hash Table](./src/133.Clone_Graph.cpp)  |  O(n) | O(n)  | Medium | Y  |    ||
 134 | [Gas Station ](https://leetcode.com/problems/gas-station/#/description/) | [Greedy](./src/134.Gas_Station.cpp) | O(n) | O(1) | Medium  |  |    ||
 136 | [Single Number  ](https://leetcode.com/problems/single-number/#/description/) | [Bit Manipulation](./src/136.Single_Number.cpp) |  O(n)   |  O(1) | Easy |   |     ||
 137 | [Single Number II ](https://leetcode.com/problems/single-number-ii/#/description/) | [Bit Manipulation](./src/137.Single_Number_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
+138 | [Copy List with Random Pointer ](https://leetcode.com/problems/copy-list-with-random-pointer/#/description/) | [Hash Table](./src/138.Copy_List_with_Random_Pointer.cpp p)  |  O(n) | O(n)  |Medium  | |   ||
+139 | [Word Break ](https://leetcode.com/problems/word-break/#/description/) | [DP](./src/139.Word_Break.cpp)  |  O(n) | O(n)  | Medium | Y  |    ||
+140 | [Word Break II ](https://leetcode.com/problems/word-break-ii/#/description/) | [DP](./src/134.Gas_Station.cpp) | O(2^n) | O(n) | Hard  | Y |    ||
+141 | [Linked List Cycle ](https://leetcode.com/problems/linked-list-cycle/#/description/) | [Two Pointers](./src/141.Linked_List_Cycle.cpp) |  O(n)   |  O(1) | Easy |   |     ||
+142 | [Linked List Cycle II ](https://leetcode.com/problems/linked-list-cycle-ii/#/description/) | [Two Pointers](./src/142.Linked_List_Cycle_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
+
 
