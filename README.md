@@ -139,5 +139,10 @@
 140 | [Word Break II ](https://leetcode.com/problems/word-break-ii/#/description/) | [DP](./src/134.Gas_Station.cpp) | O(2^n) | O(n) | Hard  | Y |    ||
 141 | [Linked List Cycle ](https://leetcode.com/problems/linked-list-cycle/#/description/) | [Two Pointers](./src/141.Linked_List_Cycle.cpp) |  O(n)   |  O(1) | Easy |   |     ||
 142 | [Linked List Cycle II ](https://leetcode.com/problems/linked-list-cycle-ii/#/description/) | [Two Pointers](./src/142.Linked_List_Cycle_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
+143 | [Reorder List  ](https://leetcode.com/problems/reorder-list/#/description/) | [Two Pointers](./src/143.Reorder_List.cpp)  |  O(n) | O(1)  |Medium  | |   ||
+144 | [Binary Tree Preorder Traversal ](https://leetcode.com/problems/binary-tree-preorder-traversal/#/description/) | [Stack](./src/144.Binary_Tree_Preorder_Traversal.cpp)  |  O(n) | O(n)  | Medium |   |    ||
+145 | [Binary Tree Postorder Traversal  ](https://leetcode.com/problems/binary-tree-postorder-traversal/#/description/) | [Stack](./src/145.Binary_Tree_Postorder_Traversal.cpp) | O(n) | O(n) | Hard  | Y |    ||
+146 | [LRU Cache](https://leetcode.com/problems/lru-cache/#/description/) | [List, Hash Table](./src/146.LRU_Cache.cpp) |  O(1)   |  O(n) | Hard |  Y |     ||
+147 | [Insertion Sort List  ](https://leetcode.com/problems/insertion-sort-list/#/description/) | [Sort](./src/147.Insertion_Sort_List.cpp) |   O(n^2)  | O(1)   | Medium |  |     ||
 
 
