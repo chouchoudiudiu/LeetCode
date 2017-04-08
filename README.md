@@ -148,7 +148,7 @@
 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/#/description/) | [Hash Table](./src/149.Max_Points_on_a_Line.cpp)  |  O(n^2) | O(n)  |Hard  | Y| gcd ||
 150 | [Evaluate Reverse Polish Notation ](https://leetcode.com/problems/evaluate-reverse-polish-notation/#/description/) | [Stack](./src/150.Evaluate_Reverse_Polish_Notation.cpp)  |  O(n) | O(n)  | Medium |   |    ||
 151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/#/description/) | [String](./src/151.Reverse_Words_in_a_String.cpp) | O(n) | O(n) | Medium   |  |    ||
-152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/#/description/) | [DP](./src/152.Maximum_Product_Subarray.cppp) |  O(n)   |  O(1) | Medium  |  Y |     ||
+152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/#/description/) | [DP](./src/152.Maximum_Product_Subarray.cpp) |  O(n)   |  O(1) | Medium  |  Y |     ||
 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/#/description/) | [Binary Search](./src/153.Find_Minimum_in_Rotated_Sorted_Array.cpp) |   O(logn)  | O(1)   | Medium | Y |     ||
 
 
