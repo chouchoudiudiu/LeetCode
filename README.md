@@ -150,6 +150,10 @@
 151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/#/description/) | [String](./src/151.Reverse_Words_in_a_String.cpp) | O(n) | O(n) | Medium   |  |    ||
 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/#/description/) | [DP](./src/152.Maximum_Product_Subarray.cpp) |  O(n)   |  O(1) | Medium  |  Y |     ||
 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/#/description/) | [Binary Search](./src/153.Find_Minimum_in_Rotated_Sorted_Array.cpp) |   O(logn)  | O(1)   | Medium | Y |     ||
-
+154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/#/description/) | [Binary Search](./src/154.Find_Minimum_in_Rotated_Sorted_Array_II.cpp) |   O(n)  | O(1)   | Hard | Y |     ||
+155 | [Min Stack](https://leetcode.com/problems/min-stack/#/description) | [Stack](./src/155.Min_Stack.cpp)  |  O(n) | O(1)  | Easy |   |    ||
+156| [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/#/description/) | [Iterative](./src/156.Binary_Tree_Upside_Down_1.cpp)  \| [Recursive](./src/156.Binary_Tree_Upside_Down_2.cpp) | O(n) | O(1) | Medium   | |    ||
+157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/#/description) | [String](./src/157.Read_N_Characters_Given_Read4.cpp) |  O(n)   |  O(1) | Easy  |   |     ||
+158 | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/#/description) | [String](./src/158.Read_N_Characters_Given_Read4_II_Call_multiple_times.cpp) |   O(n)  | O(1)   | Hard | Y |     ||
 
 
