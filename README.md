@@ -155,5 +155,9 @@
 156| [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/#/description/) | [Iterative](./src/156.Binary_Tree_Upside_Down_1.cpp)  \| [Recursive](./src/156.Binary_Tree_Upside_Down_2.cpp) | O(n) | O(1) | Medium   | |    ||
 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/#/description) | [String](./src/157.Read_N_Characters_Given_Read4.cpp) |  O(n)   |  O(1) | Easy  |   |     ||
 158 | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/#/description) | [String](./src/158.Read_N_Characters_Given_Read4_II_Call_multiple_times.cpp) |   O(n)  | O(1)   | Hard | Y |     ||
-
-
+159 | [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/#/description/) | [Hash Table](./src/159.Longest_Substring_with_At_Most_Two_Distinct_Characters.cpp) |   O(n)  | O(1)   | Hard |  |     ||
+160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/#/description/) | [Two Pointers](./src/160.Intersection_of_Two_Linked_Lists.cpp) |   O(n)  | O(1)   | Easy |  |     ||
+161 | [One Edit Distance](161.One_Edit_Distance.cpp) | [String](./src/161.One_Edit_Distance.cpp)  |  O(n) | O(1)  | Medium |   |    ||
+162 | [Find Peak Element](162.Find_Peak_Element.cpp/) | [Binary Search](./src/162.Find_Peak_Element.cpp)  | O(logn) | O(1) | Medium   |Y |    ||
+163 | [Missing Ranges ](163.Missing_Ranges.cpp) | [Array](./src/163.Missing_Ranges.cpp) |  O(n)   |  O(1) | Medium   |   |     ||
+164 | [Maximum Gap ](164.Maximum_Gap.cpp) | [Bucket Sort](./src/164.Maximum_Gap.cpp) |   O(n)  | O(n)   | Hard | Y |     ||
