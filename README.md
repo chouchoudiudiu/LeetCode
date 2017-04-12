@@ -157,7 +157,7 @@
 158 | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/#/description) | [String](./src/158.Read_N_Characters_Given_Read4_II_Call_multiple_times.cpp) |   O(n)  | O(1)   | Hard | Y |     ||
 159 | [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/#/description/) | [Hash Table](./src/159.Longest_Substring_with_At_Most_Two_Distinct_Characters.cpp) |   O(n)  | O(1)   | Hard |  |     ||
 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/#/description/) | [Two Pointers](./src/160.Intersection_of_Two_Linked_Lists.cpp) |   O(n)  | O(1)   | Easy |  |     ||
-161 | [One Edit Distance](161.One_Edit_Distance.cpp) | [String](./src/161.One_Edit_Distance.cpp)  |  O(n) | O(1)  | Medium |   |    ||
-162 | [Find Peak Element](162.Find_Peak_Element.cpp/) | [Binary Search](./src/162.Find_Peak_Element.cpp)  | O(logn) | O(1) | Medium   |Y |    ||
-163 | [Missing Ranges ](163.Missing_Ranges.cpp) | [Array](./src/163.Missing_Ranges.cpp) |  O(n)   |  O(1) | Medium   |   |     ||
-164 | [Maximum Gap ](164.Maximum_Gap.cpp) | [Bucket Sort](./src/164.Maximum_Gap.cpp) |   O(n)  | O(n)   | Hard | Y |     ||
+161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/#/description) | [String](./src/161.One_Edit_Distance.cpp)  |  O(n) | O(1)  | Medium |   |    ||
+162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description/) | [Binary Search](./src/162.Find_Peak_Element.cpp)  | O(logn) | O(1) | Medium   |Y |    ||
+163 | [Missing Ranges ](https://leetcode.com/problems/missing-ranges/#/description) | [Array](./src/163.Missing_Ranges.cpp) |  O(n)   |  O(1) | Medium   |   |     ||
+164 | [Maximum Gap ](https://leetcode.com/problems/maximum-gap/#/description) | [Bucket Sort](./src/164.Maximum_Gap.cpp) |   O(n)  | O(n)   | Hard | Y |     ||
