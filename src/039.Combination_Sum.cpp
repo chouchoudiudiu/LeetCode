@@ -21,4 +21,5 @@ public:
         return res;
     }
 };
+//这种类型题目如果是求某种target能否达到，i(可复用)或 i + 1(不可复用); 如果是那种最后由length决定的，start+1
 //input (C) (without duplicates) , such that dfs here will not generate duplicate results
