@@ -20,4 +20,5 @@ public:
     }
 };
 
-//the idea is similar to generate next permutation?
+//the idea is similar to generate next permutation, the order is
+//swap back and using referencce will generate duplicates permutations
