@@ -159,9 +159,9 @@
 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/#/description/) | [Two Pointers](./src/160.Intersection_of_Two_Linked_Lists.cpp) |   O(n)  | O(1)   | Easy |  |     ||
 161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/#/description) | [String](./src/161.One_Edit_Distance.cpp)  |  O(n) | O(1)  | Medium |   |    ||
 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/#/description/) | [Binary Search](./src/162.Find_Peak_Element.cpp)  | O(logn) | O(1) | Medium   |Y |    ||
-163 | [Missing Ranges ](https://leetcode.com/problems/missing-ranges/#/description) | [Array](./src/163.Missing_Ranges.cpp) |  O(n)   |  O(1) | Medium   |   |     ||
-164 | [Maximum Gap ](https://leetcode.com/problems/maximum-gap/#/description) | [Bucket Sort](./src/164.Maximum_Gap.cpp) |   O(n)  | O(n)   | Hard | Y |     ||
-165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/#/description/) | [String](./src/165.Compare_Version_Numbers.cpp) |   O(n)  | O(1)   | Medium |  |     ||
+163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/#/description) | [Array](./src/163.Missing_Ranges.cpp) |  O(n)   |  O(1) | Medium   |   |     ||
+164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/#/description) | [Bucket Sort](./src/164.Maximum_Gap.cpp) |   O(n)  | O(n)   | Hard | Y |     ||
+165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/#/description/) | [String](./src/165.Compare_Version_Numbers.cpp) |   O(n)  | O(1)   | Medium |  | replace    ||
 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/#/description/) | [Hash Table](./src/166.Fraction_to_Recurring_Decimal.cpp) |   O(n)  | O(1)   | Medium|  |     ||
 167 | [Two Sum II - Input array is sorted ](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description) | [Two Pointer](./src/167.Two_Sum_II_Input_array_is_sorted.cpp)  |  O(n) | O(1)  | Easy |   |    ||
 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/#/description/) | [Math](./src/168.Excel_Sheet_Column_Title.cpp)  | O(n) | O(1) | Easy   | |    ||
