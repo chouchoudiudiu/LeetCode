@@ -164,6 +164,12 @@
 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/#/description/) | [String](./src/165.Compare_Version_Numbers.cpp) |   O(n)  | O(1)   | Medium |  | replace    ||
 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/#/description/) | [Hash Table](./src/166.Fraction_to_Recurring_Decimal.cpp) |   O(n)  | O(1)   | Medium|  |     ||
 167 | [Two Sum II - Input array is sorted ](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description) | [Two Pointer](./src/167.Two_Sum_II_Input_array_is_sorted.cpp)  |  O(n) | O(1)  | Easy |   |    ||
-168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/#/description/) | [Math](./src/168.Excel_Sheet_Column_Title.cpp)  | O(n) | O(1) | Easy   | |    ||
+168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/#/description/) | [Math](./src/168.Excel_Sheet_Column_Title.cpp)  | O(logn) | O(1) | Easy   | |    ||
 169 | [Majority Element](https://leetcode.com/problems/majority-element/#/description) | [Math](./src/169.Majority_Element.cpp) |  O(n)   |  O(1) | Easy  |   |     ||
 170 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/#/description) | [Hash Table](./src/170.Two_Sum_III_Data_structure_design.cpp) |   O(n)  | O(n)   | Easy |  |     ||
+171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/#/description/) | [Math](./src/171.Excel_Sheet_Column_Number.cpp) |   O(n)  | O(1)   | Easy |  |     ||
+172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/#/description/) | [Math](./src/172.Factorial_Trailing_Zeroes.cpp) |   O(logn)  | O(1)   | Easy|  |     ||
+173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/#/description) | [Stack](./src/173.Binary_Search_Tree_Iterator.cpp)  |  O(n) | O(n)  | Medium | Y  |    ||
+174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/#/description/) | [DP](./src/174.Dungeon_Game.cpp)  | O(m\*n) | O(m\*n) | Hard | |    ||
+179 | [Largest Number](https://leetcode.com/problems/largest-number/#/description) | [Sort](./src/179.Largest_Number.cpp) |  O(nlogn)   |  O(1) | Medium |   |  comparator   ||
+186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/#/description) | [String](./src/186.Reverse_Words_in_a_String_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
