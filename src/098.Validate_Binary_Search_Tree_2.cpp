@@ -24,3 +24,22 @@ public:
         return helper (root, false, 0, false, 0); //values doesn't matter, can use min/max too
     }
 };
+
+
+
+===========
+    class Solution {
+public:
+    bool isValid(TreeNode* root, long mn, long mx) {
+        if (!root) return true;
+        if (root->val <= mn || root->val >= mx) return false;
+        return isValid(root->left, mn, root->val) && isValid(root->right, root->val, mx);
+    }
+    bool isValidBST(TreeNode* root) {
+        if (!root)
+            return true;
+        return isValid(root, LONG_MIN, LONG_MAX);
+    }
+};
+//[-2147483648,null,2147483647]
+//[2147483647]
