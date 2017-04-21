@@ -180,7 +180,7 @@
 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/#/description) | [Bit Manipulation](./src/191.Number_of_1_Bits.cpp) |  O(1)   |  O(1) | Easy |   |     ||
 198 | [House Robber](https://leetcode.com/problems/house-robber/#/description) | [DP](./src/198.House_Robber.cpp) |   O(n)  | O(n)   | Easy |  |     ||
 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/#/description/) | [Recursion](./src/199.Binary_Tree_Right_Side_View.cpp) |   O(n)  | O(1)   | Medium |  |     ||
-200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/#/description/) | [DFS](./src/200.Number_of_Islands_1.cpp) \| [BFS](./src/200.Number_of_Islands_2.cpp) |   O(n)  | O(n)   | Medium | Y |     ||
+200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/#/description/) | [DFS](./src/200.Number_of_Islands_1.cpp) \| [BFS](./src/200.Number_of_Islands_2.cpp) |   O(n)  | O(n)   | Medium | Y |  visited   ||
 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/#/description) | [Bit Manipulation](./src/201.Bitwise_AND_of_Numbers_Range.cpp)  |  O(1) | O(1)  | Medium  |   |    ||
 202 | [Happy Number](https://leetcode.com/problems/happy-number/#/description) | [Math](./src/202.Happy_Number.cpp)  | O(n) | O(1) | Easy | |    ||
 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/#/description) | [Linked List](./src/203.Remove_Linked_List_Elements.cpp) |  O(n)   |  O(1) | Easy |   |     ||
