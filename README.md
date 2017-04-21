@@ -173,3 +173,9 @@
 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/#/description/) | [DP](./src/174.Dungeon_Game.cpp)  | O(m\*n) | O(m\*n) | Hard | |    ||
 179 | [Largest Number](https://leetcode.com/problems/largest-number/#/description) | [Sort](./src/179.Largest_Number.cpp) |  O(nlogn)   |  O(1) | Medium |   |  comparator   ||
 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/#/description) | [String](./src/186.Reverse_Words_in_a_String_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
+187 | [Repeated DNA Sequences ](https://leetcode.com/problems/repeated-dna-sequences/#/description/) | [Hash Table](./src/187.Repeated_DNA_Sequences.cpp) |   O(n)  | O(n)   | Medium |  |     ||
+188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/#/description/) | [DP](./src/188.Best_Time_to_Buy_and_Sell_Stock_IV.cpp) |   O(n)  | O(n)   | Hard| Y |     ||
+189 | [Rotate Array](https://leetcode.com/problems/rotate-array/#/description) | [String](./src/189.Rotate_Array.cpp)  |  O(n) | O(1)  | Easy |   |    ||
+190 | [Reverse Bits ](https://leetcode.com/problems/reverse-bits/#/description) | [Bit Manipulation](./src/190.Reverse_Bits.cpp)  | O(1) | O(1) | Easy | |    ||
+191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/#/description) | [Bit Manipulation](./src/191.Number_of_1_Bits.cpp) |  O(1)   |  O(1) | Easy |   |     ||
+198 | [House Robber](https://leetcode.com/problems/house-robber/#/description) | [DP](./src/198.House_Robber.cpp) |   O(n)  | O(n)   | Easy |  |     ||
