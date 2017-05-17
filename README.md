@@ -204,3 +204,13 @@
 221 | [Maximal Square ](https://leetcode.com/problems/maximal-square/#/description) | [DP](./src/221.Maximal_Square.cpp) |  O(n^2)   |  O(n^2) | Medium  |   |     ||
 222 | [Count Complete Tree Nodes ](https://leetcode.com/problems/count-complete-tree-nodes/#/description) | [Recursion](./src/222.Count_Complete_Tree_Nodes.cpp) |   O(n)  | O(1)   | Medium | Y |     ||
 223 | [Rectangle Area ](https://leetcode.com/problems/rectangle-area/#/description) | [Math](./src/223.Rectangle_Area.cpp) |   O(1)  | O(1)   | Medium |  |      ||
+224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/#/description) | [Stack](./src/224.Basic_Calculator.cpp) |   O(n)  | O(1)   | Hard | Y |     ||
+225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/#/description) | [Queue](./src/225.Implement_Stack_using_Queues.cpp) |   O(n)  | O(n)   | Easy|  |      ||
+226 | [Invert Binary Tree ](https://leetcode.com/problems/invert-binary-tree/#/description) | [Tree](./src/226.Invert_Binary_Tree.cpp	)  |  O(n) | O(1)  | Easy |  |    ||
+227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/#/description) | [Stack](./src/227.Basic_Calculator_II.cpp)  | O(n) | O(1) | Medium ||   ||
+228 | [Summary Ranges ](https://leetcode.com/problems/summary-ranges/#/description) | [Array](./src/228.Summary_Ranges.cpp) |  O(n)   |  O(n) | Medium  |   |     ||
+229 | [Majority Element II ](https://leetcode.com/problems/majority-element-ii/#/description) | [Math](./src/229.Majority_Element_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
+230 | [Kth Smallest Element in a BST ](https://leetcode.com/problems/kth-smallest-element-in-a-bst/#/description) | [Tree](./src/230.Kth_Smallest_Element_in_a_BST.cpp) |   O(n)  | O(1)   | Medium |  |      ||
+
+
+
