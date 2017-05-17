@@ -197,3 +197,10 @@
 214 | [Shortest Palindrome ](https://leetcode.com/problems/shortest-palindrome/#/description) | [String](./src/214.Shortest_Palindrome.cpp) |  O(n)   |  O(1) | Hard |   |     ||
 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/#/description) | [Quick Select](./src/215.Kth_Largest_Element_in_an_Array.cpp) |   O(n)  | O(1)   | Medium | Y |     ||
 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/#/description) | [Recursion](./src/216.Combination_Sum_III.cpp) |   O(n!)  | O(n)   | Medium | Y |      ||
+217 | [Contains Duplicate ](https://leetcode.com/problems/contains-duplicate/#/description) | [Hash Table](./src/217.Contains_Duplicate.cpp) |   O(n)  | O(n)   | Easy |  |     ||
+218 | [The Skyline Problem ](https://leetcode.com/problems/the-skyline-problem/#/description) | [Heap](./src/218.The_Skyline_Problem.cpp) |   O(nlogn)  | O(n)   | Hard| Y |      ||
+219 | [Contains Duplicate II ](https://leetcode.com/problems/contains-duplicate-ii/#/description) | [Hash Table](./src/219.Contains_Duplicate_II.cpp	)  |  O(n) | O(n)  | Easy |  |    ||
+220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/#/description) | [Hash Table](./src/220.Contains_Duplicate_III.cpp	)  | O(n) | O(n) | Medium ||   ||
+221 | [Maximal Square ](https://leetcode.com/problems/maximal-square/#/description) | [DP](./src/221.Maximal_Square.cpp) |  O(n^2)   |  O(n^2) | Medium  |   |     ||
+222 | [Count Complete Tree Nodes ](https://leetcode.com/problems/count-complete-tree-nodes/#/description) | [Recursion](./src/222.Count_Complete_Tree_Nodes.cpp) |   O(n)  | O(1)   | Medium | Y |     ||
+223 | [Rectangle Area ](https://leetcode.com/problems/rectangle-area/#/description) | [Math](./src/223.Rectangle_Area.cpp) |   O(1)  | O(1)   | Medium |  |      ||
