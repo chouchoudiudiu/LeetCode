@@ -196,5 +196,4 @@
 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/#/description) | [DP](./src/213.House_Robber_II.cpp	)  | O(n) | O(n) | Medium ||   ||
 214 | [Shortest Palindrome ](https://leetcode.com/problems/shortest-palindrome/#/description) | [String](./src/214.Shortest_Palindrome.cpp) |  O(n)   |  O(1) | Hard |   |     ||
 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/#/description) | [Quick Select](./src/215.Kth_Largest_Element_in_an_Array.cpp) |   O(n)  | O(1)   | Medium | Y |     ||
-216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/#/description
-) | [Recursion](./src/216.Combination_Sum_III.cpp) |   O(n!)  | O(n)   | Medium | Y |      ||
+216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/#/description) | [Recursion](./src/216.Combination_Sum_III.cpp) |   O(n!)  | O(n)   | Medium | Y |      ||
