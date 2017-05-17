@@ -229,8 +229,18 @@
 246 | [Strobogrammatic Number ](https://leetcode.com/problems/strobogrammatic-number/#/description) | [Hash Table](./src/246.Strobogrammatic_Number.cpp ) |   O(n)  | O(1)   | Easy|  |      ||
 247 | [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/#/description) | [Recursion](./src/247.Strobogrammatic_Number_II.cpp)  |  O(n!) | O(1)  | Medium | Y  |    ||
 248 | [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/#/description) | [Recursion](./src/248.Strobogrammatic_Number_III.cpp)  | O(n!) | O(1) | Hard | |  ||
-249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/#/description) | [Hash Table ](./src/249.Group_Shifted_Strings.cpp) |  O(n)   |  O(N) | Medium |   |     ||
+249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/#/description) | [Hash Table ](./src/249.Group_Shifted_Strings.cpp) |  O(n)   |  O(n) | Medium |   |     ||
 250 | [Count Univalue Subtrees ](https://leetcode.com/problems/count-univalue-subtrees/#/description) | [Recursion](./src/250.Count_Univalue_Subtrees.cpp) |   O(n)  | O(1)   | Medium |  |     ||
 251 | [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/#/description) | [Math](./src/251.Flatten_2D_Vector.cpp) |   O(1)  | O(1)   | Medium |  |      ||
+252 | [Meeting Rooms ](https://leetcode.com/problems/meeting-rooms/#/description) | [Sort](./src/252.Meeting_Rooms.cpp) |   O(nlogn)  | O(1)   | Easy |  |     ||
+253 | [Meeting Rooms II ](https://leetcode.com/problems/meeting-rooms-ii/#/description) | [Greedy + Sort](./src/253.Meeting_Rooms_II.cpp) |   O(nlogn)  | O(n)   | Medium | Y |      ||
+254 | [Factor Combinations](https://leetcode.com/problems/factor-combinations/#/description) | [BackTracking](./src/254.Factor_Combinations.cpp)  |  O(n!) | O(1)  | Medium | Y  |    ||
+255 | [Verify Preorder Sequence in Binary Search Tree ](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/#/description) | [Stack](./src/255.Verify_Preorder_Sequence in_Binary_Search_Tree.cpp)  | O(n!) | O(n) | Medium  | |  ||
+256 | [Paint House](https://leetcode.com/problems/paint-house/#/description) | [DP ](./src/256.Paint_House.cpp) |  O(n)   |  O(n) | Easy|   |     ||
+257 | [Binary Tree Paths ](https://leetcode.com/problems/binary-tree-paths/#/description) | [BackTracking](./src/257.Binary_Tree_Paths.cpp) |   O(n)  | O(1)   | Easy |  |     ||
+258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description | [Math](./src/258.Add_Digits.cpp) |   O(1)  | O(1)   | Easy |  |      ||
+
+
+
 
 
