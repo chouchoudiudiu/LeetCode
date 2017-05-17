@@ -239,7 +239,14 @@
 256 | [Paint House](https://leetcode.com/problems/paint-house/#/description) | [DP ](./src/256.Paint_House.cpp) |  O(n)   |  O(n) | Easy|   |     ||
 257 | [Binary Tree Paths ](https://leetcode.com/problems/binary-tree-paths/#/description) | [BackTracking](./src/257.Binary_Tree_Paths.cpp) |   O(n)  | O(1)   | Easy |  |     ||
 258 | [Add Digits](https://leetcode.com/problems/add-digits/#/description) | [Math](./src/258.Add_Digits.cpp) |   O(1)  | O(1)   | Easy |  |      ||
-
+259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/#/description) | [Sort](./src/259.3Sum_Smaller.cpp ) |   O(nlogn)  | O(1)   | Medium |  |      ||
+260 | [Single Number III](https://leetcode.com/problems/single-number-iii/#/description) | [Bit Manipulation](./src/260.Single_Number_III.cpp) |   O(n)  | O(1)   | Medium |  |     ||
+261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/#/description) | [DFS](./src/261.Graph_Valid_Tree.cpp ) |   O(n)  | O(n)   | Medium | Y |   find cycle   ||
+263 | [Ugly Number ](https://leetcode.com/problems/ugly-number/#/description) | [Math](./src/263.Ugly_Number.cpp)  |  O(1) | O(1)  | Easy |  |    ||
+264 | [Ugly Number II ](https://leetcode.com/problems/ugly-number-ii/#/description) | [Math](./src/264.Ugly_Number_II.cpp)  | O(n) | O(1) | Medium  | |  ||
+265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/#/description) | [DP](./src/265.Paint_House_II.cpp) |  O(n)   |  O(n) | Hard|   |   ||
+266 | [Palindrome Permutation ](https://leetcode.com/problems/palindrome-permutation/#/description) | [Hash Table](./src/266.Palindrome_Permutation.cpp) |   O(n)  | O(n)   | Easy |  |     ||
+267 | [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/#/description) | [Back Tracking](./src/267.Palindrome_Permutation_II.cpp |   O(n!)  | O(1)   | Medium | Y |      ||
 
 
 
