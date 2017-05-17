@@ -186,3 +186,9 @@
 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/#/description) | [Linked List](./src/203.Remove_Linked_List_Elements.cpp) |  O(n)   |  O(1) | Easy |   |     ||
 204 | [Count Primes](https://leetcode.com/problems/count-primes/#/description) | [Math](./src/204.Count_Primes.cpp) |   O(n)  | O(n)   | Easy | Y |     ||
 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/#/description) | [Hash Table](./src/205.Isomorphic_Strings.cpp) |   O(n)  | O(n)   | Easy |  |     ||
+206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/#/description/) | [Linked List](./src/206.Reverse_Linked_List.cpp)|   O(n)  | O(1)   | Easy |  |    ||
+207 | [Course Schedule ](https://leetcode.com/problems/course-schedule/#/description) | [Topological Sort](./src/207.Course_Schedule.cpp	)  |  O(n) | O(n)  | Medium  |   |    ||
+208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/#/description) | [Trie](./src/208.Implement_Trie_(Prefix Tree).cpp	)  | O(1) | O(1) | Medium | |  Y ||
+209 | [Minimum Size Subarray Sum ](https://leetcode.com/problems/minimum-size-subarray-sum/#/description) | [Too Pointers](./src/209.Minimum_Size_Subarray_Sum.cpp) |  O(n)   |  O(1) | Medium |   |     ||
+210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/#/description) | [Topological Sort](./src/210.Course_Schedule_II.cpp) |   O(n)  | O(n)   | Medium | Y |     ||
+211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/#/description) | [Trie + BT](./src/211.Add_and_Search_Word_Data_structure_design.cpp) |   O(n)  | O(n)   | Medium |  |      ||
