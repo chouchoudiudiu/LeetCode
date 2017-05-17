@@ -211,6 +211,12 @@
 228 | [Summary Ranges ](https://leetcode.com/problems/summary-ranges/#/description) | [Array](./src/228.Summary_Ranges.cpp) |  O(n)   |  O(n) | Medium  |   |     ||
 229 | [Majority Element II ](https://leetcode.com/problems/majority-element-ii/#/description) | [Math](./src/229.Majority_Element_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
 230 | [Kth Smallest Element in a BST ](https://leetcode.com/problems/kth-smallest-element-in-a-bst/#/description) | [Tree](./src/230.Kth_Smallest_Element_in_a_BST.cpp) |   O(n)  | O(1)   | Medium |  |      ||
-
+231 | [Power of Two](https://leetcode.com/problems/power-of-two/#/description) | [Bit Manipulation](./src/224.Basic_Calculator.cpp) |   O(1)  | O(1)   | Easy |  |     ||
+232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/#/description) | [Stack](./src/225.Implement_Stack_using_Queues.cpp) |   O(1)  | O(1)   | Easy|  |      ||
+233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/#/description) | [Recursion](./src/226.Invert_Binary_Tree.cpp	)  |  O(n) | O(1)  | Hard |  |    ||
+234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/#/description) | [Linked List](./src/227.Basic_Calculator_II.cpp)  | O(n) | O(1) | Easy ||   ||
+235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/#/description) | [Tree](./src/228.Summary_Ranges.cpp) |  O(n)   |  O(1) | Easy |   |     ||
+236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/#/description) | [Tree](./src/229.Majority_Element_II.cpp) |   O(n)  | O(1)   | mEDIUM | Y |     ||
+237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/#/description) | [Linked List](./src/230.Kth_Smallest_Element_in_a_BST.cpp) |   O(1)  | O(1)   | Easy |  |      ||
 
 
