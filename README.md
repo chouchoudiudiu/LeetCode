@@ -219,9 +219,9 @@
 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/#/description) | [Tree](./src/229.Majority_Element_II.cpp) |   O(n)  | O(1)   | Medium | Y |     ||
 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/#/description) | [Linked List](./src/230.Kth_Smallest_Element_in_a_BST.cpp) |   O(1)  | O(1)   | Easy |  |      ||
 238 | [Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/#/description) | [DP](./src/224.Basic_Calculator.cpp) |   O(n)  | O(n)   | Medium |  |     ||
-239 | [Sliding Window Maximum ](https://leetcode.com/problems/sliding-window-maximum/#/description) | [Queue](./src/225.Implement_Stack_using_Queues.cpp) |   O(n)  | O(n)   | Hard|  |   Y   ||
+239 | [Sliding Window Maximum ](https://leetcode.com/problems/sliding-window-maximum/#/description) | [Queue](./src/225.Implement_Stack_using_Queues.cpp) |   O(n)  | O(n)   | Hard| Y |      ||
 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/#/description) | [Search](./src/226.Invert_Binary_Tree.cpp	)  |  O(n) | O(1)  | Medium |  |    ||
-241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/#/description) | [Recursion](./src/227.Basic_Calculator_II.cpp)  | O(n^2) | O(1) | Medium ||  Y ||
+241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/#/description) | [Recursion](./src/227.Basic_Calculator_II.cpp)  | O(n^2) | O(1) | Medium |Y |  ||
 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/#/description) | [Hash Table ](./src/228.Summary_Ranges.cpp) |  O(n)   |  O(1) | EMedium |   |     ||
 243 | [Shortest Word Distance ](https://leetcode.com/problems/shortest-word-distance/#/description) | [Two Pointers](./src/229.Majority_Element_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
 244 | [Shortest Word Distance II ](https://leetcode.com/problems/shortest-word-distance-ii/#/description) | [Hash Table](./src/230.Kth_Smallest_Element_in_a_BST.cpp) |   O(n)  | O(n)   | Medium |  |      ||
