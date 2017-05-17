@@ -189,6 +189,13 @@
 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/#/description/) | [Linked List](./src/206.Reverse_Linked_List.cpp)|   O(n)  | O(1)   | Easy |  |    ||
 207 | [Course Schedule ](https://leetcode.com/problems/course-schedule/#/description) | [Topological Sort](./src/207.Course_Schedule.cpp	)  |  O(n) | O(n)  | Medium  |   |    ||
 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/#/description) | [Trie](./src/208.Implement_Trie_Prefix_Tree.cpp	)  | O(1) | O(1) | Medium |Y |   ||
-209 | [Minimum Size Subarray Sum ](https://leetcode.com/problems/minimum-size-subarray-sum/#/description) | [Too Pointers](./src/209.Minimum_Size_Subarray_Sum.cpp) |  O(n)   |  O(1) | Medium |   |     ||
+209 | [Minimum Size Subarray Sum ](https://leetcode.com/problems/minimum-size-subarray-sum/#/description) | [Two Pointers](./src/209.Minimum_Size_Subarray_Sum.cpp) |  O(n)   |  O(1) | Medium |   |     ||
 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/#/description) | [Topological Sort](./src/210.Course_Schedule_II.cpp) |   O(n)  | O(n)   | Medium | Y |     ||
 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/#/description) | [Trie + BT](./src/211.Add_and_Search_Word_Data_structure_design.cpp) |   O(n)  | O(n)   | Medium |  |      ||
+212 | [Word Search II](
+https://leetcode.com/problems/word-search-ii/#/description) | [DFS](./src/212.Word_Search_II.cpp	)  |  O(n!) | O(1)  | Hard | Y  |  !  ||
+213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/#/description) | [DP](./src/213.House_Robber_II.cpp	)  | O(n) | O(n) | Medium ||   ||
+214 | [Shortest Palindrome ](https://leetcode.com/problems/shortest-palindrome/#/description) | [String](./src/214.Shortest_Palindrome.cpp) |  O(n)   |  O(1) | Hard |   |     ||
+215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/#/description) | [Quick Select](./src/215.Kth_Largest_Element_in_an_Array.cpp) |   O(n)  | O(1)   | Medium | Y |     ||
+216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/#/description
+) | [Recursion](./src/216.Combination_Sum_III.cpp) |   O(n!)  | O(n)   | Medium | Y |      ||
