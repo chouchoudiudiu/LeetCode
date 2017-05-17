@@ -17,7 +17,6 @@ public:
             else
                 heights.erase(heights.find(b.second));
             curr = *heights.rbegin();//Notice that rbegin does not refer to the same element as end, but to the element right before it.
-            cout<<curr<<endl;
             if(curr != prev)//the height is different, turning point {
                 results.push_back({b.first, curr}); 
                 prev = curr;
