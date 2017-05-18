@@ -270,6 +270,13 @@
 290 | [Word Pattern ](https://leetcode.com/problems/word-pattern/#/description)| [Hash Table](./src/290.Word_Pattern.cpp)  |  O(n) | O(n)  | Easy |  |    ||
 291 | [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/#/description)| [BackTracking](./src/291.Word_Pattern_II.cpp) |O(n!) | O(n) | Hard |Y |  ||
 292 | [Nim Game](https://leetcode.com/problems/nim-game/#/description)| [Math](./src/292.Nim_Game.cpp) |  O(1)   |  O(1) | Easy|  |   ||
-293 | [Flip Game](https://leetcode.com/problems/flip-game/#/description) | [String](./src/293.Flip_Game.cpp ) |   O(n)  | O(1)   | MEasy|   |    ||
+293 | [Flip Game](https://leetcode.com/problems/flip-game/#/description) | [String](./src/293.Flip_Game.cpp ) |   O(n)  | O(1)   | Easy|   |    ||
 294 | [Flip Game II](https://leetcode.com/problems/flip-game-ii/#/description)| [BackTracking](./src/294.Flip_Game_II.cpp) |   O(n!)  | O(n)   | Medium |  |      ||
 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/#/description)| [Heap](./src/295.Find_Median_from_Data_Stream.cpp) |   O(1)  | O(n)   | Hard| Y |      ||
+296 | [Best Meeting Point ](https://leetcode.com/problems/best-meeting-point/#/description) | [Sort](./src/296.Best_Meeting_Point.cpp) |   O(nlogn)  | O(1)   | Hard| |     ||
+297 | [Serialize and Deserialize Binary Tree ](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/#/description)| [BackTracking](./src/297.Serialize_and_Deserialize_Binary_Tree.cpp)  |  O(n) | O(1)  | Hard | Y |  n-ary  ||
+298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/#/description)| [BackTracking](./src/298.Binary_Tree_Longest_Consecutive_Sequence.cpp) |O(n) | O(1) | Medium | |  ||
+299 | [Bulls and Cows ](https://leetcode.com/problems/bulls-and-cows/#/description)| [Hash Table](./src/299.Bulls_and_Cows.cpp ) |  O(n)   |  O(1) | Medium|  |   ||
+300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/#/description) | [DP](./src/300.Longest_Increasing_Subsequence.cpp) |   O(n)  | O(n)   | Medium|   |    ||
+301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/#/description)| [BFS](./src/301.Remove_Invalid_Parentheses.cpp ) |   O(n)  | O(n)   | Hard |  |  Y    ||
+302 | [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/#/description)| [Binary Search](./src/302.Smallest_Rectangle_Enclosing_Black_Pixels.cpp) |   O(logn)  | O(1)   | Hard| Y |      ||
