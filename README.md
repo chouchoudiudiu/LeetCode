@@ -261,5 +261,11 @@
 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description) | [DP](./src/279.Perfect_Squares.cpp ) |   O(n)  | O(n)   | Medium|  |     ||
 280 | [Wiggle Sort ](https://leetcode.com/problems/wiggle-sort/#/description)| [Sort](./src/280.Wiggle_Sort.cpp) |   O(n)  | O(1)   | Medium |  |      ||
 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/#/description)| [Array](./src/281.Zigzag_Iterator.cpp) |   O(1)  | O(1)   | Medium |  |      ||
-
-
+282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/#/description) | [Divide n Conquer ](./src/282.Expression_Add_Operators.cpp ) |   O(n!)  | O(1)   | Hard| |     ||
+283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/#/description)| [Two Pointers](./src/283.Move_Zeroes.cpp  )  |  O(n) | O(1)  | Easy |  |    ||
+284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/#/description)| [Design1](./src/284.Peeking_Iterator_1.cpp  ) \|
+[Design2](./src/284.Peeking_Iterator_2.cpp) | O(1) | O(1) | Medium  | |  ||
+285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/#/description)| [Tree](./src/285.Inorder_Successor_in_BST.cpp ) |  O(n)   |  O(1) | Easy| Y |   ||
+286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/#/description) | [BFS](./src/286.Walls_and_Gates.cpp  ) |   O(n)  | O(n)   | Medium|  |  Y   ||
+287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/#/description)| [Binary Search](./src/287.Find_the_Duplicate_Number.cpp) |   O(logn)  | O(1)   | Medium |  |      ||
+288 | [Unique Word Abbreviation ](https://leetcode.com/problems/unique-word-abbreviation/#/description)| [Hash Table](./src/288.Unique_Word_Abbreviation.cpp) |   O(n)  | O(n)   | Medium |  |      ||
