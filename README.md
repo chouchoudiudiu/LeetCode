@@ -35,6 +35,8 @@
 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/#/description/) | [Binary Search](./src/033.Search_in_Rotated_Sorted_Array.cpp) |  O(logn)   |  O(1) | Medium | Y  |   <=  ||
 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/#/description/) | [Binary Search](./src/034.Search_for_a_Range.cpp) |  O(logn)   |  O(1) | Medium |  |     ||
 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/#/description/) | [Binary Search](./src/035.Search_Insert_Position.cpp) |  O(logn)   |  O(1) | Easy |   |    ||
+36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/#/description/) | [Hash Table](./src/036.Valid_Sudoku.cpp) |  O(9^2)   |  O(1) | Medium|   |    ||
+37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/#/description/) | [BackTracking](./src/037.Sudoku_Solver.cpp) |  O(O((9!)^9))   |  O(1) | Hard |   |    ||
 38 | [Count and Say](https://leetcode.com/problems/count-and-say/#/description/) | [Solution](./src/038.Count_and_Say.cpp) |  O(n)   |  O(1) | Easy |   |     ||
 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/#/description/) | [DFS](./src/039.Combination_Sum.cpp) |  O(2^n)   | O(1)  | Medium |  |     ||
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/#/description/) | [DFS](./src/040.Combination_Sum_II.cpp) | O(2^n)| O(1) | Medium  | Y  |  prev  ||
