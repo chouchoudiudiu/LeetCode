@@ -280,8 +280,7 @@
 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/#/description) | [DP](./src/300.Longest_Increasing_Subsequence.cpp) |   O(n)  | O(n)   | Medium|   |    ||
 301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/#/description)| [BFS](./src/301.Remove_Invalid_Parentheses.cpp ) |   O(n)  | O(n)   | Hard |  |  Y    ||
 302 | [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/#/description)| [Binary Search](./src/302.Smallest_Rectangle_Enclosing_Black_Pixels.cpp) |   O(logn)  | O(1)   | Hard| Y |      ||
-303 | [Range Sum Query - Immutable](
-https://leetcode.com/problems/range-sum-query-immutable/#/description) | [DP](./src/303.Range_Sum_Query_Immutable.cpp) |   O(n)  | O(n)   | Easy| |     ||
+303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/#/description) | [DP](./src/303.Range_Sum_Query_Immutable.cpp) |   O(n)  | O(n)   | Easy| |     ||
 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/#/description)| [DP](./src/304.Range_Sum_Query_2D_Immutable.cpp)  |  O(m\*n) | O(m\*n)  | Medium |  |    ||
 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/#/description)| [Union Find](./src/305.Number_of_Islands_II.cpp) |O(n) | O(m\*n) | Hard | Y|  ||
 306 | [Additive Number](https://leetcode.com/problems/additive-number/#/description)| [BackTracking](./src/306.Additive_Number.cpp	) |  O(n!)   |  O(1) | Medium|  |   ||
