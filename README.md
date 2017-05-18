@@ -247,6 +247,13 @@
 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/#/description) | [DP](./src/265.Paint_House_II.cpp) |  O(n)   |  O(n) | Hard|   |   ||
 266 | [Palindrome Permutation ](https://leetcode.com/problems/palindrome-permutation/#/description) | [Hash Table](./src/266.Palindrome_Permutation.cpp) |   O(n)  | O(n)   | Easy |  |     ||
 267 | [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/#/description) | [Back Tracking](./src/267.Palindrome_Permutation_II.cpp) |   O(n!)  | O(1)   | Medium | Y |      ||
+268 | [Missing Number ](https://leetcode.com/problems/missing-number/#/description) | [Math](./src/268.Missing_Number.cpp ) |   O(n)  | O(1)   | Easy| |     ||
+269 | [Alien Dictionary ](https://leetcode.com/problems/alien-dictionary/#/description)| [Topological Sort](./src/269.Alien_Dictionary.cpp )  |  O(n) | O(n)  | Hard | Y  |    ||
+270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/#/description)| [Tree](./src/270.Closest_Binary_Search_Tree_Value.cpp)  | O(n) | O(n) | Easy  | |  ||
+271 | [Encode and Decode Strings ](https://leetcode.com/problems/encode-and-decode-strings/#/description)| [String](./src/271.Encode_and_Decode_Strings.cpp) |  O(n)   |  O(1) | Medium|   |   ||
+272 | [Closest Binary Search Tree Value II ](https://leetcode.com/problems/closest-binary-search-tree-value-ii/#/description) | [Tree](./src/272.Closest_Binary_Search_Tree_Value_II.cpp) |   O(n)  | O(1)   | Hard|  |     ||
+273 | [Integer to English Words ](https://leetcode.com/problems/integer-to-english-words/#/description)| [String](./src/273.Integer_to_English_Words.cpp) |   O(n)  | O(1)   | Hard |  |      ||
+274 | [H-Index](https://leetcode.com/problems/h-index/#/description)| [Sort](./src/274.H-Index.cpp) |   O(nlogn)  | O(1)   | Medium |  |      ||
 
 
 
