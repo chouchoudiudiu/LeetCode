@@ -265,6 +265,6 @@
 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/#/description)| [Two Pointers](./src/283.Move_Zeroes.cpp  )  |  O(n) | O(1)  | Easy |  |    ||
 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/#/description)| [Design1](./src/284.Peeking_Iterator_1.cpp) \|[Design2](./src/284.Peeking_Iterator_2.cpp) | O(1) | O(1) | Medium  | |  ||
 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/#/description)| [Tree](./src/285.Inorder_Successor_in_BST.cpp ) |  O(n)   |  O(1) | Easy| Y |   ||
-286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/#/description) | [BFS](./src/286.Walls_and_Gates.cpp  ) |   O(n)  | O(n)   | Medium|  |  Y   ||
+286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/#/description) | [BFS](./src/286.Walls_and_Gates.cpp  ) |   O(n)  | O(n)   | Medium| Y  |    ||
 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/#/description)| [Binary Search](./src/287.Find_the_Duplicate_Number.cpp) |   O(logn)  | O(1)   | Medium |  |      ||
 288 | [Unique Word Abbreviation ](https://leetcode.com/problems/unique-word-abbreviation/#/description)| [Hash Table](./src/288.Unique_Word_Abbreviation.cpp) |   O(n)  | O(n)   | Medium |  |      ||
