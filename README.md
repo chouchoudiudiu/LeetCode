@@ -254,7 +254,12 @@
 272 | [Closest Binary Search Tree Value II ](https://leetcode.com/problems/closest-binary-search-tree-value-ii/#/description) | [Tree](./src/272.Closest_Binary_Search_Tree_Value_II.cpp) |   O(n)  | O(1)   | Hard|  |     ||
 273 | [Integer to English Words ](https://leetcode.com/problems/integer-to-english-words/#/description)| [String](./src/273.Integer_to_English_Words.cpp) |   O(n)  | O(1)   | Hard |  |      ||
 274 | [H-Index](https://leetcode.com/problems/h-index/#/description)| [Sort](./src/274.H-Index.cpp) |   O(nlogn)  | O(1)   | Medium |  |      ||
-
-
+275 | [H-Index II](https://leetcode.com/problems/h-index-ii/#/description) | [Binary Search](./src/275.H-Index_II.cpp  ) |   O(logn)  | O(1)   | Medium| |     ||
+276 | [Paint Fence](https://leetcode.com/problems/paint-fence/#/description)| [DP](./src/276.Paint_Fence.cpp )  |  O(n) | O(1)  | Easy |  |    ||
+277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/#/description)| [Array] (./src/277.Find_the_Celebrity.cpp)  | O(n) | O(1) | Medium  | |  ||
+278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/#/description)| [Binary Search](./src/278.First_Bad_Version.cpp) |  O(logn)   |  O(1) | Easy| Y |   ||
+279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description) | [DP](./src/279.Perfect_Squares.cpp ) |   O(n)  | O(n)   | Medium|  |     ||
+280 | [Wiggle Sort ](https://leetcode.com/problems/wiggle-sort/#/description)| [Sort](./src/280.Wiggle_Sort.cpp) |   O(n)  | O(1)   | Medium |  |      ||
+281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/#/description)| [Array](./src/281.Zigzag_Iterator.cpp) |   O(1)  | O(1)   | Medium |  |      ||
 
 
