@@ -266,11 +266,10 @@
 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/#/description) | [BFS](./src/286.Walls_and_Gates.cpp  ) |   O(n)  | O(n)   | Medium| Y  |    ||
 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/#/description)| [Binary Search](./src/287.Find_the_Duplicate_Number.cpp) |   O(logn)  | O(1)   | Medium |  |      ||
 288 | [Unique Word Abbreviation ](https://leetcode.com/problems/unique-word-abbreviation/#/description)| [Hash Table](./src/288.Unique_Word_Abbreviation.cpp) |   O(n)  | O(n)   | Medium |  |      ||
-289 | [Game of Life ](https://leetcode.com/problems/game-of-life/#/description) | [DFS](./src/
-289.Game_of_Life.cpp) |   O(n!)  | O(1)   | Medium| |     ||
+289 | [Game of Life ](https://leetcode.com/problems/game-of-life/#/description) | [DFS](./src/289.Game_of_Life.cpp) |   O(n!)  | O(1)   | Medium| |     ||
 290 | [Word Pattern ](https://leetcode.com/problems/word-pattern/#/description)| [Hash Table](./src/290.Word_Pattern.cpp)  |  O(n) | O(n)  | Easy |  |    ||
-291 | [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/#/description)| [BackTracking](./src/291.Word_Pattern II.cpp) | O(n!) | O(n) | Hard |Y |  ||
-292 | [Nim Game](https://leetcode.com/problems/nim-game/#/description)| [Math](./src/292.Nim_Game.cpp  ) |  O(1)   |  O(1) | Easy|  |   ||
+291 | [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/#/description)| [BackTracking](./src/291.Word_Pattern II.cpp) |O(n!) | O(n) | Hard |Y |  ||
+292 | [Nim Game](https://leetcode.com/problems/nim-game/#/description)| [Math](./src/292.Nim_Game.cpp) |  O(1)   |  O(1) | Easy|  |   ||
 293 | [Flip Game](https://leetcode.com/problems/flip-game/#/description) | [String](./src/293.Flip_Game.cpp ) |   O(n)  | O(1)   | MEasy|   |    ||
 294 | [Flip Game II](https://leetcode.com/problems/flip-game-ii/#/description)| [BackTracking](./src/294.Flip_Game II.cpp) |   O(n!)  | O(n)   | Medium |  |      ||
 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/#/description)| [Heap](./src/295.Find_Median_from_Data_Stream.cpp) |   O(1)  | O(n)   | Hard| Y |      ||
