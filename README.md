@@ -87,7 +87,7 @@
 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/#/description/) | [Stack](./src/085.Maximal_Rectangle.cpp) |  O(m\*n) | O(n)  | Hard |   |     ||
 86 | [Partition List ](https://leetcode.com/problems/partition-list/#/description/) | [LinkedList](./src/086.Partition_List.cpp) |  O(n)  | O(1)  | Medium |   |     ||
 87 | [Scramble String](https://leetcode.com/problems/scramble-string/#/description/) | [Hash Table, DFS](./src/087.Scramble_String.cpp) |  O(exp)    | O(m\*n)  | Hard | Y  |    ||
-88 | [Merge Sorted Array ](s/merge-sorted-array/#/description/) | [Two Pointers](./src/088.Merge_Sorted_Array.cpp)  | O(n) | O(1) | Easy  |  |    ||
+88 | [Merge Sorted Array ](https://leetcode.com/problems/merge-sorted-array/#/description/) | [Two Pointers](./src/088.Merge_Sorted_Array.cpp)  | O(n) | O(1) | Easy  |  |    ||
 89 | [Gray Code ](https://leetcode.com/problems/gray-code/#/description/) | [Math](./src/089.Gray_Code.cpp) | O(n)   |  O(1) | Medium |   |     ||
 90 | [Subsets II  ](https://leetcode.com/problems/subsets-ii/#/description/) | [DFS1](./src/090.Subsets_II_1.cpp) \| [DFS2](./src/090.Subsets_II_2.cpp)|  O(2^n) | O(1)  | Medium |  Y |  sort first   ||
 91 | [Decode Ways ](https://leetcode.com/problems/decode-ways/#/description/) | [DP](./src/091.Decode_Ways.cpp) |  O(n)  | O(n)  | Medium | Y |  reduce space  ||
