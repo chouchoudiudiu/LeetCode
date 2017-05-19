@@ -133,7 +133,8 @@
 131 | [Palindrome Partitioning ](https://leetcode.com/problems/palindrome-partitioning/#/description/) | [DFS](./src/131.Palindrome_Partitioning.cpp	) |   O(n^2)  | O(n)   | Medium |  |     ||
 132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/#/description/) | [DP](./src/132.Palindrome_Partitioning_II.cpp)  |  O(n^2) | O(n^2)  |  | |   ||
 133 | [Clone Graph ](https://leetcode.com/problems/clone-graph/#/description/) | [BFS, Hash Table](./src/133.Clone_Graph.cpp)  |  O(n) | O(n)  | Medium | Y  |    ||
-134 | [Gas Station ](https://leetcode.com/problems/gas-station/#/description/) | [Greedy](./src/134.Gas_Station.cpp) | O(n) | O(1) | Medium  |  |    ||
+134 | [Gas Station ](https://leetcode.com/problems/gas-station/#/description/) | [Greedy](./src/134.Gas_Station.cpp) | O(n) | O(n) | Hard  |  |    ||
+135 | [Candy](https://leetcode.com/problems/candy/#/description/) | [Greedy](./src/135.Candy.cpp) | O(n) | O(n) | Hard  |  |    ||
 136 | [Single Number  ](https://leetcode.com/problems/single-number/#/description/) | [Bit Manipulation](./src/136.Single_Number.cpp) |  O(n)   |  O(1) | Easy |   |     ||
 137 | [Single Number II ](https://leetcode.com/problems/single-number-ii/#/description/) | [Bit Manipulation](./src/137.Single_Number_II.cpp) |   O(n)  | O(1)   | Medium |  |     ||
 138 | [Copy List with Random Pointer ](https://leetcode.com/problems/copy-list-with-random-pointer/#/description/) | [Hash Table](./src/138.Copy_List_with_Random_Pointer.cpp)  |  O(n) | O(n)  |Medium  | |   ||
