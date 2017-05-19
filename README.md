@@ -305,13 +305,13 @@
 322 | [Coin Change ]( https://leetcode.com/problems/coin-change/#/description) | [DP](./src/322.Coin_Change.cpp) |   O(n)  | O(n)   | Medium	|   |    ||
 323 | [Number of Connected Components in an Undirected Graph]( https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/#/description)| [Union Find](./src/323.Number_of_Connected_Components_in_an_Undirected_Graph.cpp)|   O(n) | O(n)   | Medium	 | Y |     ||
 324 | [Wiggle Sort II ]( https://leetcode.com/problems/wiggle-sort-ii/#/description)| [Sort](./src/324.Wiggle_Sort_II.cpp) |   O(nlog)  | O(n)   | Medium	|  |      ||
-325 | [Maximum Size Subarray Sum Equals k]( https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/#/description) | [Hash Table](./src/ 325.Maximum_Size_Subarray_Sum_Equals_k.cpp) |   O(n)  | O(n)   | Medium	| Y|     ||
-326 | [Power of Three  ]( https://leetcode.com/problems/power-of-three/#/description)| [Math](./src/ 326.Power_of_Three.cpp)  |  O(1) | O(1)  | Easy	| Y |    ||
-327 | [Count of Range Sum]( https://leetcode.com/problems/count-of-range-sum/#/description)| [Hash Table](./src/ 327.Count_of_Range_Sum.cpp) |O(n) | O(n) | Hard	 | |  ||
-328 | [Odd Even Linked List]( https://leetcode.com/problems/odd-even-linked-list/#/description)| [Linked List](./src/ 328.Odd_Even_Linked_List.cpp) |  O(n)   |  O(1) | Medium| |   ||
-329 | [Longest Increasing Path in a Matrix]( https://leetcode.com/problems/longest-increasing-path-in-a-matrix/#/description) | [DFS](./src/ 329.Longest_Increasing_Path_in_a_Matrix.cpp) |   O(n!)  | O(n^2)   | Hard	|   |    ||
-330 | [Patching Array]( https://leetcode.com/problems/patching-array/#/description)| [Greedy](./src/ 330.Patching_Array.cpp)|   O(n) | O(1)   | Hard	 |  |     ||
-331 | [Verify Preorder Serialization of a Binary Tree]( https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/#/description)| [Sort](./src/ 331.Verify_Preorder_Serialization_of_a_Binary_Tree.cpp) |   O(n)  | O(1)   | Medium	|  |      ||
+325 | [Maximum Size Subarray Sum Equals k]( https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/#/description) | [Hash Table](./src/325.Maximum_Size_Subarray_Sum_Equals_k.cpp) |   O(n)  | O(n)   | Medium	| Y|     ||
+326 | [Power of Three  ]( https://leetcode.com/problems/power-of-three/#/description)| [Math](./src/326.Power_of_Three.cpp)  |  O(1) | O(1)  | Easy	| Y |    ||
+327 | [Count of Range Sum]( https://leetcode.com/problems/count-of-range-sum/#/description)| [Hash Table](./src/327.Count_of_Range_Sum.cpp) |O(n) | O(n) | Hard	 | |  ||
+328 | [Odd Even Linked List]( https://leetcode.com/problems/odd-even-linked-list/#/description)| [Linked List](./src/328.Odd_Even_Linked_List.cpp) |  O(n)   |  O(1) | Medium| |   ||
+329 | [Longest Increasing Path in a Matrix]( https://leetcode.com/problems/longest-increasing-path-in-a-matrix/#/description) | [DFS](./src/329.Longest_Increasing_Path_in_a_Matrix.cpp) |   O(n!)  | O(n^2)   | Hard	|   |    ||
+330 | [Patching Array]( https://leetcode.com/problems/patching-array/#/description)| [Greedy](./src/330.Patching_Array.cpp)|   O(n) | O(1)   | Hard	 |  |     ||
+331 | [Verify Preorder Serialization of a Binary Tree]( https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/#/description)| [Sort](./src/331.Verify_Preorder_Serialization_of_a_Binary_Tree.cpp) |   O(n)  | O(1)   | Medium	|  |      ||
 
 
 
