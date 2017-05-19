@@ -119,6 +119,7 @@
 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/#/description/) | [Recusion](./src/117.Populating_Next_Right_Pointers_in_Each_Node_II.cpp) |  O(n) | O(1)  | Medium	 | Y  |    ||
 118 | [Pascal's Triangle  ](https://leetcode.com/problems/pascals-triangle-ii/#/description/) | [Math](./src/118.Pascal's_Triangle.cpp) | O(n^2) | O(1) | Easy  |  |    ||
 119 | [Pascal's Triangle II ](https://leetcode.com/problems/pascals-triangle-ii/#/description/) | [Math](./src/119.Pascal's_Triangle_II.cpp) | O(n^2)   |  O(1) | Easy | Y  |     ||
+120 | [Triangle](https://leetcode.com/problems/triangle/#/description/) | [DP](./src/120.Triangle.cpp) | O(n)   |  O(n) | Medium | Y  |     ||
 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description/) | [Math](./src/121.Best_Time_to_Buy_and_Sell_Stock.cpp) |  O(n)  | O(1)   | Easy |  |     ||
 122 | [Best Time to Buy and Sell Stock II  ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/#/description/) | [Greedy](./src/122.Best_Time_to_Buy_and_Sell_Stock_II.cpp)  |  O(n) | O(1)  | Easy |  |   ||
 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/#/description/) | [DP](./src/123.Best_Time_to_Buy_and_Sell_Stock_III_1.cpp) \| [DP](./src/123.Best_Time_to_Buy_and_Sell_Stock_III_2.cpp) |  O(n) | O(n)  | Hard	 | Y  |    ||
