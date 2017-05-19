@@ -319,8 +319,7 @@
 336 | [Palindrome Pairs]( https://leetcode.com/problems/palindrome-pairs/#/description) | [Hash Table](./src/336.Palindrome_Pairs.cpp) |   O(m\*n) | O(m)   | Hard	|   |    ||
 337 | [House Robber III]( https://leetcode.com/problems/house-robber-iii/#/description)| [DFS](./src/337.House_Robber_III.cpp)|   O(n) | O(1)   | Medium	 |  |     ||
 338 | [Counting Bits]( https://leetcode.com/problems/counting-bits/#/description)| [Bit Manipulation](./src/338.Counting_Bits.cpp) |   O(n)  | O(1)   | Medium	|  |      ||
-339 | [Nested List Weight Sum]( 
-https://leetcode.com/problems/nested-list-weight-sum/#/description) | [DFS](./src/339.Nested_List_Weight_Sum.cpp) |   O(2^n)| O(1)   | Easy	| |     ||
+339 | [Nested List Weight Sum]( https://leetcode.com/problems/nested-list-weight-sum/#/description) | [DFS](./src/339.Nested_List_Weight_Sum.cpp) |   O(2^n)| O(1)   | Easy	| |     ||
 340 | [Longest Substring with At Most K Distinct Characters]( https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/#/description)| [Hash Table](./src/340.Longest_Substring_with_At_Most_K_Distinct_Characters.cpp)  |  O(n) | O(256)  | Hard	|  |    ||
 341 | [Flatten Nested List Iterator]( https://leetcode.com/problems/flatten-nested-list-iterator/#/description)| [Stack](./src/341.Flatten_Nested_List_Iterator.cpp) |O(n) | O(n) | Medium	 | Y|  ||
 342 | [Power of Four]( https://leetcode.com/problems/power-of-four/#/description)| [Math](./src/342.Power_of_Four.cpp) |  O(1)   |  O(1) | Easy| |   ||
