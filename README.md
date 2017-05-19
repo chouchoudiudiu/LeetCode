@@ -312,13 +312,13 @@
 329 | [Longest Increasing Path in a Matrix]( https://leetcode.com/problems/longest-increasing-path-in-a-matrix/#/description) | [DFS](./src/329.Longest_Increasing_Path_in_a_Matrix.cpp) |   O(n!)  | O(n^2)   | Hard	|   |    ||
 330 | [Patching Array]( https://leetcode.com/problems/patching-array/#/description)| [Greedy](./src/330.Patching_Array.cpp)|   O(n) | O(1)   | Hard	 |  |     ||
 331 | [Verify Preorder Serialization of a Binary Tree]( https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/#/description)| [Sort](./src/331.Verify_Preorder_Serialization_of_a_Binary_Tree.cpp) |   O(n)  | O(1)   | Medium	|  |      ||
-332 | [Reconstruct Itinerary]( https://leetcode.com/problems/reconstruct-itinerary/#/description) | [DFS](./src/ 332.Reconstruct_Itinerary.cpp) |   O(n!) | O(n)   | Medium	| Y|     ||
-333 | [Largest BST Subtree]( https://leetcode.com/problems/largest-bst-subtree/#/description)| [DFS](./src/ 333.Largest_BST_Subtree.cpp)  |  O(n) | O(1)  | Medium	|  |    ||
-334 | [Increasing Triplet Subsequence]( https://leetcode.com/problems/increasing-triplet-subsequence/#/description)| [Array](./src/ 334.Increasing_Triplet_Subsequence.cpp) |O(n) | O(1) | Medium	 | |  ||
-335 | [Self Crossing]( https://leetcode.com/problems/self-crossing/#/description)| [Math](./src/ 335.Self_Crossing.cpp) |  O(n)   |  O(1) | Hard| |   ||
-336 | [Palindrome Pairs]( https://leetcode.com/problems/palindrome-pairs/#/description) | [Hash Table](./src/ 336.Palindrome_Pairs.cpp) |   O(m\*n) | O(m)   | Hard	|   |    ||
-337 | [House Robber III]( https://leetcode.com/problems/house-robber-iii/#/description)| [DFS](./src/ 337.House_Robber_III.cpp)|   O(n) | O(1)   | Medium	 |  |     ||
-338 | [Counting Bits]( https://leetcode.com/problems/counting-bits/#/description)| [Bit Manipulation](./src/ 338.Counting_Bits.cpp) |   O(n)  | O(1)   | Medium	|  |      ||
+332 | [Reconstruct Itinerary]( https://leetcode.com/problems/reconstruct-itinerary/#/description) | [DFS](./src/332.Reconstruct_Itinerary.cpp) |   O(n!) | O(n)   | Medium	| Y|     ||
+333 | [Largest BST Subtree]( https://leetcode.com/problems/largest-bst-subtree/#/description)| [DFS](./src/333.Largest_BST_Subtree.cpp)  |  O(n) | O(1)  | Medium	|  |    ||
+334 | [Increasing Triplet Subsequence]( https://leetcode.com/problems/increasing-triplet-subsequence/#/description)| [Array](./src/334.Increasing_Triplet_Subsequence.cpp) |O(n) | O(1) | Medium	 | |  ||
+335 | [Self Crossing]( https://leetcode.com/problems/self-crossing/#/description)| [Math](./src/335.Self_Crossing.cpp) |  O(n)   |  O(1) | Hard| |   ||
+336 | [Palindrome Pairs]( https://leetcode.com/problems/palindrome-pairs/#/description) | [Hash Table](./src/336.Palindrome_Pairs.cpp) |   O(m\*n) | O(m)   | Hard	|   |    ||
+337 | [House Robber III]( https://leetcode.com/problems/house-robber-iii/#/description)| [DFS](./src/337.House_Robber_III.cpp)|   O(n) | O(1)   | Medium	 |  |     ||
+338 | [Counting Bits]( https://leetcode.com/problems/counting-bits/#/description)| [Bit Manipulation](./src/338.Counting_Bits.cpp) |   O(n)  | O(1)   | Medium	|  |      ||
 
 
 
