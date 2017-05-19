@@ -298,3 +298,14 @@
 315 | [Count of Smaller Numbers After Self ](https://leetcode.com/problems/count-of-smaller-numbers-after-self/#/description) | [Binary Search](./src/315.Count_of_Smaller_Numbers_After_Self.cpp) |   O(nlogn)  | O(n)   | Hard|   |    ||
 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/#/description)| [Greedy](./src/316.Remove_Duplicate_Letters.cpp)|   O(n) | O(1)   | Hard |  |     ||
 317 | [Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/#/description)| [BFS](./src/317.Shortest_Distance_from_All_Buildings.cpp) |   O(n)  | O(n)   | Hard|  |      ||
+318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/#/description) | [Bit Manipulation](./src/318.Maximum_Product_of_Word_Lengths.cpp) |   O(m\*n)  | O(n)   | Medium	| |     ||
+319 | [Bulb Switcher]( https://leetcode.com/problems/bulb-switcher/#/description)| [Math](./src/319.Bulb_Switcher.cpp)  |  O(1) | O(1)  | Medium	|  |    ||
+320 | [Generalized Abbreviation]( https://leetcode.com/problems/generalized-abbreviation/#/description)| [BackTracking](./src/320.Generalized_Abbreviation.cpp) |O(2^n) | O(1) | Medium	 | Y|  ||
+321 | [Create Maximum Number]( https://leetcode.com/problems/create-maximum-number/#/description)| [Greedy](./src/321.Create_Maximum_Number.cpp) |  O(n!)   |  O(1) | Hard| |   ||
+322 | [Coin Change ]( https://leetcode.com/problems/coin-change/#/description) | [DP](./src/322.Coin_Change.cpp) |   O(n)  | O(n)   | Medium	|   |    ||
+323 | [Number of Connected Components in an Undirected Graph]( https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/#/description)| [Union Find](./src/323.Number_of_Connected_Components_in_an_Undirected_Graph.cpp)|   O(n) | O(n)   | Medium	 | Y |     ||
+324 | [Wiggle Sort II ]( https://leetcode.com/problems/wiggle-sort-ii/#/description)| [Sort](./src/324.Wiggle_Sort_II.cpp) |   O(nlog)  | O(n)   | Medium	|  |      ||
+
+
+
+
