@@ -342,6 +342,13 @@
 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/#/description) | [Math](./src/357.Count_Numbers_with_Unique_Digits.cpp) |   O(n) | O(1)   | Medium	|   |    ||
 358 | [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/#/description)| [Greedy](./src/358.Rearrange_String_k_Distance_Apart.cpp)|   O(n!) | O(n)   | Hard	 |  |     ||
 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/#/description)| [Hash Table](./src/359.Logger_Rate_Limiter.cpp) |   O(1)  | O(n)   | Easy	|Y  |      ||
-
+360 | [Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/#/description)| [Two Pointers](./src/360.Sort_Transformed_Array.cpp) |   O(n)  | O(1)   | Medium	|  |      ||
+361 | [Bomb Enemy]( https://leetcode.com/problems/bomb-enemy/#/description) | [DP](./src/361.Bomb_Enemy.cpp) |   O(m\*n) |O(m\*n)    | Medium	| |     ||
+362 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/#/description)| [Queue](./src/362.Design_Hit_Counter.cpp) \| [Circular Array](./src/362.Design_Hit_Counter.cpp)  |  O(n) | O(n)  | Medium	| Y |    ||
+363 | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k/#/description)| [Hash Table](./src/363.Max_Sum_of_Rectangle_No_Larger_Than_K.cpp) |O(col\*col\*row) | O(row) | Hard	 | |  ||
+364 | [Nested List Weight Sum II ](https://leetcode.com/problems/nested-list-weight-sum-ii/#/description)| [DFS](./src/364.Nested_List_Weight_Sum_II.cpp) |  O(2^n)   |  O(1) | Medium| |   ||
+365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/#/description) | [Math](./src/365.Water_and_Jug_Problem.cpp) |   O(n) | O(1)   | Medium	|   | gcd    ||
+366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/#/description)| [Tree](./src/366.Find_Leaves_of_Binary_Tree.cpp)|   O(n) | O(1)   | Medium	 |  |     ||
+367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/#/description)| [Binary Search](./src/367.Valid_Perfect_Square.cpp) |   O(logn)  | O(1)   | Easy	| |      ||
 
 
