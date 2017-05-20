@@ -335,7 +335,7 @@
 350 | [Intersection of Two Arrays II ]( https://leetcode.com/problems/intersection-of-two-arrays-ii/#/description) | [Hash Table](./src/350.Intersection_of_Two_Arrays_II.cpp) |   O(n) | O(n)   | Easy	|   |    ||
 351 | [Android Unlock Patterns]( https://leetcode.com/problems/android-unlock-patterns/#/description)| [DFS](./src/351.Android_Unlock_Patterns.cpp	)|   O(n!) | O(n)   | Medium	 |  |     ||
 352 | [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/#/description)| [Array](./src/352.Data_Stream_as_Disjoint_Intervals.cpp) |   O(n)  | O(n)   | Hard	|  |      ||
-353 | [Design Snake Game ]( https://leetcode.com/problems/design-snake-game/#/description) | [Queue](./src/353.Design_Snake_Game.cpp ) |   O(n)| O(n)   | Medium	| |     ||
+353 | [Design Snake Game ]( https://leetcode.com/problems/design-snake-game/#/description) | [Queue](./src/353.Design_Sname_Game.cpp) |   O(n)| O(n)   | Medium	| |     ||
 354 | [Russian Doll Envelopes ](https://leetcode.com/problems/russian-doll-envelopes/#/description)| [DP](./src/354.Russian_Doll_Envelopes.cpp)  |  O(n) | O(n)  | Hard	|  |    ||
 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/#/description)| [Hash Table + Heap](./src/355.Design_Twitter.cpp) |O(m\*n) | O(n) | Medium	 |Y |  ||
 356 | [Line Reflection](https://leetcode.com/problems/line-reflection/#/description)| [Hash Table](./src/356.Line_Reflection.cpp) |  O(n)   |  O(n) | Medium| |   ||
