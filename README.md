@@ -371,3 +371,14 @@
 386 | [Lexicographical Numbers ](https://leetcode.com/problems/lexicographical-numbers/#/description) | [String](./src/386.Lexicographical_Numbers.cpp	) |   O(n) | O(1)   | Medium	|   |     ||
 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/#/description)| [Hash Table](./src/387.First_Unique_Character_in_a_String.cpp)|   O(n) | O(256)  | Easy |  |     ||
 388 | [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/#/description)| [String](./src/388.Longest_Absolute_File_Path.cpp) |   O(n)  | O(n)   |Medium| |      ||
+389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/#/description) | [Bit Manipulation](./src/389.Find_the_Difference.cpp) |  O(n) |O(1)  | Easy	| |     ||
+390 | [Elimination Game ](https://leetcode.com/problems/elimination-game/#/description)| [Math](./src/390.Elimination_Game.cpp) |  O(n) |  O(1)  | Medium	|  |    ||
+391 | [Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/#/description)| [Math](./src/391.Perfect_Rectangle.cpp) |O(n) | O(n) | Hard		 | |  ||
+392 | [Is Subsequence  ](https://leetcode.com/problems/is-subsequence/#/description)| [Greedy](./src/392.Is_Subsequence.cpp) |  O(n)   |  O(n) | Medium| |   ||
+393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/#/description) | [Bit Manipulation](./src/393.UTF-8_Validation.cpp) |   O(n) | O(1)   | Medium	|   |     ||
+394 | [Decode String ](https://leetcode.com/problems/decode-string/#/description)| [Stack](./src/394.Decode_String.cpp)|   O(n) | O(n)  | Medium |Y  |     ||
+395 | [Longest Substring with At Least K Repeating Characters ](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/#/description)| [BackTracking](./src/395.Longest_Substring_with_At_Least_K_Repeating_Characters.cpp) |   O(2^n)  | O(1)   |Medium| |      ||
+
+
+
+
