@@ -350,8 +350,7 @@
 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/#/description) | [Math](./src/365.Water_and_Jug_Problem.cpp) |   O(n) | O(1)   | Medium	|   | gcd    ||
 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/#/description)| [Tree](./src/366.Find_Leaves_of_Binary_Tree.cpp)|   O(n) | O(1)   | Medium	 |  |     ||
 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/#/description)| [Binary Search](./src/367.Valid_Perfect_Square.cpp) |   O(logn)  | O(1)   | Easy	| |      ||
-368 | [Largest Divisible Subset]( 
-https://leetcode.com/problems/largest-divisible-subset/#/description) | [DP](./src/368.Largest_Divisible_Subset.cpp) |   O(ologn) |O(n)    | Medium	| |     ||
+368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/#/description) | [DP](./src/368.Largest_Divisible_Subset.cpp) |   O(ologn) |O(n)    | Medium	| |     ||
 369 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/#/description)| [Recursion](./src/369.Plus_One_Linked_List.cpp) |  O(n) | O(n)  | Medium	| Y |    ||
 370 | [Range Addition ](https://leetcode.com/problems/range-addition/#/description)| [Array](./src/370.Range_Addition.cpp) |O(n) | O(1) | Medium		 | |  ||
 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/#/description)| [Bit Manipulation](./src/371.Sum_of_Two_Integers.cpp) |  O(1)   |  O(1) | Easy| |   ||
