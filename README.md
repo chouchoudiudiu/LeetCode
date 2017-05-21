@@ -363,4 +363,4 @@
 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/#/description)| [Heap](./src/378.Kth_Smallest_Element_in_a_Sorted_Matrix.cpp) |  O(n)   |  O(n) | Medium| |   ||
 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/#/description) | [Hash Table](./src/379.Design_Phone_Directory.cpp) |   O(n) | O(n)   | Medium	|   |     ||
 380 | [Insert Delete GetRandom O(1) ](https://leetcode.com/problems/insert-delete-getrandom-o1/#/description)| [Hash Table](./src/380.Insert_Delete_GetRandom_O1.cpp)|   O(1) | O(n)  | Medium	 |  |     ||
-381 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/#/description)| [Hash Table](./src/381.Insert_Delete_GetRandom_O1_Duplicates allowed.cpp) |   O(1)  | O(n)   | Hard	| |      ||
+381 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/#/description)| [Hash Table](./src/381.Insert_Delete_GetRandom_O1_Duplicates_allowed.cpp) |   O(1)  | O(n)   | Hard	| |      ||
