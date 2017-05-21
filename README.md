@@ -385,6 +385,12 @@
 400 | [Nth Digit](https://leetcode.com/problems/nth-digit/#/description) | [Math](./src/400.Nth_Digit.cpp) |   O(n) | O(1)   | Easy|   |     ||
 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/#/description)| [Bit Manipulation](./src/401.Binary_Watch.cpp)|   O(720) | O(1)  | Easy |  |     ||
 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/#/description)| [Greedy](./src/402.Remove_K_Digits.cpp) |   O(n)  | O(n)   |Medium| |      ||
-
+403 | [Frog Jump](https://leetcode.com/problems/frog-jump/#/description) | [DP](./src/403.Frog_Jump.cpp) |  O(n) |O(n)  | Hard	| |     ||
+404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/#/description)| [Backtracking ](./src/404.Sum_of_Left_Leaves.cpp) |  O(n) |  O(1)  | Easy|  |    ||
+405 | [Convert a Number to Hexadecimal ](https://leetcode.com/problems/convert-a-number-to-hexadecimal/#/description)| [Bit Manipulation](./src/405.Convert_a_Number_to_Hexadecimal.cpp) |O(n) | O(1) | Easy		 | |  ||
+406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/#/description)| [Sort](./src/406.Queue_Reconstruction_by_Height.cpp) |  O(nlogn)   |  O(1) | Medium| |   ||
+407 | [Trapping Rain Water II  ](https://leetcode.com/problems/trapping-rain-water-ii/#/description) | [BFS](./src/407.Trapping_Rain_Water_II.cpp) |   O(n) | O(n)   | Hard|   |     ||
+408 | [Valid Word Abbreviation  ](https://leetcode.com/problems/valid-word-abbreviation/#/description)| [String](./src/408.Valid_Word_Abbreviation.cpp)|   O(n) | O(1)  | Easy |  |     ||
+409 | [Longest Palindrome ](https://leetcode.com/problems/longest-palindrome/#/description)| [Hash Table](./src/409.Longest_Palindrome.cpp) |   O(n)  | O(256)   |Easy| |      ||
 
 
