@@ -360,7 +360,14 @@
 375 | [Guess Number Higher or Lower II ](https://leetcode.com/problems/guess-number-higher-or-lower-ii/#/description) | [DP](./src/375.Guess_Number_Higher_or_Lower_II.cpp	) |  O(n^3) |O(n^2)   | Medium	| |     ||
 376 | [Wiggle Subsequence ](https://leetcode.com/problems/wiggle-subsequence/#/description)| [Greedy](./src/376.Wiggle_Subsequence.cpp) |  O(n) | O(1)  | Medium	|  |    ||
 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/#/description)| [DP](./src/377.Combination_Sum_IV.cpp) |O(n) | O(n) | Medium		 | |  ||
-378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/#/description)| [Heap](./src/378.Kth_Smallest_Element_in_a_Sorted_Matrix.cpp) |  O(n)   |  O(n) | Medium| |   ||
+378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/#/description)| [Heap](./src/378.Kth_Smallest_Element_in_a_Sorted_Matrix.cpp) |  O(n)   |  O(n) | Medium| | Y  ||
 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/#/description) | [Hash Table](./src/379.Design_Phone_Directory.cpp) |   O(n) | O(n)   | Medium	|   |     ||
-380 | [Insert Delete GetRandom O(1) ](https://leetcode.com/problems/insert-delete-getrandom-o1/#/description)| [Hash Table](./src/380.Insert_Delete_GetRandom_O1.cpp)|   O(1) | O(n)  | Medium	 |  |     ||
+380 | [Insert Delete GetRandom O(1) ](https://leetcode.com/problems/insert-delete-getrandom-o1/#/description)| [Hash Table](./src/380.Insert_Delete_GetRandom_O1.cpp)|   O(1) | O(n)  | Medium	 | Y |     ||
 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/#/description)| [Hash Table](./src/381.Insert_Delete_GetRandom_O1_Duplicates_allowed.cpp) |   O(1)  | O(n)   | Hard	| |      ||
+382 | [Linked List Random Node ](https://leetcode.com/problems/linked-list-random-node/#/description) | [Math](./src/382.Linked_List_Random_Node.cpp) |  O(n) |O(1)  | Medium	|Y | 蓄水池采样    ||
+383 | [Ransom Note](https://leetcode.com/problems/ransom-note/#/description)| [Hash Table](./src/383.Ransom_Note.cpp) |  O(n) |  O(n)  | Easy	|  |    ||
+384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/#/description)| [Math](./src/384.Shuffle_an_Array.cpp) |O(n) | O(1) | Medium		 | |  ||
+385 | [Mini Parser ](https://leetcode.com/problems/mini-parser/#/description)| [Stack](./src/385.Mini_Parser.cpp) |  O(n)   |  O(n) | Medium| | Y  ||
+386 | [Lexicographical Numbers ](https://leetcode.com/problems/lexicographical-numbers/#/description) | [String](./src/386.Lexicographical_Numbers.cpp	) |   O(n) | O(1)   | Medium	|   |     ||
+387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/#/description)| [Hash Table](./src/387.First_Unique_Character_in_a_String.cpp)|   O(n) | O(256)  | Easy |  |     ||
+388 | [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/#/description)| [String](./src/388.Longest_Absolute_File_Path.cpp) |   O(n)  | O(n)   |Medium| |      ||
