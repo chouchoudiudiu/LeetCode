@@ -357,4 +357,10 @@
 372 | [Super Pow](https://leetcode.com/problems/super-pow/#/description) | [Math](./src/372.Super_Pow.cpp) |   O(m\*n) | O(1)   | Medium	|   |     ||
 373 | [Find K Pairs with Smallest Sums ](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/#/description)| [Heap](./src/373.Find_K_Pairs_with_Smallest_Sums.cpp)|   O(m\*n) | O(m\*n)  | Medium	 |  |     ||
 374 | [Guess Number Higher or Lower ](https://leetcode.com/problems/guess-number-higher-or-lower/#/description)| [Binary Search](./src/374.Guess_Number_Higher_or_Lower.cpp) |   O(logn)  | O(1)   | Easy	| |      ||
-
+375 | [Guess Number Higher or Lower II ](https://leetcode.com/problems/guess-number-higher-or-lower-ii/#/description) | [DP](./src/375.Guess_Number_Higher_or_Lower_II.cpp	) |  O(n^3) |O(n^2)   | Medium	| |     ||
+376 | [Wiggle Subsequence ](https://leetcode.com/problems/wiggle-subsequence/#/description)| [Greedy](./src/376.Wiggle_Subsequence.cpp) |  O(n) | O(1)  | Medium	|  |    ||
+377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/#/description)| [DP](./src/377.Combination_Sum_IV.cpp) |O(n) | O(n) | Medium		 | |  ||
+378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/#/description)| [Heap](./src/378.Kth_Smallest_Element_in_a_Sorted_Matrix.cpp) |  O(n)   |  O(n) | Medium| |   ||
+379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/#/description) | [Hash Table](./src/379.Design_Phone_Directory.cpp) |   O(n) | O(n)   | Medium	|   |     ||
+380 | [Insert Delete GetRandom O(1) ](https://leetcode.com/problems/insert-delete-getrandom-o1/#/description)| [Hash Table](./src/380.Insert_Delete_GetRandom_O1.cpp)|   O(1) | O(n)  | Medium	 |  |     ||
+381 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/#/description)| [Hash Table](./src/381.Insert_Delete_GetRandom_O1_Duplicates allowed.cpp) |   O(1)  | O(n)   | Hard	| |      ||
