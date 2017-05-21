@@ -378,7 +378,13 @@
 393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/#/description) | [Bit Manipulation](./src/393.UTF-8_Validation.cpp) |   O(n) | O(1)   | Medium	|   |     ||
 394 | [Decode String ](https://leetcode.com/problems/decode-string/#/description)| [Stack](./src/394.Decode_String.cpp)|   O(n) | O(n)  | Medium |Y  |     ||
 395 | [Longest Substring with At Least K Repeating Characters ](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/#/description)| [BackTracking](./src/395.Longest_Substring_with_At_Least_K_Repeating_Characters.cpp) |   O(2^n)  | O(1)   |Medium| |      ||
-
+396 | [Rotate Function](https://leetcode.com/problems/rotate-function/#/description) | [Math](./src/396.Rotate_Function.cpp	) |  O(n) |O(1)  | Medium	| |     ||
+397 | [Integer Replacement  ](https://leetcode.com/problems/integer-replacement/#/description)| [Backtracking ](./src/397.Integer_Replacement.cpp) |  O(2^n) |  O(1)  | Medium	|  |    ||
+398 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/#/description)| [Math](./src/398.Random_Pick_Index.cpp) |O(n) | O(1) | Medium		 | |  ||
+399 | [Evaluate Division  ](https://leetcode.com/problems/evaluate-division/#/description)| [DFS](./src/399.Evaluate_Division.cpp) |  O(n!)   |  O(1) | Medium| |  Y ||
+400 | [Nth Digit](https://leetcode.com/problems/nth-digit/#/description) | [Math](./src/400.Nth_Digit.cpp) |   O(n) | O(1)   | Easy|   |     ||
+401 | [Binary Watch](https://leetcode.com/problems/binary-watch/#/description)| [Bit Manipulation](./src/401.Binary_Watch.cpp)|   O(720) | O(1)  | Easy |  |     ||
+402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/#/description)| [Greedy](./src/402.Remove_K_Digits.cpp) |   O(n)  | O(n)   |Medium| |      ||
 
 
 
