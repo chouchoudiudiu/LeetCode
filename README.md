@@ -392,5 +392,11 @@
 407 | [Trapping Rain Water II  ](https://leetcode.com/problems/trapping-rain-water-ii/#/description) | [BFS](./src/407.Trapping_Rain_Water_II.cpp) |   O(n) | O(n)   | Hard|   |     ||
 408 | [Valid Word Abbreviation  ](https://leetcode.com/problems/valid-word-abbreviation/#/description)| [String](./src/408.Valid_Word_Abbreviation.cpp)|   O(n) | O(1)  | Easy |  |     ||
 409 | [Longest Palindrome ](https://leetcode.com/problems/longest-palindrome/#/description)| [Hash Table](./src/409.Longest_Palindrome.cpp) |   O(n)  | O(256)   |Easy| |      ||
-
-
+410 | [Split Array Largest Sum ](https://leetcode.com/problems/split-array-largest-sum/#/description) | [Binary Search](./src/410.Split_Array_Largest_Sum.cpp) |  O(logn) |O(1)  | Hard	| |     ||
+411 | [Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/#/description)| [Backtracking ](./src/411.Minimum_Unique_Word_Abbreviation.cpp) |  O(2^n) |  O(1)  | Hard|  |    ||
+412 | [Fizz Buzz ](https://leetcode.com/problems/fizz-buzz/#/description)| [Array](./src/412.Fizz_Buzz.cpp) |O(n) | O(1) | Easy		 | |  ||
+413 | [Arithmetic Slices ](https://leetcode.com/problems/arithmetic-slices/#/description)| [DP](./src/413.Arithmetic_Slices.cpp) |  O(n)   |  O(n) | Medium| |   ||
+414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/#/description) | [Array](./src/414.Third_Maximum_Number.cpp) |   O(n) | O(1)   |  Easy	|   |     ||
+415 | [Add Strings](https://leetcode.com/problems/add-strings/#/description)| [Math](./src/415.Add_Strings.cpp)|   O(n) | O(n)  | Easy |  |     ||
+416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/#/description)| [DP](./src/416.Partition_Equal_Subset_Sum.cpp) |   O(n)  | O(n)   |Medium| |      ||
+417 | [Pacific Atlantic Water Flow ](https://leetcode.com/problems/pacific-atlantic-water-flow/#/description)| [DFS](./src/417.Pacific_Atlantic_Water_Flow.cpp) |   O(2^n)  | O(m\*n)   |Medium| |      ||
