@@ -441,3 +441,12 @@
 466 | [Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/#/description)| [DP](./src/466.Count_The_Repetitions.cpp)|   O(n) | O(n)  |Hard	 |  |     ||
 467 | [Unique Substrings in Wraparound String  ](https://leetcode.com/problems/unique-substrings-in-wraparound-string/#/description)| [DP](./src/467.Unique_Substrings_in_Wraparound_String.cpp) |   O(n)  | O(n)   | Medium| |      ||
 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/#/description)| [String](./src/468.Validate_IP_Address.cpp) |   O(n)  | O(1)   |Medium	| |      ||
+469 | [Convex Polygon  ](https://leetcode.com/problems/convex-polygon/#/description) | [Math](./src/469.Convex_Polygon.cpp) |  O(n) |O(1)  |  Medium	| |     ||
+471 | [Encode String with Shortest Length ](https://leetcode.com/problems/encode-string-with-shortest-length/#/description)| [DP](./src/471.Encode_String_with_Shortest_Length.cpp) |  O(n^2) |  O(1)  | Hard|  |    ||
+472 | [Concatenated Words ](https://leetcode.com/problems/concatenated-words/#/description)| [DP](./src/472.Concatenated_Words.cpp) |O(m\*n) | O(n) |Hard | |  ||
+473 | [Matchsticks to Square ](https://leetcode.com/problems/matchsticks-to-square/#/description)| [BackTracking](./src/473.Matchsticks_to_Square.cpp) |  O(n!)   |  O(1) | Medium| |   ||
+474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/#/description) | [DP](./src/474.Ones_and_Zeroes.cpp	) |   O(m\*n) | O(m\*n)   |   Medium|   |     ||
+475 | [Heaters ](https://leetcode.com/problems/heaters/#/description)| [Binary Search](./src/475.Heaters.cpp	)|   O(nlogn) | O(1)  |Easy	 |  |     ||
+476 | [Number Complement](https://leetcode.com/problems/number-complement/#/description)| [Bit Manipulation](./src/476.Number_Complement.cpp) |   O(n)  | O(1)   | Easy| |      ||
+477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/#/description)| [Bit Manipulation](./src/477.Total_Hamming_Distance.cpp	) |   O(n)  | O(1)   |Medium	| |      ||
+480 | [Sliding Window Median ](https://leetcode.com/problems/sliding-window-median/#/description)| [Heap](./src/480.Sliding_Window_Median.cpp) |   O(1)  | O(n)   |Hard| Y | multiset      ||
