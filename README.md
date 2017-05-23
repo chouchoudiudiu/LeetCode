@@ -400,3 +400,11 @@
 415 | [Add Strings](https://leetcode.com/problems/add-strings/#/description)| [Math](./src/415.Add_Strings.cpp)|   O(n) | O(n)  | Easy |  |     ||
 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/#/description)| [DP](./src/416.Partition_Equal_Subset_Sum.cpp) |   O(n)  | O(n)   |Medium| |      ||
 417 | [Pacific Atlantic Water Flow ](https://leetcode.com/problems/pacific-atlantic-water-flow/#/description)| [DFS](./src/417.Pacific_Atlantic_Water_Flow.cpp) |   O(2^n)  | O(m\*n)   |Medium| |      ||
+418 | [Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/#/description) | [Hash Table](./src/418.Sentence_Screen_Fitting.cpp) |  O(n) |O(n)  | Medium	| |     ||
+419 | [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/#/description)| [Math](./src/419.Battleships_in_a_Board.cpp) |  O(m\*n) |  O(1)  | Medium|  |    ||
+420 | [Strong Password Checker  ](https://leetcode.com/problems/strong-password-checker/#/description)| [Hash Table](./src/420.Strong_Password_Checker.cpp) |O(n) | O(1) | Hard		 | |  ||
+421 | [Maximum XOR of Two Numbers in an Array ](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/#/description)| [Bit Manipulation + Trie](./src/421.Maximum_XOR_of_Two_Numbers_in_an_Array.cpp) |  O(n)   |  O(n) | Medium| |   ||
+422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square/#/description) | [String](./src/422.Valid_Word_Square.cpp) |   O(n\*k) | O(1)   |  Easy	|   |     ||
+423 | [Reconstruct Original Digits from English ](https://leetcode.com/problems/reconstruct-original-digits-from-english/#/description)| [Math](./src/423.Reconstruct_Original_Digits_from_English.cpp)|   O(n) | O(n)  | Medium |  |     ||
+424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/#/description)| [String](./src/424.Longest_Repeating_Character_Replacement.cpp) |   O(n)  | O(n)   |Medium| |      ||
+425 | [Word Squares ](https://leetcode.com/problems/word-squares/#/description)| [Backtracking + Trie](./src/425.Word_Squares.cpp) |   O(n!)  | O(n)   |Hard| |    Y  ||
