@@ -465,7 +465,7 @@
 496 | [Next Greater Element I ](https://leetcode.com/problems/next-greater-element-i/#/description)| [Hash Table](./src/496.Next_Greater_Element_I.cpp)|   O(n) | O(n)  |Easy	 |  |     ||
 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/#/description)| [Solution](./src/498.Diagonal_Traverse.cpp ) |   O(m\*n)  | O(1)   | Medium| |      ||
 499 | [The Maze III](https://leetcode.com/problems/the-maze-iii/#/description)| [DFS](./src/499.The_Maze_III.cpp	) |   O(n!)  | O(m\*n)   |Hard	| |       ||
-500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/#/description)| [Hash Table](./src/500.Keyboard_Row.cpp) \| [BFS](./src/490.The_Maze_BFS.cpp)|   O(n)  | O(1)   |Easy|  |      ||
+500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/#/description)| [Hash Table](./src/500.Keyboard_Row.cpp) |   O(n)  | O(1)   |Easy|  |      ||
 
 
 
