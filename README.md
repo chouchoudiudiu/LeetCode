@@ -450,3 +450,11 @@
 476 | [Number Complement](https://leetcode.com/problems/number-complement/#/description)| [Bit Manipulation](./src/476.Number_Complement.cpp) |   O(n)  | O(1)   | Easy| |      ||
 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/#/description)| [Bit Manipulation](./src/477.Total_Hamming_Distance.cpp	) |   O(n)  | O(1)   |Medium	| |      ||
 480 | [Sliding Window Median ](https://leetcode.com/problems/sliding-window-median/#/description)| [Heap](./src/480.Sliding_Window_Median.cpp) |   O(1)  | O(n)   |Hard| Y | multiset      ||
+481 | [Magical String ](https://leetcode.com/problems/magical-string/#/description)| [Math](./src/481.Magical_String.cpp ) |  O(n) |  O(n)  | Medium|  |    ||
+482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/#/description)| [String](./src/482.License_Key_Formatting.cpp) |O(n) | O(1) |Medium | |  ||
+483 | [Smallest Good Base ](https://leetcode.com/problems/smallest-good-base/#/description)| [Binary Search](./src/483.Smallest_Good_Base.cpp) |  O(logn)   |  O(1) | Hard| |   ||
+484 | [Find Permutation ](https://leetcode.com/problems/find-permutation/#/description) | [Greedy](./src/484.Find_Permutation.cpp	) |   O(n) | O(n)   |   Medium|   |     ||
+485 | [Max Consecutive Ones ](https://leetcode.com/problems/max-consecutive-ones/#/description)| [Array](./src/485.Max_Consecutive_Ones.cpp)|   O(n) | O(1)  |Easy	 |  |     ||
+486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/#/description)| [Backtracking](./src/486.Predict_the_Winner.cpp) |   O(2^n)  | O(1)   | Medium| |      ||
+487 | [Max Consecutive Ones II ](https://leetcode.com/problems/max-consecutive-ones-ii/#/description)| [Array](./src/487.Max_Consecutive_Ones_II.cpp	) |   O(n)  | O(1)   |Medium	|Y | sliding window      ||
+490 | [The Maze ](https://leetcode.com/problems/the-maze/#/description)| [DFS](./src/490.The_Maze_DFS.cpp) \| [BFS](./src/490.The_Maze_BFS.cpp)|   O(n)  | O(n)   |Medium| Y |      ||
