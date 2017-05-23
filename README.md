@@ -408,8 +408,7 @@
 423 | [Reconstruct Original Digits from English ](https://leetcode.com/problems/reconstruct-original-digits-from-english/#/description)| [Math](./src/423.Reconstruct_Original_Digits_from_English.cpp)|   O(n) | O(n)  | Medium |  |     ||
 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/#/description)| [String](./src/424.Longest_Repeating_Character_Replacement.cpp) |   O(n)  | O(n)   |Medium| |      ||
 425 | [Word Squares ](https://leetcode.com/problems/word-squares/#/description)| [Backtracking + Trie](./src/425.Word_Squares.cpp) |   O(n!)  | O(n)   |Hard|Y |      ||
-432 | [All O_one Data Structure](https://leetcode.com/problems/all-oone-data-structure/#/description) | [Hash Table](./src/
-432.All_O_one_Data_Structure.cpp) |  O(1) |O(n)  | Hard	| Y|     ||
+432 | [All O one Data Structure](https://leetcode.com/problems/all-oone-data-structure/#/description) | [Hash Table](./src/432.All_O_one_Data_Structure.cpp) |  O(1) |O(n)  | Hard	| Y|     ||
 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/#/description)| [String](./src/434.Number_of_Segments_in_a_String.cpp) |  O(n) |  O(1)  | Easy|  |    ||
 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/#/description)| [Greedy](./src/435.Non-overlapping_Intervals.cpp) |O(nlogn) | O(1) |Medium	 | |  ||
 436 | [Find Right Interval](https://leetcode.com/problems/find-right-interval/#/description)| [Binary Search](./src/436.Find_Right_Interval.cpp) |  O(nlogn)   |  O(n) | Medium| |   ||
