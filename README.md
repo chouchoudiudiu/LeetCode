@@ -419,9 +419,16 @@
 441 | [Arranging Coins ](https://leetcode.com/problems/arranging-coins/#/description) | [Binary Search](./src/441.Arranging_Coins.cpp) |  O(logn) |O(1)  | Easy	| Y|     ||
 442 | [Find All Duplicates in an Array ](https://leetcode.com/problems/find-all-duplicates-in-an-array/#/description)| [Array](./src/442.Find_All_Duplicates_in_an_Array.cpp) |  O(n) |  O(1)  | Medium|  |    ||
 444 | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/#/description)| [Hash Table](./src/444.Sequence_Reconstruction.cpp) |O(m\*n) | O(n) |Medium	 | |  ||
-445 | [Add Two Numbers II ](https://leetcode.com/problems/add-two-numbers-ii/#/descriptionn)| [Stack](./src/445.Add_Two_Numbers_II.cpp) |  O(n)   |  O(n) | Medium| |   ||
+445 | [Add Two Numbers II ](https://leetcode.com/problems/add-two-numbers-ii/#/description)| [Stack](./src/445.Add_Two_Numbers_II.cpp) |  O(n)   |  O(n) | Medium| |   ||
 446 | [Arithmetic Slices II - Subsequence ](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/#/description) | [DP](./src/446.Arithmetic_Slices_II_Subsequence.cpp) |   O(n) | O(n)   |  Hard|   |     ||
 447 | [Number of Boomerangs  ](https://leetcode.com/problems/number-of-boomerangs/#/description)| [Hash Table](./src/447.Number_of_Boomerangs.cpp)|   O(n^2) | O(n)  |Easy	 |  |     ||
 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/#/description)| [Array](./src/448.Find_All_Numbers_Disappeared_in_an_Array.cpp) |   O(n)  | O(1)   |Easy| |      ||
 449 | [Serialize and Deserialize BST ](https://leetcode.com/problems/serialize-and-deserialize-bst/#/description)| [Tree](./src/449.Serialize_and_Deserialize_BST.cpp	) |   O(n)  | O(n)   |Hard| |      ||
-
+450 | [Delete Node in a BST ](https://leetcode.com/problems/delete-node-in-a-bst/#/description) | [Tree](./src/441.Arranging_Coins.cpp) |  O(n) |O(1)  |  Medium	| |     ||
+451 | [Sort Characters By Frequency ](https://leetcode.com/problems/sort-characters-by-frequency/#/description)| [Heap](./src/442.Find_All_Duplicates_in_an_Array.cpp) |  O(n) |  O(n)  | Medium|  |    ||
+452 | [Minimum Number of Arrows to Burst Balloons ](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/#/description)| [Sort](./src/444.Sequence_Reconstruction.cpp) |O(nlogn) | O(1) |Medium	 | |  ||
+453 | [Minimum Moves to Equal Array Elements ](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/#/description)| [Array](./src/445.Add_Two_Numbers_II.cpp) |  O(n)   |  O(1) | Easy| |   ||
+454 | [4Sum II](https://leetcode.com/problems/4sum-ii/#/description) | [Math](./src/446.Arithmetic_Slices_II_Subsequence.cpp) |   O(n^2) | O(n)   |   Medium|   |     ||
+455 | [Assign Cookies ](https://leetcode.com/problems/assign-cookies/#/description)| [Greedy](./src/447.Number_of_Boomerangs.cpp)|   O(nlogn) | O(n)  |Easy	 |  |     ||
+456 | [132 Pattern ](https://leetcode.com/problems/132-pattern/#/description)| [Array](./src/448.Find_All_Numbers_Disappeared_in_an_Array.cpp) |   O(n^2)  | O(n)   | Medium| |      ||
+459 | [Repeated Substring Pattern ](https://leetcode.com/problems/repeated-substring-pattern/#/description)| [String](./src/449.Serialize_and_Deserialize_BST.cpp	) |   O(n^2)  | O(1)   |Easy| |      ||
