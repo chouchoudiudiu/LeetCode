@@ -416,3 +416,12 @@
 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/#/description)| [Hash Table](./src/438.Find_All_Anagrams_in_a_String.cpp)|   O(n) | O(26)  |Easy	 |  |     ||
 439 | [Ternary Expression Parser ](https://leetcode.com/problems/ternary-expression-parser/#/description)| [Stack ](./src/439.Ternary_Expression_Parser.cpp) |   O(n)  | O(n)   |Medium| |      ||
 440 | [K-th Smallest in Lexicographical Order ](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/#/description)| [Tree](./src/440.K-th_Smallest_in_Lexicographical_Order.cpp) |   O(logn\*k)  | O(n)   |Hard| |      ||
+441 | [Arranging Coins ](https://leetcode.com/problems/arranging-coins/#/description) | [Binary Search](./src/441.Arranging_Coins.cpp) |  O(logn) |O(1)  | Easy	| Y|     ||
+442 | [Find All Duplicates in an Array ](https://leetcode.com/problems/find-all-duplicates-in-an-array/#/description)| [Array](./src/442.Find_All_Duplicates_in_an_Array.cpp) |  O(n) |  O(1)  | Medium|  |    ||
+444 | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/#/description)| [Hash Table](./src/444.Sequence_Reconstruction.cpp) |O(m\*n) | O(n) |Medium	 | |  ||
+445 | [Add Two Numbers II ](https://leetcode.com/problems/add-two-numbers-ii/#/descriptionn)| [Stack](./src/445.Add_Two_Numbers_II.cpp) |  O(n)   |  O(n) | Medium| |   ||
+446 | [Arithmetic Slices II - Subsequence ](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/#/description) | [DP](./src/446.Arithmetic_Slices_II_Subsequence.cpp) |   O(n) | O(n)   |  Hard|   |     ||
+447 | [Number of Boomerangs  ](https://leetcode.com/problems/number-of-boomerangs/#/description)| [Hash Table](./src/447.Number_of_Boomerangs.cpp)|   O(n^2) | O(n)  |Easy	 |  |     ||
+448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/#/description)| [Array](./src/448.Find_All_Numbers_Disappeared_in_an_Array.cpp) |   O(n)  | O(1)   |Easy| |      ||
+449 | [Serialize and Deserialize BST ](https://leetcode.com/problems/serialize-and-deserialize-bst/#/description)| [Tree](./src/449.Serialize_and_Deserialize_BST.cpp	) |   O(n)  | O(n)   |Hard| |      ||
+
