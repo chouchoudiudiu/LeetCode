@@ -458,3 +458,14 @@
 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/#/description)| [Backtracking](./src/486.Predict_the_Winner.cpp) |   O(2^n)  | O(1)   | Medium| |      ||
 487 | [Max Consecutive Ones II ](https://leetcode.com/problems/max-consecutive-ones-ii/#/description)| [Array](./src/487.Max_Consecutive_Ones_II.cpp	) |   O(n)  | O(1)   |Medium	|Y | sliding window      ||
 490 | [The Maze ](https://leetcode.com/problems/the-maze/#/description)| [DFS](./src/490.The_Maze_DFS.cpp) \| [BFS](./src/490.The_Maze_BFS.cpp)|   O(n)  | O(n)   |Medium| Y |      ||
+491 | [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/#/description)| [Backtracking](./src/491.Increasing_Subsequences.cpp ) |  O(n!) |  O(1)  | Medium|  |    ||
+492 | [Construct the Rectangle ](https://leetcode.com/problems/construct-the-rectangle/#/description)| [Math](./src/492.Construct_the_Rectangle.cpp) |O(n^0.5) | O(1) |Easy | |  ||
+494 | [Target Sum  ](https://leetcode.com/problems/target-sum/#/description)| [Backtracking](./src/494.Target_Sum.cpp) |  O(2^n)   |  O(1) | Medium| |   ||
+495 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/#/description) | [Array](./src/495.Teemo_Attacking.cpp	) |   O(n) | O(1)   |   Medium|   |     ||
+496 | [Next Greater Element I ](https://leetcode.com/problems/next-greater-element-i/#/description)| [Hash Table](./src/496.Next_Greater_Element_I.cpp)|   O(n) | O(n)  |Easy	 |  |     ||
+498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/#/description)| [Solution](./src/498.Diagonal_Traverse.cpp ) |   O(m\*n)  | O(1)   | Medium| |      ||
+499 | [The Maze III](https://leetcode.com/problems/the-maze-iii/#/description)| [DFS](./src/499.The_Maze_III.cpp	) |   O(n!)  | O(m\*n)   |Hard	| |       ||
+500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/#/description)| [Hash Table](./src/500.Keyboard_Row.cpp) \| [BFS](./src/490.The_Maze_BFS.cpp)|   O(n)  | O(1)   |Easy|  |      ||
+
+
+
