@@ -1,29 +1,28 @@
 class Solution {
 public:
-    string encode(string s) {
-        int n = s.size();
-        vector<vector<string>> dp(n, vector<string>(n, ""));
-        for (int len = 1; len <= n; ++len) { //len [1, n]
-            for (int i = 0; i + len - 1 < n; ++i) {
-                int j = i + len - 1;
-                dp[i][j] = s.substr(i, len);
-                for (int k = i; k < j; ++k) { //k is between i to j
-                    string left = dp[i][k];
-                    string right = dp[k + 1][j];
-                    if (left.size() + right.size() < dp[i][j].size())
-                        dp[i][j] = left + right;
+//similar to word break
+    vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {
+        if (words.size() <= 2)
+            return {};
+        vector<string> res;
+        unordered_set<string> dict(words.begin(), words.end());
+        for (string word : words) {
+            int len = word.length();
+            if (len == 0)
+                continue;
+            vector<bool> dp(len + 1, false);
+            dp[0] = true;
+            for (int i = 1; i <= len; ++i) //i: number of char involved
+                for (int j = 0; j < i; ++j) {
+                    string tmp = word.substr(j, i - j);  //j: previous number of chars
+                    if (tmp != word && dp[j] && dict.count(tmp)) {//not including self
+                        dp[i] = true;
+                        break;
+                    }
                 }
-                string tmp = s.substr(i, len), replace = "";
-                auto pos = (tmp + tmp).find(tmp, 1); //starting from 1
-                if (pos >= len)
-                    replace = tmp; //no repeating substr
-                else
-                    replace = to_string(len/pos) + "[" + dp[i][i + pos - 1] + "]";//not tmp
-                if (replace.size() < dp[i][j].size())
-                    dp[i][j] = replace;
-            }
+            if(dp.back())   //if reaches full length
+                res.push_back(word);
         }
-        
-        return dp[0][n - 1];
+        return res;
     }
 };
