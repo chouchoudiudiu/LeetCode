@@ -1,6 +1,7 @@
 class Solution {
 public:
-/*Greedy: whenever encounter ‘*’ in p, keep record of the current position of ‘*’ in p and the current index in s. Try to match the stuff behind this ‘*’ in p with s, if not matched, just s++ and then try to match again.
+/*Greedy: whenever encounter ‘*’ in p, keep record of the current position of ‘*’ in p and the current index in s.
+Try to match the stuff behind this ‘*’ in p with s, if not matched, just s++ and then try to match again.
 https://simpleandstupid.com/category/leetcode/*/
     bool isMatch(string s, string p) {        
         int i = 0; 
@@ -12,7 +13,8 @@ https://simpleandstupid.com/category/leetcode/*/
                 i++;
                 j++;
             }
-            else if ( j < p.length() && (p[j] == '*')) { //remember the last time it meets the *, of course matches are satisifed before 
+            else if ( j < p.length() && (p[j] == '*')) { //remember the last time it meets the *, of course matches are 
+                //satisifed before 
                 starPos = j;
                 j++; 
                 posInS = i;
