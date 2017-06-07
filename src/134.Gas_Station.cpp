@@ -1,26 +1,34 @@
 class Solution {
-public: //greedy
-    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-        int sum = 0, start = 0, total = 0;
-        for (int i = 0; i < gas.size(); ++i) {
-            total += gas[i] - cost[i];
-            if (sum < 0) {
-                sum = gas[i] - cost[i];
-                start = i;
-            }
-            else {
-                sum += gas[i] - cost[i];
+public:
+    void dfs(string s, unordered_set<string>& dict, string output, int index, vector<string>& res, vector<bool>& dp){
+        if (index == s.length()) {
+            output.pop_back(); //remove the last " "
+            res.push_back(output);
+        }
+        for (int i  = index; i < s.length(); ++i) {
+            string tmp = s.substr(index, i - index + 1);
+            if (dict.find(tmp) != dict.end() && dp[i + 1]) { //otherwise no need to check dfs(i+1)
+                tmp = output + tmp + ' ';
+                int size = res.size();
+                dfs(s, dict, tmp, i + 1, res, dp); //pass tmp in deeper dfs, output didn't change
+                if(res.size() == size) //no solution found
+                    dp[i + 1] = false; 
             }
         }
-        return total >= 0 ? start : -1;
+    }
+    
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
+        vector<string> res;
+        if (s.empty() || wordDict.empty())
+            return res;
+        vector<bool> dp (s.length() + 1, true); //initialized as true
+        string output;
+        unordered_set<string> dict(wordDict.begin(), wordDict.end());
+        dfs(s, dict, output, 0, res, dp);
+        return res;
     }
 };
 
-/*
-我们模拟一下过程：
-a. 最开始，站点0是始发站，假设车开出站点p后，油箱空了，假设sum1 = diff[0] +diff[1] + ... + diff[p]，可知sum1 < 0；
-b. 根据上面的论述，我们将p+1作为始发站，开出q站后，油箱又空了，设sum2 = diff[p+1] +diff[p+2] + ... + diff[q]，可知sum2 < 0。
-c. 将q+1作为始发站，假设一直开到了未循环的最末站，油箱没见底儿，设sum3 =diff[q+1] +diff[q+2] + ... + diff[size-1]，可知sum3 >= 0。
-要想知道车能否开回 q 站，其实就是在sum3 的基础上，依次加上 diff[0] 到 diff[q]，看看sum3在这个过程中是否会小于0。但是我们之前已经知道diff[0] 到 diff[p-1] 这段路，油箱能一直保持非负，因此我们只要算算sum3 + sum1是否 <0，就知道能不能开到 p+1站了。如果能从p+1站开出，只要算算sum3 + sum1 + sum2 是否 < 0，就知都能不能开回q站了。
-因为 sum1, sum2 都 < 0，因此如果sum3 + sum1 + sum2 >=0 那么sum3 + sum1 必然 >= 0，也就是说，只要sum3 + sum1 + sum2 >=0，车必然能开回q站。而sum3 + sum1 + sum2 其实就是 diff数组的总和 Total，遍历完所有元素已经算出来了。因此 Total 能否 >= 0，就是是否存在这样的站点的 充分必要条件。
-*/
+
+//这里加上一个possible数组，如同WordBreak I里面的DP数组一样，用于记录区间拆分的可能性
+//Possible[i] = true 意味着 [i,n]这个区间上有解*/
