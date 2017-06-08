@@ -10,10 +10,12 @@ public:
      */
     int read(char *buf, int n) {
         int res = 0;
-        for (int i = 0; i <= n/4; ++i) { //<= 可能除不尽
+        while(res < n) { //<= 可能除不尽
             int cnt = read4(buf + res);
-            if (cnt == 0)
+            if (cnt < 4) {
+                res += cnt;
                 break;
+            }
             res += cnt;
         }
         return min(res, n);
