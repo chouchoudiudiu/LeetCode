@@ -8,57 +8,54 @@ public:
             child[i] = NULL;
     };
 };
-	
+
 class Solution {
 public:
     void insert(string word) {
-		TrieNode *node = root;
-		for (auto c : word)
-		{
+		TrieNode* node = root;
+		for (auto c : word) {
 			if (node->child[c - 'a'] == NULL)
 				node->child[c - 'a'] = new TrieNode();
 			node = node->child[c - 'a'];
 		}
-		node->word = word; 
+		node->word = word; //not isword
 	}
-    
-    void dfs(vector<vector<char>>& board, int i, int j, int R, int C, TrieNode* node, vector<string>& result) 
-    {
-        char ch = board[i][j];
-        node = node -> child[ch - 'a'];
-        if (node == NULL) return; //stop early if the current candidate does not exist in all words' prefix 
-        board[i][j] = '#';
-        if(node->word != "")
-        {
-            result.push_back(node->word);
-            node->word = "";
-        }
-        
-        if (i - 1 >= 0 && board[i - 1][j] != '#') dfs(board, i - 1, j, R, C, node, result); //'#' - it has been used, can't be used again!
-        if (i + 1  < R && board[i + 1][j] != '#') dfs(board, i + 1, j, R, C, node, result);
-        if (j - 1 >= 0 && board[i][j - 1] != '#') dfs(board, i, j - 1, R, C, node, result);
-        if (j + 1  < C && board[i][j + 1] != '#') dfs(board, i, j + 1, R, C, node, result);
-        
-        board[i][j] = ch; //restore
-    }
-    
+	void dfs(vector<vector<char>>& board, vector<string>& words, int i, int j, int m, int n, TrieNode* node, vector<string>& res) {
+	    char ch = board[i][j];
+	    node = node->child[ch - 'a'];
+	    if(node == NULL) //stop early if the current candidate does not exist in all words' prefix 
+	        return;
+	    if(node->word != "") {
+	        res.push_back(node->word);
+	        node->word = "";//avoid repeated add it to result
+	    }
+	    board[i][j] = '#';
+	    if(i - 1 >= 0 && board[i - 1][j] != '#')
+	        dfs(board, words, i - 1, j, m, n, node, res);
+	    if(i + 1 < m && board[i + 1][j] != '#')
+	        dfs(board, words, i + 1, j, m, n, node, res);
+	    if(j - 1 >= 0 && board[i][j - 1] != '#')
+	        dfs(board, words, i, j - 1, m, n, node, res);
+	    if(j + 1 < n && board[i][j + 1] != '#')
+	        dfs(board, words, i, j + 1, m, n, node, res);
+	    board[i][j] = ch;
+	}
+	
     vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
-        int R = board.size();
-        if (R == 0) return {};
-        int C = board[0].size();
-        vector<string> result;
+        vector<string> res;
+        if(board.empty() || words.empty())
+            return res;
+        int m = board.size(), n = board[0].size();
         root = new TrieNode();
-        for(auto s:words)
-            insert(s);
-        for(int i = 0; i < R; i++)
-            for(int j = 0; j < C; j++)
-                dfs(board, i, j, R, C, root, result);
-        return result;
+        for(auto w : words) 
+            insert(w);
+        for(int i = 0; i < m; ++i)
+            for(int j = 0; j < n; ++j)
+                dfs(board, words, i, j, m, n, root, res);
+        return res;
     }
     
-private:
     TrieNode* root;
-
 };
 //TLE
 /*
