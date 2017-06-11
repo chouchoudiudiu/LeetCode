@@ -12,10 +12,10 @@ public:
 class Solution {
 public:
     void insert(string word) {
-		TrieNode* node = root;
-		for (auto c : word) {
-			if (node->child[c - 'a'] == NULL)
-				node->child[c - 'a'] = new TrieNode();
+	TrieNode* node = root;
+	for (auto c : word) {
+		if (node->child[c - 'a'] == NULL)
+			node->child[c - 'a'] = new TrieNode();
 			node = node->child[c - 'a'];
 		}
 		node->word = word; //not isword
