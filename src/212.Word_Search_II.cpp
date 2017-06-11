@@ -11,15 +11,16 @@ public:
 
 class Solution {
 public:
-    void insert(string word) {
-	TrieNode* node = root;
-	for (auto c : word) {
+    	void insert(string word) {
+	    TrieNode* node = root;
+	    for (auto c : word) {
 		if (node->child[c - 'a'] == NULL)
-			node->child[c - 'a'] = new TrieNode();
-			node = node->child[c - 'a'];
+		    node->child[c - 'a'] = new TrieNode();
+		    node = node->child[c - 'a'];
 		}
-		node->word = word; //not isword
+	    node->word = word; //not isword
 	}
+	
 	void dfs(vector<vector<char>>& board, vector<string>& words, int i, int j, int m, int n, TrieNode* node, vector<string>& res) {
 	    char ch = board[i][j];
 	    node = node->child[ch - 'a'];
@@ -41,21 +42,21 @@ public:
 	    board[i][j] = ch;
 	}
 	
-    vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
-        vector<string> res;
-        if(board.empty() || words.empty())
+        vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
+            vector<string> res;
+            if(board.empty() || words.empty())
+                return res;
+            int m = board.size(), n = board[0].size();
+            root = new TrieNode();
+            for(auto w : words) 
+                insert(w);
+            for(int i = 0; i < m; ++i)
+                for(int j = 0; j < n; ++j)
+                    dfs(board, words, i, j, m, n, root, res);
             return res;
-        int m = board.size(), n = board[0].size();
-        root = new TrieNode();
-        for(auto w : words) 
-            insert(w);
-        for(int i = 0; i < m; ++i)
-            for(int j = 0; j < n; ++j)
-                dfs(board, words, i, j, m, n, root, res);
-        return res;
-    }
+        }
     
-    TrieNode* root;
+        TrieNode* root;
 };
 //TLE
 /*
