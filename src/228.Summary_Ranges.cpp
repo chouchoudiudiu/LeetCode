@@ -19,11 +19,7 @@ public:
             }
         }
         //special process for last one
-        if (nums[n - 1] == last) 
-            res.push_back(rangeToString(last, last));//single element
-        else
-            res.push_back(rangeToString(last, nums[n - 1])); //continuous
-
+        res.push_back(rangeToString(last, nums[n - 1])); //continuous
         return res;
     }
 };
