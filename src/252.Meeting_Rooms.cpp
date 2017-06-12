@@ -21,3 +21,4 @@ public:
         return true;
     }
 };
+//sort(intervals.begin(), intervals.end(), [](Interval a, Interval b) {return a.start < b.start; });
