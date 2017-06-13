@@ -21,3 +21,21 @@ public:
         return closest;
     }
 };
+
+class Solution {
+public:
+    void helper(TreeNode* root, int& closest, double target) {
+        if (!root)  return;
+        if (abs(root->val - target) < abs(closest - target))
+            closest = root->val;
+        if (root->val > target) 
+            helper(root->left, closest, target);
+        if (root->val < target)
+            helper(root->right, closest, target);
+    }
+    int closestValue(TreeNode* root, double target) {
+        int closest = root->val;
+        helper(root, closest, target);
+        return closest;
+    }
+};
