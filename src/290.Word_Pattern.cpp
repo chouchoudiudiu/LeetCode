@@ -22,3 +22,5 @@ public:
         return i == pattern.size();
     }
 };
+
+//almost the same as Isomorphic Strings
