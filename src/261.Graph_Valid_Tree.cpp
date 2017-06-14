@@ -19,7 +19,7 @@ public:
             return false;
         visited[u] = true;
         for(auto v : adjs[u]) {
-            if(v != from) {
+            if(v != from) {//不走回头路，现在在a 在 check a的邻居，比如b,c,d;到b时候，不再check a，才能一路往前，dfs
                 if(!dfs(adjs, visited, v, u))
                     return false;
             }
