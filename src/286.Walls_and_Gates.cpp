@@ -30,3 +30,34 @@ public:
         }
     }
 };
+
+class Solution {
+public:
+//BFS
+    int dir[4][2] = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+    void wallsAndGates(vector<vector<int>>& rooms) {
+        if(rooms.empty())
+            return;
+        int m = rooms.size(), n = rooms[0].size();
+        queue<pair<int, int>> q;
+        for(int i = 0; i < m; ++i)
+            for(int j = 0; j < n; ++j) {
+                if(rooms[i][j] == 0)
+                    q.push({i, j});
+            }
+        while(!q.empty()) {
+            auto p = q.front();
+            q.pop();
+            int r = p.first;
+            int c = p.second;
+            for(int i = 0; i < 4; ++i) {
+                int x = r + dir[i][0];
+                int y = c + dir[i][1];
+                if(x >= 0 && x < m && y >= 0 && y < n && rooms[x][y] > rooms[r][c]) {
+                    q.push({x, y});
+                    rooms[x][y] = rooms[r][c] + 1;
+                }
+            }
+        }
+    }
+};
