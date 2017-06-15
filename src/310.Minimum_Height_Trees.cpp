@@ -12,7 +12,7 @@ public:
             adjs[e.second].insert(e.first);
         }
         for (int i = 0; i < n; ++i) {
-            if (adjs[i].size() == 1) //indgree == 0
+            if (adjs[i].size() == 1) //indgree == 0, 只有一条连接边，是叶子节点！
                 q.push(i);
         }
         while (n > 2) {
