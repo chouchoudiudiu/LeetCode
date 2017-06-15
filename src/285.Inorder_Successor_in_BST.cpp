@@ -57,3 +57,23 @@ public:
         return succ;
     }
 };
+
+
+class Solution {
+public:
+    void inorder(TreeNode* root, TreeNode*& res, TreeNode* p, TreeNode*& prev) {
+        if(!root)
+            return;
+        inorder(root->left, res, p, prev);
+        if(prev == p) 
+            res = root; //奇怪的是如果直接return的话会有错
+        prev = root;
+        inorder(root->right, res, p, prev);
+    }
+    
+    TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+        TreeNode* res = NULL, *prev = NULL;
+        inorder(root, res, p, prev);
+        return res;
+    }
+};
