@@ -21,7 +21,7 @@ public:
                          for (int k = 0; k < 4; ++k) {
                              int x = r + dirs[k][0];
                              int y = c + dirs[k][1];
-                             if (x >= 0 && x < m && y >= 0 && y < n && grid[x][y] == target) {
+                             if (x >= 0 && x < m && y >= 0 && y < n && grid[x][y] == target) {//这样在这一轮BFS还是找0，同一层不会回头（变-1）
                                  --grid[x][y];//-- for next building
                                  dist[x][y] = dist[r][c] + 1;
                                  sum[x][y] += dist[x][y];// - 1; //started with 1
