@@ -34,3 +34,34 @@ public:
         return res;
     }
 };
+
+
+class Solution {
+public:
+    vector<string> binaryTreePaths(TreeNode* root) {
+        vector<string> result;
+        if (!root) return result;
+        vector<int> path;
+        stack< pair<TreeNode*, int> > s;
+        s.push(make_pair(root, 0));
+        while (!s.empty()) {
+            int level = s.top().second;
+            path.resize(level);
+            TreeNode * node = s.top().first;
+            s.pop();
+            path.push_back(node->val);
+            //if (!node->left && !node->right) 
+            //{
+                string pathstr;
+                for (int i = 0; i < path.size(); ++i) {
+                    pathstr += to_string(path[i]) + ((i != path.size() - 1) ? "->" : "");
+                }
+                result.push_back(pathstr);
+            //} else {
+                if (node->right) s.push(make_pair(node->right, level + 1));
+                if (node->left) s.push(make_pair(node->left, level + 1));
+            //}
+        }
+        return result;
+    }
+};
