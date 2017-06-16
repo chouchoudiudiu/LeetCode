@@ -30,7 +30,7 @@ public:
         while (low <= high) {
             int mid = low + (high - low)/2, i = left;
             for (; i <= right; ++i) {
-                if (image[mid][i] == '1')
+                if (image[mid][i] == '1') //说明找到了1, 继续往左看
                     break;
             }
             if (i <= right == oneToZero)
