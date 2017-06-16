@@ -27,8 +27,8 @@ public:
         return res;
     }
     
-    vector<int> vec;
-    vector<int> bit;
+    vector<int> vec; //具体的数据值
+    vector<int> bit; //该数据对应的bit值
 };
 //一个数的上级index 是它的index + 最低位1 => j += (j&-j) 
 //i & (-i) : [0110] -i = 1001 + 1 = 1010 so it is 10 = 2
