@@ -35,6 +35,34 @@ public:
     }
 };
 
+class Solution {
+public:
+    vector<string> binaryTreePaths(TreeNode* root) {
+        vector<string> result;
+        if (!root) return result;
+        stack< pair<TreeNode*, vector<int>> > stk; //node and path so far
+        vector<int> path;
+        stk.push(make_pair(root, path));
+        while (!stk.empty()) {
+            TreeNode * node = stk.top().first;
+            path = stk.top().second;
+            path.push_back(node->val);
+            
+            stk.pop();
+            string pathstr;
+            for (int i = 0; i < path.size(); ++i) {
+                pathstr += to_string(path[i]) + ((i != path.size() - 1) ? "->" : "");
+            }
+            result.push_back(pathstr);
+            
+            if (node->right) stk.push(make_pair(node->right, path));
+            if (node->left) stk.push(make_pair(node->left, path));
+        }
+        return result;
+    }
+};
+
+
 [1,2,3,null,5,4]
 ["1","1->2","1->2->5","1->3","1->3->14"]
 ["1","1->2","1->2->5","1->3","1->3->14"]
@@ -69,30 +97,3 @@ public:
     }
 };
 
-
-class Solution {
-public:
-    vector<string> binaryTreePaths(TreeNode* root) {
-        vector<string> result;
-        if (!root) return result;
-        stack< pair<TreeNode*, vector<int>> > stk; //node and path so far
-        vector<int> path;
-        stk.push(make_pair(root, path));
-        while (!stk.empty()) {
-            TreeNode * node = stk.top().first;
-            path = stk.top().second;
-            path.push_back(node->val);
-            
-            stk.pop();
-            string pathstr;
-            for (int i = 0; i < path.size(); ++i) {
-                pathstr += to_string(path[i]) + ((i != path.size() - 1) ? "->" : "");
-            }
-            result.push_back(pathstr);
-            
-            if (node->right) stk.push(make_pair(node->right, path));
-            if (node->left) stk.push(make_pair(node->left, path));
-        }
-        return result;
-    }
-};
