@@ -76,23 +76,22 @@ public:
         vector<string> result;
         if (!root) return result;
         stack< pair<TreeNode*, vector<int>> > stk; //node and path so far
-        vector<int> p;
-        stk.push(make_pair(root, p));
+        vector<int> path;
+        stk.push(make_pair(root, path));
         while (!stk.empty()) {
             TreeNode * node = stk.top().first;
-            if(!stk.empty())
-                p = stk.top().second;
-            p.push_back(node->val);
+            path = stk.top().second;
+            path.push_back(node->val);
             
             stk.pop();
             string pathstr;
-            for (int i = 0; i < p.size(); ++i) {
-                pathstr += to_string(p[i]) + ((i != p.size() - 1) ? "->" : "");
+            for (int i = 0; i < path.size(); ++i) {
+                pathstr += to_string(path[i]) + ((i != path.size() - 1) ? "->" : "");
             }
             result.push_back(pathstr);
             
-            if (node->right) stk.push(make_pair(node->right, p));
-            if (node->left) stk.push(make_pair(node->left, p));
+            if (node->right) stk.push(make_pair(node->right, path));
+            if (node->left) stk.push(make_pair(node->left, path));
         }
         return result;
     }
