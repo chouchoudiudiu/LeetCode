@@ -35,6 +35,9 @@ public:
     }
 };
 
+[1,2,3,null,5,4]
+["1","1->2","1->2->5","1->3","1->3->14"]
+["1","1->2","1->2->5","1->3","1->3->14"]
 
 class Solution {
 public:
@@ -61,6 +64,35 @@ public:
                 if (node->right) s.push(make_pair(node->right, level + 1));
                 if (node->left) s.push(make_pair(node->left, level + 1));
             //}
+        }
+        return result;
+    }
+};
+
+
+class Solution {
+public:
+    vector<string> binaryTreePaths(TreeNode* root) {
+        vector<string> result;
+        if (!root) return result;
+        stack< pair<TreeNode*, vector<int>> > stk; //node and path so far
+        vector<int> p;
+        stk.push(make_pair(root, p));
+        while (!stk.empty()) {
+            TreeNode * node = stk.top().first;
+            if(!stk.empty())
+                p = stk.top().second;
+            p.push_back(node->val);
+            
+            stk.pop();
+            string pathstr;
+            for (int i = 0; i < p.size(); ++i) {
+                pathstr += to_string(p[i]) + ((i != p.size() - 1) ? "->" : "");
+            }
+            result.push_back(pathstr);
+            
+            if (node->right) stk.push(make_pair(node->right, p));
+            if (node->left) stk.push(make_pair(node->left, p));
         }
         return result;
     }
