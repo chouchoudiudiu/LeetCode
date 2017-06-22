@@ -7,23 +7,21 @@ public:
     }
     
     double next(int val) {
-        if (q.size() < sz) {
-            sum += val;
+        if(q.size() < sz) {
             q.push(val);
-            return (double)sum/q.size(); //double
+            sum += val;
         }
         else {
-            sum -= q.front();
+            sum = sum - q.front() + val;
             q.pop();
             q.push(val);
-            sum += val;
-            return (double)sum/sz; //double
         }
+        return (double)sum/q.size(); //(double)
     }
     
     queue<int> q;
-    int sz;
     long sum;
+    int sz;
 };
 
 /**
