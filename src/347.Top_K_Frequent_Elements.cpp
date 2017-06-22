@@ -21,6 +21,34 @@ public:
     }
 };
 
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int, int> m; //val, cnt
+        vector<int> res;
+        for(auto v : nums)
+            ++m[v];
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; //cnt, val
+        for(auto v : m) {
+            if(pq.size() < k) {
+                pq.push({v.second, v.first});
+            }
+            else {
+                if(v.second > pq.top().first) { //v.second > pq.top().first
+                    pq.pop();
+                    pq.push({v.second, v.first});
+                }
+            }
+        }
+        while(!pq.empty()) {
+            res.push_back(pq.top().second);
+            pq.pop();
+        }
+        
+        return vector<int>(res.rbegin(), res.rend());
+    }
+};
+
 /* 无法保证是按顺序输出的,第一第二第三
 class Solution {
 public:
