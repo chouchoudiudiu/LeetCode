@@ -32,7 +32,7 @@ public:
             return -1;//this head is not in pos array yet!
         pos.insert(pos.begin(), head);
         if (!m_food.empty() && head == m_food.front()) { //eat the first food
-            m_food.erase(m_food.begin()); 
+            m_food.erase(m_food.begin()); //需要再想想erase的代价！！！！！！！！！！！！
             pos.push_back(tail);//get one more length, original tail pos
             ++score;
         }
