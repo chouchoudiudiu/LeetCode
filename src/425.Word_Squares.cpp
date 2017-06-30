@@ -33,5 +33,6 @@ public:
     }
 };
 /*
+一种是利用哈希表来建立前缀和所有包含此前缀单词的集合之前的映射
 try every word for the first row. For each of them, try every fitting word for the second row. And so on. The first few rows determine the first few columns and thus determine how the next row's word must start. For example:
 */
