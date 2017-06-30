@@ -68,7 +68,7 @@ private:
         unordered_set<string> keys; //存次数相同的所有key值
     };
     list<Bucket> buckets; //按value大小从大到小排列
-    unordered_map<string, list<Bucket>::iterator> m; //key value
+    unordered_map<string, list<Bucket>::iterator> m; //key value 建立key和list中位置迭代器之间的映射
 };
 
 /**
