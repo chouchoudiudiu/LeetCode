@@ -29,3 +29,4 @@ public:
     return steps;
 }
 };
+//13 - 10 = 4 需要4步， n1 = 10, n2 = 20 steps += min(n + 1, n2) - n1 = min(13 + 1, 20) - 10 = 4
