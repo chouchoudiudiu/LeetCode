@@ -26,3 +26,5 @@ public:
 
 //http://mathworld.wolfram.com/CrossProduct.html
 //http://csharphelper.com/blog/2014/07/determine-whether-a-polygon-is-convex-in-c/
+这里我们要特别注意法向量为0的情况，如果某一个点的法向量算出来为0，那么正确的pre就会被覆盖为0，
+后面再遇到相反的法向就无法检测出来，所以我们对计算出来法向量为0的情况直接跳过即可
