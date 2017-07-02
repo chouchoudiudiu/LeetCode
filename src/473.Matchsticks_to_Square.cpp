@@ -26,3 +26,7 @@ public:
         dfs(sum1, sum2, sum3, sum4 + nums[i], nums, i + 1, target);
     }
 }; //[5,5,5,5,4,4,4,4,3,3,3,3]
+
+
+//sort(nums.begin(), nums.end(), greater<int>());//逆序，or sort(nums.rbegin(), nums.rend())
+//stop early otherwise might cause TLE
