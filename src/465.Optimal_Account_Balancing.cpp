@@ -16,16 +16,16 @@ public:
     
     int helper(vector<int> accnt, int start, int transfer) {// min number of transactions to settle starting from accnt[start]
         int res = INT_MAX;
-        while (start < accnt.size() && !accnt[start])
+        while(start < accnt.size() && accnt[start] == 0)
             ++start;
-        for (int i = start, prev = 0; i < accnt.size(); ++i) {
-            if (accnt[i] != prev && accnt[start]*accnt[i] < 0) {
-                accnt[i] += accnt[start]; //drop accnt[start]
+        for(int i = start + 1; i < accnt.size(); ++i) {
+            if(accnt[start]*accnt[i] < 0) {
+                accnt[i] += accnt[start];
                 res = min(res, helper(accnt, start + 1, transfer + 1));
-                prev = (accnt[i] -= accnt[start]);
+                accnt[i] -= accnt[start];
             }
         }
-        
         return res == INT_MAX ? transfer : res;
+    }
     }
 }; //optimize where you could skip an index i if the same value a[i] has been tested before:
