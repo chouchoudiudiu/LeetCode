@@ -22,3 +22,23 @@ public:
         helper(nums, sums, target - nums[start], start + 1, res);
     }
 };
+
+
+class Solution {
+public:
+    int findTargetSumWays(vector<int>& nums, int S) {
+        int res = 0;
+        helper(nums, S, 0, res);
+        return res;
+    }
+    
+    void helper(vector<int>& nums, int target, int start, int& res) {
+        if(start >= nums.size()) {
+            if(target == 0)
+                ++res;
+            return;
+        }
+        helper(nums, target + nums[start], start + 1, res);
+        helper(nums, target - nums[start], start + 1, res);
+    }
+};
