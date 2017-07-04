@@ -26,7 +26,7 @@ public:
                 x += dx; ////not == 0, including -1 (pass it); to avoid duplication
                 y += dy;
             }
-            if (maze[x][y] != -1) {// a new position, otherwise might end up looping
+            if (maze[x][y] == 0) {// a new position, otherwise might end up looping
                 res = helper(maze, dp, x, y, destr, destc);
                 if (res) 
                     return true;
