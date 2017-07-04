@@ -20,6 +20,7 @@ public:
     }
 };
 /*
+http://bookshadow.com/weblog/2017/01/08/leetcode-magical-string/
 令魔法字符串ms = '122'，维护指针p，初始令p = 2
 若ms[p] == '1' 则向ms追加1个与ms末尾元素不同的字符
 否则，向ms追加2个与ms末尾元素不同的字符
