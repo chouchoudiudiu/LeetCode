@@ -34,7 +34,7 @@ public:
             ++i;
         }
         string left = leftC == 0 ? "" : s.substr(leftStart + 1, i - leftStart - 1);
-        string right = (i == s.size() - 1 || leftC == 0) ?  "" :s.substr(i + 2, s.size() - i - 3);
+        string right = (i == s.size() - 1 || leftC == 0) ?  "" :s.substr(i + 2, s.size() -1 - i - 2);
         TreeNode* root = new TreeNode(stoi(s.substr(0, leftStart)));
         root->left = build(left);
         root->right = build(right);
