@@ -10,10 +10,6 @@
 class Solution {
 public:
     TreeNode* str2tree(string s) {
-        return s.size() == 0 ? NULL : build(s);
-    }
-    
-    TreeNode* build(string s) {
         if(s.size() == 0)
             return NULL;
         int val = 0, i = 0;
@@ -34,15 +30,14 @@ public:
             ++i;
         }
         string left = leftC == 0 ? "" : s.substr(leftStart + 1, i - leftStart - 1);
-        string right = (i == s.size() - 1 || leftC == 0) ?  "" :s.substr(i + 2, s.size() -1 - i - 2);
+        string right = (i == s.size() - 1 || leftC == 0) ?  "" :s.substr(i + 2, s.size() - 1 - i - 2);
         TreeNode* root = new TreeNode(stoi(s.substr(0, leftStart)));
-        root->left = build(left);
-        root->right = build(right);
+        root->left = str2tree(left);
+        root->right = str2tree(right);
         return root;
     }
 };
 //"-4(2(3)(1))(6(5)(7))"
-
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
