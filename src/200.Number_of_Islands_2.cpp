@@ -4,7 +4,7 @@ public:
         return x >= 0 && x <= m - 1 && y >= 0 && y <= n - 1;
     }
     void bfs(vector<vector<char>>& grid, int i, int j, int m, int n) {
-        queue<pair<int, int>> q; //stk okay ...
+        queue<pair<int, int>> q; 
         q.push({i, j});
         int dir[4][2] = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
         while (!q.empty()) {
@@ -38,3 +38,4 @@ public:
         return cnt;
     }
 };
+//这种写法改写了grid的值，但是对于这种多次bfs的情况应该怎么设置visited?
