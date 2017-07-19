@@ -1,31 +1,29 @@
 class Solution {
 public:
-//BFS
     bool hasPath(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
-        if (maze.empty())
-            return true; // or false?
+        if(maze.empty() || start.empty() || destination.empty())
+            return false;
         int m = maze.size(), n = maze[0].size();
+        vector<vector<int>> dirs = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
         vector<vector<bool>> visited(m, vector<bool>(n, false));
         queue<pair<int, int>> q;
         q.push({start[0], start[1]});
         visited[start[0]][start[1]] = true;
-        vector<vector<int>> dirs{{0,-1}, {-1,0}, {0,1}, {1,0}};
-        while (!q.empty()) {
-            auto t = q.front();
+        while(!q.empty()) {
+            auto p = q.front();
             q.pop();
-            if (t.first == destination[0] && t.second == destination[1])
+            if(p.first == destination[0] && p.second == destination[1])
                 return true;
-            for (auto d : dirs) {
-                int x = t.first, y = t.second;  
-                while (x >= 0 && x < m && y >= 0 && y < n && maze[x][y] == 0) {//original x y is also a 0, otherwise wont be in the q
+            for(auto d : dirs) {
+                int x = p.first;
+                int y = p.second;
+                while(x + d[0] >= 0 && x + d[0] < m && y + d[1] >= 0 && y + d[1] < n && maze[x + d[0]][y + d[1]] == 0) {
                     x += d[0];
-                    y += d[1];
+                    y += d[1];//keep rolling
                 }
-                x -= d[0];
-                y -= d[1];//滚过头了
-                if (!visited[x][y]) {
-                    q.push({x, y});
+                if(!visited[x][y]) {
                     visited[x][y] = true;
+                    q.push({x, y});
                 }
             }
         }
