@@ -21,7 +21,7 @@ public:
         if (k < 0) return 0;
         sort(nums.begin(), nums.end());
         int cnt = 0, i = 0, n = nums.size(), j = n - 1;
-        while (i <= j) { //to enter else
+        while (i <= j) { //to enter else! very important
             if (nums[j] - nums[i] > k)
                 --j;
             else { //== <可忽略
