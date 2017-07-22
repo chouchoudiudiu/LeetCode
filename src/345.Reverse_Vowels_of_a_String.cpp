@@ -11,3 +11,7 @@ public:
         return s;
     }
 };
+
+/*
+s.find_last_of When pos is specified, the search only includes characters at or before position pos, ignoring any possible occurrences after pos.
+*/
