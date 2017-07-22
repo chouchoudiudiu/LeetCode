@@ -17,7 +17,7 @@ public:
         }
         if (!fast) //if the node to be deleted is the head, special process, including n == 1 case
             return head->next; 
-        while (slow->next && fast->next) {// condition
+        while(fast && fast->next) {// condition
             slow = slow->next;
             fast = fast->next;
         }
