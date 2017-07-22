@@ -17,3 +17,10 @@ public:
         return maxLen;
     }
 };
+
+
+or
+           while(distinct > 2) {
+                if(--cnt[s[j++]] == 0)
+                    --distinct;
+            }
