@@ -19,7 +19,7 @@ public:
                         res = dict < res ? dict : res;
                     else 
                         res = dict;
-                    maxLen = max(maxLen, n);
+                    maxLen = n;
                 }
             }
         }
