@@ -24,7 +24,7 @@ public:
             }
             curr = curr->next;
         }
-        q->next = NULL;
+        q->next = NULL; //!important
         p->next = dummy2->next;
         return dummy1->next;
     }
