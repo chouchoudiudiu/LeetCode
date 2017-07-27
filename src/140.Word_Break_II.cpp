@@ -1,34 +1,31 @@
 class Solution {
 public:
-    void dfs(string s, unordered_set<string>& dict, string output, int index, vector<string>& res, vector<bool>& dp){
-        if (index == s.length()) {
-            output.pop_back(); //remove the last " "
-            res.push_back(output);
+    void helper(string s, unordered_set<string>& dict, string out, int idx, vector<string>& res, vector<bool>& dp) {
+        if(idx == s.length()) {
+            out.pop_back(); // remove the last " "
+            res.push_back(out);
         }
-        for (int i  = index; i < s.length(); ++i) {
-            string tmp = s.substr(index, i - index + 1);
-            if (dict.find(tmp) != dict.end() && dp[i + 1]) { //otherwise no need to check dfs(i+1)
-                tmp = output + tmp + ' ';
+        for(int i = idx; i < s.length(); ++i) {
+            string tmp = s.substr(idx, i - idx + 1);
+            if(dict.find(tmp) != dict.end() && dp[i]) {  //otherwise no need to check dfs(i+1)
                 int size = res.size();
-                dfs(s, dict, tmp, i + 1, res, dp); //pass tmp in deeper dfs, output didn't change
-                if(res.size() == size) //no solution found
-                    dp[i + 1] = false; 
+                helper(s, dict, out + tmp + " ", i + 1, res, dp); //i + 1 not idx + 1
+                if(res.size() == size)//no solution found
+                    dp[i] = false;
             }
         }
     }
-    
     vector<string> wordBreak(string s, vector<string>& wordDict) {
+        if(s.empty() || wordDict.empty())
+            return {};
         vector<string> res;
-        if (s.empty() || wordDict.empty())
-            return res;
-        vector<bool> dp (s.length() + 1, true); //initialized as true
-        string output;
+        vector<bool> dp(s.length(), true);
         unordered_set<string> dict(wordDict.begin(), wordDict.end());
-        dfs(s, dict, output, 0, res, dp);
+        string out;
+        helper(s, dict, out, 0, res, dp);
         return res;
     }
 };
-
 
 //这里加上一个possible数组，如同WordBreak I里面的DP数组一样，用于记录区间拆分的可能性
 //Possible[i] = true 意味着 [i,n]这个区间上有解*/
