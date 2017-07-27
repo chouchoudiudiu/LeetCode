@@ -35,3 +35,9 @@ public:
         return cnt;
     }
 };
+
+
+       if(len >= m && len <= n)
+            ++cnt;
+        if(len == n)
+            return cnt;
