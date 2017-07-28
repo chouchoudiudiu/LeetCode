@@ -20,3 +20,6 @@ public:
         return res;
     }
 };
+
+
+//////////////solution 1 is great too
