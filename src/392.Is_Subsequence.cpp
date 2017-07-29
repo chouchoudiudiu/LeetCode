@@ -23,20 +23,19 @@ If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you wan
 
 class Solution {
 public:
-//greedy 只要找到第一个就可以
     bool isSubsequence(string s, string t) {
         vector<vector<int>> m(26);
         //add indexes of each chars in t
-        for (int i = 0; i < t.size(); ++i) {
+        for(int i = 0; i < t.size(); ++i)
             m[t[i] - 'a'].push_back(i);
-        }
         //check if each char in s is in legal place
-        int index = -1;
-        for (int i = 0; i < s.size(); ++i) {
-            auto iter = upper_bound(m[s[i] - 'a'].begin(), m[s[i] - 'a'].end(), index);
-            if (iter == m[s[i] - 'a'].end())    
+        int idx = 0;
+        for(int i = 0; i < s.size(); ++i) {
+            int c = s[i] - 'a';
+            auto iter = lower_bound(m[c].begin(), m[c].end(), idx);
+            if(iter == m[c].end())
                 return false;
-            index = *iter; //下一个字母出现的位置应该*大于*之
+            idx = *iter + 1;
         }
         return true;
     }
