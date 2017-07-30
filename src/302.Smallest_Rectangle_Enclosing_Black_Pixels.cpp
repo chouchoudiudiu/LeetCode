@@ -27,3 +27,5 @@ public:
     }
 //oneToZero 0 1找到1的位置（low往右跳过），反之， 1 0 找到了0的位置（low 往右跳过）
 }; 
+
+//right and bottom 都是要多1，所以最后是(right - left) * (bottom - top);
