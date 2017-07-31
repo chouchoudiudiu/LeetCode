@@ -9,28 +9,28 @@
 class Solution {
 public:
     struct comp {
-        bool operator() (const ListNode* a, const ListNode* b) {
-            return a->val > b->val;
+        bool operator()(const ListNode* a, const ListNode* b) {
+            return a->val > b->val;      
         }
     };
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if (lists.empty()) return NULL;
-        priority_queue<ListNode*, vector<ListNode*>, comp> pq;
+        priority_queue<ListNode*, vector<ListNode*>, comp> pq; //minheap
         ListNode* dummy = new ListNode(0);
-        ListNode* head = dummy;
-        for (auto l:lists) {
-            if (l) //not null
-                pq.push(l);//head of each list
+        ListNode* node = dummy;
+        for(auto l : lists) {
+            if(l) 
+                pq.push(l);
         }
-        while (!pq.empty()) {
-            ListNode* node = pq.top();
+        while(!pq.empty()) {
+            ListNode* tmp = pq.top();
             pq.pop();
-            dummy->next = node;
-            dummy = node;
-            if (node->next) //check not null
-                pq.push(node->next);
+            node->next = tmp;
+            node = node->next;
+            if(tmp->next) {
+                pq.push(tmp->next);
+                tmp = tmp->next;
+            }
         }
-        
-        return head->next;
+        return dummy->next;
     }
 };
