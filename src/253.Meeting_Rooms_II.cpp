@@ -21,17 +21,12 @@ public:
         }
         sort(starts.begin(), starts.end());
         sort(ends.begin(), ends.end());
-        int i = 0, j = 0, room = 0;
-        while (i < n) {
-            if (starts[i] > ends[j]) //room released, the room can immediately start a new meeting
-                ++j;
-            else if (starts[i] < ends[j]) //need parallel rooms
-                ++i;
-            else {
-                ++i;
-                ++j;
-            }
-            room = max(room, i - j);
+        int room = 0;
+        for(int i = 0, j = 0; i < n; ++i){
+            if (starts[i] < ends[j]) //need parallel rooms
+                ++room;
+            else 
+                ++j; //room released, the room can immediately start a new meeting
         }
         return room;
     }
