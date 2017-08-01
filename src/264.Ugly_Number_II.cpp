@@ -28,3 +28,28 @@ public:
 (1) 1×2, 2×2, 3×2, 4×2, 5×2, …
 (2) 1×3, 2×3, 3×3, 4×3, 5×3, … //3*2与2*3都等于6 == minVal，p2++, p3++
 (3) 1×5, 2×5, 3×5, 4×5, 5×5, …*/
+
+class Solution {
+public:
+    int nthUglyNumber(int n) {
+        priority_queue<long long, vector<long long>, greater<long long>> pq; //minheap
+        pq.push(1);
+        while(--n > 0) {
+            auto tmp = pq.top();
+            pq.pop();
+            while(!pq.empty() && pq.top() == tmp)
+                pq.pop();
+            pq.push(tmp*2);
+            pq.push(tmp*3);
+            pq.push(tmp*5);
+        }
+        return pq.top();
+    }
+};
+
+/*
+            pq.push(res*2);
+            pq.push(res*3);
+            pq.push(res*5);
+            can have duplicate...
+*/
