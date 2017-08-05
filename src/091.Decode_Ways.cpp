@@ -16,3 +16,23 @@ public:
 };
 
 //could reduce space further
+class Solution {
+public:
+    int numDecodings(string s) {
+        if(s.empty() || s[0] == '0')
+            return 0;
+        int c1 = 1, c2 = 1; // c2: decode ways of s[i-2] , c1: decode ways of s[i-1] 
+        for(int i = 1; i < s.length(); ++i) {
+            if(s[i] == '0')
+                c1 = 0; //zero voids ways of the last because zero cannot be used separately
+            if(s[i - 1] == '1' || s[i - 1] == '2' && s[i] <= '6') {
+                c1 = c1 + c2; // possible two-digit letter, so new r1 is sum of both while new r2 is the old r1
+                c2 = c1 - c2; //old c1
+            }
+            else
+                c2 = c1; // one-digit letter, no new way added
+        } 
+        return c1;
+    }
+};
+//'12'
