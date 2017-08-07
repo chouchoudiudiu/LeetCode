@@ -30,7 +30,12 @@ public:
     unordered_map<int, list<pair<int, int>>::iterator> m;
     int cap;
 };
-
+//splice
+           pair<int, int> hit = *(iter->second);
+           cache.erase(iter->second);
+           cache.push_front(hit);
+           iter->second = cache.begin();
+           return hit.second;
 /**
  * Your LRUCache object will be instantiated and called as such:
  * LRUCache obj = new LRUCache(capacity);
