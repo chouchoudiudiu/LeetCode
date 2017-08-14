@@ -10,8 +10,6 @@
 class Solution {
 public:
     int maxPathSum(TreeNode* root) {
-        if (!root)  
-            return 0;
         int maxSum = INT_MIN;
         helper(root, maxSum);
         return maxSum;
