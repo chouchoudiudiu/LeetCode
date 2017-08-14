@@ -24,3 +24,32 @@ public:
         return res;
     }
 };
+
+
+/////
+class Solution {
+public:
+    vector<int> rightSideView(TreeNode* root) {
+        vector<int> res;
+        if(!root)
+            return res;
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()) {
+            int sz = q.size();
+            for(int i = 0; i < sz; ++i) {
+                auto p = q.front();
+                q.pop();
+                if(i == 0) //first element
+                    res.push_back(p->val);
+                if(p->right)
+                    q.push(p->right);
+                if(p->left)
+                    q.push(p->left);
+            }
+        }
+        return res;
+    }
+};
+//put right node first
+//can be easily done using dfs actually
