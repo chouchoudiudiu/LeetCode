@@ -328,7 +328,7 @@
 343 | [Integer Break]( https://leetcode.com/problems/integer-break/#/description) | [Math](./src/343.Integer_Break.cpp) |   O(1) | O(1)   | Medium	|   |    ||
 344 | [Reverse String]( https://leetcode.com/problems/reverse-string/#/description)| [String](./src/344.Reverse_String.cpp)|   O(n) | O(1)   | Easy	 |  |     ||
 345 | [Reverse Vowels of a String]( https://leetcode.com/problems/reverse-vowels-of-a-string/#/description)| [String](./src/345.Reverse_Vowels_of_a_String.cpp) |   O(n)  | O(1)   | Easy	|  |      ||
-346 | [Moving Average from Data Stream  ]( https://leetcode.com/problems/moving-average-from-data-stream/#/description) | [Queue](./src/339.Nested_List_Weight_Sum.cpp) |   O(1)| O(n)   | Easy	| |     ||
+346 | [Moving Average from Data Stream  ]( https://leetcode.com/problems/moving-average-from-data-stream/#/description) | [Queue](./src/346.Moving_Average_from_Data_Stream.cpp) |   O(1)| O(n)   | Easy	| |     ||
 347 | [Top K Frequent Elements ]( https://leetcode.com/problems/top-k-frequent-elements/#/description)| [Heap](./src/347.Top_K_Frequent_Elements.cpp)  |  O(n) | O(n)  | Medium	|  |    ||
 348 | [Design Tic-Tac-Toe]( https://leetcode.com/problems/design-tic-tac-toe/#/description)| [Design](./src/348.Design_Tic_Tac_Toe.cpp) |O(1) | O(n) | Medium	 | |  ||
 349 | [Intersection of Two Arrays]( https://leetcode.com/problems/intersection-of-two-arrays/#/description)| [Hash Table](./src/349.Intersection_of_Two_Arrays.cpp) |  O(n)   |  O(n) | Easy| |   ||
