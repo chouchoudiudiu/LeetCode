@@ -13,11 +13,11 @@ public:
         return helper(root, false);
     }
     int helper(TreeNode* root, bool isLeft) {
-        if (!root)
+        if(!root)
             return 0;
-        if (!root->left && !root->right) 
-            return isLeft ? root->val : 0;
         int sum = 0;
+        if(!root->left && !root->right && isLeft)
+            sum += root->val;
         sum += helper(root->left, true);
         sum += helper(root->right, false);
         return sum;
