@@ -15,7 +15,7 @@ public:
         if(print || (!root->left && !root->right))
             res.push_back(root->val);
         printLeftEdges(root->left, print, res);
-        printLeftEdges(root->right, print && !root->left, res);
+        printLeftEdges(root->right, print && !root->left, res); //note
     }
     void printRightEdges(TreeNode* root, bool print, vector<int>& res) {
         if(!root)
@@ -23,7 +23,7 @@ public:
         printRightEdges(root->left, print && !root->right, res);
         printRightEdges(root->right, print, res);
         if(print || (!root->left && !root->right))
-            res.push_back(root->val);
+            res.push_back(root->val); //post order!!!!!!!!!!!!
     }
     vector<int> boundaryOfBinaryTree(TreeNode* root) {
         vector<int> res;
@@ -35,3 +35,6 @@ public:
         return res;
     }
 };
+
+//http://articles.leetcode.com/print-edge-nodes-boundary-of-binary/
+//shouldn't make the assumption that all left-most nodes could only be reached by following each node’s left branch (similar for right-most nodes).
