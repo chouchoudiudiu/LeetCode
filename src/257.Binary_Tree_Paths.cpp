@@ -9,28 +9,20 @@
  */
 class Solution {
 public:
-    void helper(TreeNode* root, vector<int> path, vector<string>& res) {
-        if (!root)
+    void helper(TreeNode* root, vector<string>& res, string path) {
+        if(!root)
             return;
-        path.push_back(root->val);
-        if (!root->left && !root->right) {
-            string s;
-            for (int i = 0; i < path.size() - 1; ++i)
-                s += to_string(path[i]) + "->";
-            s += to_string(path[path.size() - 1]);
-            res.push_back(s);
-            return;
+        path += to_string(root->val) + "->";
+        if(!root->left && !root->right) {
+            res.push_back(path.substr(0, path.size() - 2)); //->);
         }
-        helper(root->left, path, res);
-        helper(root->right, path, res);
+        helper(root->left, res, path);
+        helper(root->right, res, path);
     }
-    
     vector<string> binaryTreePaths(TreeNode* root) {
-        if (!root)
-            return {};
         vector<string> res;
-        vector<int> path;
-        helper(root, path, res);
+        string path;
+        helper(root, res, path);
         return res;
     }
 };
