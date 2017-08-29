@@ -21,6 +21,7 @@ public:
         
         if (isLeft && isRight) { //further check root
             if ((!root->left || root->val > left_mx) && (!root->right || root->val < right_mn)) {
+                ////大于左子树的最大值，小于右子树的最小值
                 cnt = left_n + right_n + 1;
                 mn = root->left ? left_mn : root->val; 
                 mx = root->right ? right_mx : root->val;
