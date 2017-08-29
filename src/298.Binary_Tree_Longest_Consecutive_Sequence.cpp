@@ -9,6 +9,30 @@
  */
 class Solution {
 public:
+    void helper(TreeNode* root, int prev, int len, int& res) {
+        if(!root)
+            return;
+        if(root->val == prev + 1)
+            ++len;
+        else
+            len = 1;
+        res = max(res, len);
+        helper(root->left, root->val, len, res);
+        helper(root->right, root->val, len, res);
+        //3个中最大长度，可以继续，可以以该节点新开始
+    }
+    int longestConsecutive(TreeNode* root) {
+        if(!root)
+            return 0;
+        int res = 0;
+        helper(root, root->val, 0, res);
+        return res;
+    }
+};
+//preorder from parent to child
+
+class Solution {
+public:
     int search(TreeNode* root, TreeNode* parent, int len) {
         if (!root)
             return 0;
