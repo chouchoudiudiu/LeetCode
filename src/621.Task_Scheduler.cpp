@@ -31,7 +31,7 @@ public:
 };
 
 //358. Rearrange String k Distance Apart
-/*
+/* 因为总是可以加上idle，所以不会无解
 The idea is:
 To work on the same task again, CPU has to wait for time n, therefore we can think of as if there is a cycle, of time n+1, regardless whether you schedule some other task in the cycle or not.
 To avoid leave the CPU with limited choice of tasks and having to sit there cooling down frequently at the end, it is critical the keep the diversity of the task pool for as long as possible.
