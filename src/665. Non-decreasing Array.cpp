@@ -34,3 +34,6 @@ Example:
          4
  1 1 2[4]2 3   in this case lower a[i] is better;
  (/)
+将来有时间还可以看看 第二个链接lintcode允许重复的LIS
+http://www.csie.ntnu.edu.tw/~u91029/LongestIncreasingSubsequence.html
+http://www.cnblogs.com/lishiblog/p/4190936.html
