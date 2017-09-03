@@ -9,18 +9,23 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int carry = 0, sum = 0;
+        if(!l1)
+            return l2;
+        if(!l2)
+            return l1;
         ListNode* dummy = new ListNode(0);
-        ListNode* p = dummy;
-        while (l1 || l2 || carry > 0)
-        {
-            sum = (l1?l1->val : 0) + (l2?l2->val : 0) + carry;    
-            ListNode* node = new ListNode(sum%10);
+        ListNode* node = dummy;
+        int carry = 0;
+        while(l1 || l2 || carry) {
+            int sum = carry + (l1 ? l1->val : 0) + (l2 ? l2->val : 0);
+            ListNode* p = new ListNode(sum%10);
+            node->next = p;
+            node = node->next;
             carry = sum/10;
-            l1 = l1 ? l1->next : NULL;
-            l2 = l2 ? l2->next : NULL;       
-            p->next = node;
-            p = node;
+            if(l1)
+                l1 = l1->next;
+            if(l2)
+                l2 = l2->next;
         }
         return dummy->next;
     }
