@@ -10,8 +10,6 @@ public:
     }
 };
 
-
-
 class Solution {
 public:
     string convertToTitle(int n) {
@@ -22,12 +20,13 @@ public:
 class Solution {
 public:
     string convertToTitle(int n) {
-        string s(1, (n - 1)%26 + 'A'); //'A' -> 1
-        n = (n - 1)/26;
-        while (n) {
-            s = char((n - 1)%26 + 'A') + s; //char
+        string s;
+        while(n > 0) {
+            s = char((n - 1)%26 + 'A') + s;
             n = (n - 1)/26;
         }
         return s;
     }
 };
+
+//26
