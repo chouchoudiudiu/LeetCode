@@ -30,7 +30,7 @@ public:
             sum += nums[i];
             for(auto v : m) {
                 if(i - v.second >= 2) {
-                   if((sum == v.first && k == 0 ) || (k != 0 && (sum - v.first)%k == 0))
+                   if((sum == v.first && k == 0 ) || (k != 0 && (sum - v.first)%k == 0)) //特别注意k = 0, 注意 sum == v.first, 不是m.find
                         return true;
                 }
             }
@@ -42,5 +42,8 @@ public:
 };
 /*
 [23,2,6,4,7]
+0
+
+[0,1,0]
 0
 */
