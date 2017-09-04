@@ -15,17 +15,15 @@ public:
             int val2 = num2[i] - '0';
             for (int j = 0; j < len1; ++j) {
                 int val1 = num1[j] - '0';
-                int tmp = res[i + j] - '0' + val1*val2 + carry;
+                int tmp = res[i + j] - '0' + val1*val2 + carry; //注意由之前算过的值
                 res[i + j] = tep%10 + '0';
                 carry = tmp/10;
             }
             if (carry > 0)
-                res[len1 + i] = carry + '0'; //inside!
+                res[len1 + i] = carry + '0'; //inside! 注意是len1 + i
         }
-
-        reverse(res.begin(), res.end());
-        if (res[0] == '0') //no leading zero
-            res.erase(res.begin());
-        return res;
+        if(res.back() == '0')
+            res.pop_back();
+        return string(res.rbegin(), res.rend());
     }
 };
