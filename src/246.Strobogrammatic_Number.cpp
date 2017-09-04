@@ -13,14 +13,13 @@ public:
 /*
 class Solution {
 public:
+    bool helper(char c1, char c2) {
+        return (c1 == '0' && c2 == '0') || (c1 == '1' && c2 == '1') || (c1 == '8' && c2 == '8') || (c1 == '6' && c2 == '9') || (c1 == '9' &&                c2 == '6');
+    }
     bool isStrobogrammatic(string num) {
-        int n = num.length();
-        for (int i = 0; i <= n/2; ++i) {
-            if (num[i] != '0' && num[i] != '1' && num[i] != '8' && num[i] != '6' && num[i] != '9')
-                return false;
-            if (num[i] != num[n - 1 - i] && num[i] != '6' && num[i] != '9')
-                return false;
-            if ((num[i] == '6' && num[n - 1 - i] != '9') || (num[i] == '9' && num[n - 1 - i] != '6') )
+        int l = 0, r = num.length() - 1;
+        while(l <= r) {
+            if(!helper(num[l++], num[r--]))
                 return false;
         }
         return true;
