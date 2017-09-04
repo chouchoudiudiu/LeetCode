@@ -1,16 +1,18 @@
 class Solution {
 public:
     int minMoves2(vector<int>& nums) {
-        int move = 0;
-        nth_element(nums.begin(), nums.begin() + nums.size()/2, nums.end());
-        int median = nums[nums.size()/2];
+        int n = nums.size();
+        auto it = nums.begin() + n/2;
+        nth_element(nums.begin(), it, nums.end());
+        int median = *it, moves = 0;
         for(auto v : nums) {
-            move += abs(v - median);
+            moves += abs(v - median);
         }
-        return move;
+        return moves;
     }
 };
 
+//find median
 
 class Solution {
 public:
