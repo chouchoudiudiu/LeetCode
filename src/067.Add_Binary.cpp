@@ -8,6 +8,6 @@ public:
             s = to_string(sum%2) + s;
             carry = sum/2;
         }
-        return carry > 0 ? "1" + s : s;
+        return carry > 0 ? "1" + s : s; // '1' + s is also okay
     }
 };
