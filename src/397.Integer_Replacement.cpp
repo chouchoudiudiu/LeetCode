@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(long n) {
+    int helper(long n) { //can't use int, 2147483647
         if(n == 1)
             return 0;
         if(n%2 == 0)
