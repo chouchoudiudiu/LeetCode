@@ -1,6 +1,29 @@
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
+        if(grid.empty())
+            return 0;
+        int m = grid.size(), n = grid[0].size();
+        int ones = 0, connect = 0;
+        for(int i = 0; i < m; ++i)
+            for(int j = 0; j < n; ++j) {
+                if(grid[i][j] == 1) {
+                    ++ones;
+                    if(i > 0 && grid[i - 1][j] == 1) ++connect;
+                    if(j > 0 && grid[i][j - 1] == 1) ++connect;
+                }
+            }
+        return ones*4 - connect*2;
+    }
+};
+
+/*
+find how many 1 in the map. If without the consideration of surrounding cells, the total perimeter should be the total amount of 1 times 4.
+find how many cell walls that connect with both lands. We need to deduct twice of those lines from total perimeter
+*/
+class Solution {
+public:
+    int islandPerimeter(vector<vector<int>>& grid) {
 //每个1有4个边，7*4，如果这个1有为1的邻居，每有一个减一
         if (grid.empty())
             return 0;
