@@ -36,3 +36,31 @@ public:
         return res;
     }
 };
+
+
+class Solution {
+public:
+    vector<vector<int>> verticalOrder(TreeNode* root) {
+        vector<vector<int>> res;
+        if(!root)
+            return res;
+        map<int, vector<int>> m; //map (key sorted), 从左到右，vertically, -3, -2, -1, 0, 1, 2, 3 (verID, value)
+        queue<pair<int, TreeNode*>> q; //verID
+        q.push({0, root}); //center
+        while(!q.empty()) {
+            int verID = q.front().first;
+            TreeNode* node = q.front().second;
+            m[verID].push_back(node->val);
+            q.pop();
+            if(node->left)
+                q.push({verID - 1, node->left});
+            if(node->right)
+                q.push({verID + 1, node->right});
+        }
+        
+        for(auto v : m) {
+            res.push_back(v.second); //v.second is a vector of int
+        }
+        return res;
+    }
+};
