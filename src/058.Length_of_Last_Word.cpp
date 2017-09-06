@@ -1,6 +1,25 @@
 class Solution {
 public:
     int lengthOfLastWord(string s) {
+        bool inWord = false;
+        int len = 0, start = -1, i = 0;
+        for(i = 0; i < s.length(); ++i) {
+            if(inWord && s[i] == ' ') {
+                len = i - start;
+                inWord = false;
+            }
+            if(!inWord && s[i] != ' ') {
+                start = i;
+                inWord = true;
+            }
+        }
+        return inWord ? (i - start) : len;
+    }
+};
+
+class Solution {
+public:
+    int lengthOfLastWord(string s) {
         int i = s.find_first_not_of(" ");
         int n = s.length(), lastWordLen = 0, start = i;
         bool inWord = true;
