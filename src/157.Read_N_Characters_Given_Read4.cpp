@@ -9,16 +9,14 @@ public:
      * @return    The number of characters read
      */
     int read(char *buf, int n) {
-        int res = 0;
-        while(res < n) { //<= 可能除不尽
-            int cnt = read4(buf + res);
-            if (cnt < 4) {
-                res += cnt;
-                break;
-            }
-            res += cnt;
+        int cnt = 0;
+        while(cnt < n) {
+            int read = read4(buf + cnt);
+            cnt += min(read, n - cnt);
+            if(read < 4)
+                return cnt;
         }
-        return min(res, n);
+        return n;
     }
 };
 
