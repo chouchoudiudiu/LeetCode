@@ -17,7 +17,7 @@ public:
             if (n1 > n2)
                 return 1;
             if (n1 < n2)
-                return -1;
+                return -1; //if equal keep going
         }
         return 0;
     }
