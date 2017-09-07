@@ -9,7 +9,8 @@ public:
             else {
                 if (!stk.empty() && s[stk.top()] == '(') {
                     stk.pop();
-                    maxLen = stk.empty() ? i + 1 : max(maxLen, i - stk.top());
+                    maxLen = max(maxLen, stk.empty() ? i + 1 : i - stk.top());
+                    //maxLen = stk.empty() ? i + 1 : max(maxLen, i - stk.top()); //both okay
                 }
                 else
                     stk.push(i);//last occurrence of not matched ')'
