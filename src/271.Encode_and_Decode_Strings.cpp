@@ -22,7 +22,7 @@ public:
         return strs;
     }
 };
-
+//len1#real1len2#real2
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.decode(codec.encode(strs));
