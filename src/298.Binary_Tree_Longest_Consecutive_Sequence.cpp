@@ -19,13 +19,13 @@ public:
         res = max(res, len);
         helper(root->left, root->val, len, res);
         helper(root->right, root->val, len, res);
-        //3个中最大长度，可以继续，可以以该节点新开始
+        //3个中最大长度，可以继续，可以以该节点新开始, res放最后也可以
     }
     int longestConsecutive(TreeNode* root) {
         if(!root)
             return 0;
         int res = 0;
-        helper(root, root->val, 0, res);
+        helper(root, root->val, 0, res); //len表示到当前节点结束的local max
         return res;
     }
 };
