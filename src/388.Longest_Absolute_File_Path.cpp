@@ -1,6 +1,27 @@
 class Solution {
 public:
     int lengthLongestPath(string input) {
+        int res = 0;
+        istringstream ss(input);
+        unordered_map<int, int> m{{0, 0}};
+        string line = "";
+        while (getline(ss, line)) {
+            int level = line.find_last_of('\t') + 1;
+            int len = line.substr(level).size();
+            if (line.find('.') != string::npos) {
+                res = max(res, m[level] + len);
+            } else {
+                m[level + 1] = m[level] + len + 1; //prepare for next level (as part of it, like base, '/' as + 1)
+            }
+        }
+        return res;
+    }
+};
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+class Solution {
+public:
+    int lengthLongestPath(string input) {
         vector<string> tokens = getTokens(input);
         int n = tokens.size();
         vector<int> lens(n + 1, 0); //more than necessary...this is the maxsize of lens depth
@@ -32,5 +53,51 @@ public:
             res.push_back(s);
         }
         return res;
+    }
+};
+///////////////////////////////////////////////////////////
+
+class Solution {
+public:
+    int lengthLongestPath(string input) {
+        vector<string> tokens = getTokens(input);
+        int n = tokens.size(), maxLen = 0;
+        vector<int> lens(n + 1, 0); //more than necessary...this is the maxsize of lens depth
+        vector<string> strs(n + 1, "");
+        string tmp, longest;
+        for(auto v : tokens) {
+            auto pos = v.find_last_of('\t');
+            int level = (pos == string::npos) ? 0 : pos + 1;
+            int vsize = v.size();
+            if(v.find('.') == string::npos) {
+                if(level == 0) {
+                    lens[level] = v.size();
+                    strs[level] = v;
+                }
+                else {
+                    lens[level] = lens[level - 1] + vsize - level;
+                    strs[level] = v.substr(level);
+                }
+            }   
+            else { //end of a file
+                if(level == 0) {
+                    if(vsize > maxLen) {
+                        maxLen = vsize;
+                        longest = v;
+                    }
+                }
+                else {
+                    if(lens[level - 1] + vsize > maxLen) {
+                        maxLen = lens[level - 1] + vsize;
+                        for(int i = 0; i <= level - 1; ++i)
+                            tmp += strs[i] + '/';
+                        tmp += v.substr(level);
+                        longest = tmp;
+                        tmp = "";
+                    }
+                }
+            }
+        }
+        return maxLen;
     }
 };
