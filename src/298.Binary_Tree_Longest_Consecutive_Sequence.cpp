@@ -25,7 +25,7 @@ public:
         if(!root)
             return 0;
         int res = 0;
-        helper(root, root->val, 0, res); //len表示到当前节点结束的local max
+        helper(root, root->val, 0, res); //len表示到当前节点结束的local max, root可能为空，所以先设成0
         return res;
     }
 };
