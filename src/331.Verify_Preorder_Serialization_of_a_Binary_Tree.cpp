@@ -16,7 +16,7 @@ public:
         return diff == 0;
     }
 };
-
+// no need to store! just process on the fly
 /*
 假设我们在根据先序遍历结果建立这棵树。建立过程中，用变量diff记录总的出度与入度之差(diff=outdegree-indegree)。读入下一个节点时，将diff减一，因为该节点具有一个入度。如果该节点非空，那么将diff加二，因为该节点具有两个出度。如果该先序序列是正确的话，那么diff不可能为负且结果应该为0.
 在二叉树中，如果把空节点也当做叶子节点考虑的话，有如下性质：
