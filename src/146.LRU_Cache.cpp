@@ -10,7 +10,7 @@ public:
             return -1;
         else {  
             cache.splice(cache.begin(), cache, it->second); // void splice (iterator position, list& x, iterator i);
-            return it->second->second;
+            return it->second->second; //直接改变it->second的具体的值
         }
     }
     
