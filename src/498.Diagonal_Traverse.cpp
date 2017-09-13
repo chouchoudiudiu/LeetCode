@@ -19,3 +19,5 @@ public:
         return res;
     }
 };
+
+//if的顺序也要注意，不可以先《0
