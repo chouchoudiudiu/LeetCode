@@ -22,5 +22,5 @@ public:
 //need while condition to go out loop, graph动态变化中;  how about if?
 //[["JFK","KUL"],["JFK","NRT"],["NRT","JFK"]] if fails ["JFK","KUL"] ! KUL not flying anywhere else
 //while. otherwise may visit a set that has already been erased (empty, could have been erased in deeper dfs)
-//topological sort, 之前是要找遍历所有顶点，现在要遍历所有的边
+//topological sort, 之前是要找遍历所有顶点，现在要遍历所有的边 (找到一条经过所有边的路径)
 //multiset允许重复插入元素，且自动排序
