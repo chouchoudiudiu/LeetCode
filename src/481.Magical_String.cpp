@@ -20,6 +20,8 @@ public:
     }
 };
 /*
+1 22 11 2 1 22 1 22 11 2 11 22
+1  2  2 1 1  2 1  2  2 1  2  2
 http://bookshadow.com/weblog/2017/01/08/leetcode-magical-string/
 令魔法字符串ms = '122'，维护指针p，初始令p = 2
 若ms[p] == '1' 则向ms追加1个与ms末尾元素不同的字符
