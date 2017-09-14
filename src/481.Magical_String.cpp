@@ -9,7 +9,7 @@ public:
             int nextVal = 3 - a[j]; //j: last index
             a[++j] = nextVal;
             if (a[i] == 2)
-                a[++j] = nextVal;
+                a[++j] = nextVal; //默认加一次，如果是2，则多加一次
         }
         int res = 0;
         for (int i = 0; i < n; ++i) {
