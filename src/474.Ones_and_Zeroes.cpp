@@ -24,3 +24,9 @@ public:
 /*
 choosing to put this string in any of the subset possible by using the previous strings traversed so far will impact the element denoted by dp[i][j] for i and j satisfying zeros<=i<=m, ones<=j<=n 这里面才有足够的0和1可以放 profitable?
 */
+  // memo[i][j] = the max number of strings that can be formed with i 0's and j 1's
+    // from the first few strings up to the current string s
+    // Catch: have to go from bottom right to top left
+    // Why? If a cell in the memo is updated(because s is selected),
+    // we should be adding 1 to memo[i][j] from the previous iteration (when we were not considering s)
+    // If we go from top left to bottom right, we would be using results from this iteration => overcounting
