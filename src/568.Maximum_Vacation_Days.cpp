@@ -38,4 +38,45 @@ public:
     }
 };
 
+class Solution {
+public:
+    int maxVacationDays(vector<vector<int>>& flights, vector<vector<int>>& days) {
+            int n = flights.size(), k = days[0].size();
+            vector<int> f(n, INT_MIN);
+            f[0] = 0;
+            for(int i = 0; i < k; ++i) {
+                vector<int> t(n, INT_MIN);
+                for(int v = 0; v < n; ++v)
+                    for(int u = 0; u < n; ++u) {
+                        if(u == v || flights[u][v] == 1)
+                            t[v] = max(t[v], f[u] + days[v][i]);
+                    }
+                f = t;
+            }
+        
+            return *max_element(f.begin(), f.end());
+    }
+};
+
 //can further reduce the space
+/*
+我们新建一个临时数组t，初始化为整型最小值，然后遍历每一个城市，对于每一个城市，我们遍历其他所有城市，看是否有飞机能直达当前城市，或者就是当前的城市，我们用dp[p] + days[i][j]来更更新dp[i]，当每个城市都遍历完了之后，我们将t整个赋值给dp，然后进行下一周的更新，最后只要在dp数组中找出最大值返回即可
+*/
+//can further reduce the space
+解题思路：
+动态规划（Dynamic Programming）
+
+dp[w][c]表示第w周选择留在第c个城市可以获得的最大总收益
+
+初始令dp[w][0] = 0, dp[w][1 .. c - 1] = -1
+
+当dp[w][c] < 0时，表示第c个城市在第w周时还不可达。
+状态转移方程：
+
+for w in (0 .. K)
+    for sc in (0 .. N)
+        if dp[w][sc] < 0:
+            continue
+        for tc in (0 .. N)
+            if sc == tc or flights[sc][tc] == 1:
+                dp[w + 1][tc] = max(dp[w + 1][tc], dp[w][sc] + days[tc][w])
