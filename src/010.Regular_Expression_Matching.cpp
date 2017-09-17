@@ -11,7 +11,7 @@ public:
                 return true;
             ++s;
         }
-        return isMatch(s, p + 2); //not match the first char; such as a... at*
+        return isMatch(s, p + 2); //not match the first char; such as a...   t*....
     } //s = 'ta' p = 'm*ta' or s = 'ttttta' p = m*ta bad but p = m*t*a works
     bool isMatch(string s, string p) {
         return isMatch(s.c_str(), p.c_str());       
