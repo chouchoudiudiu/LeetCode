@@ -25,7 +25,7 @@ public:
            reverse(nums.begin(), nums.end());
        else {
            reverse(nums.begin() + i + 1, nums.end());
-           int j = upperSearch(nums, nums[i], i, n - 1); //find the first number larger than nums[i]
+           int j = upperSearch(nums, nums[i], i + 1, n - 1); //find the first number larger than nums[i]
            swap(nums[i], nums[j]);
        }
     }
