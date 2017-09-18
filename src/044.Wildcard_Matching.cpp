@@ -15,8 +15,7 @@ https://simpleandstupid.com/category/leetcode/*/
             }
             else if ( j < p.length() && (p[j] == '*')) { //remember the last time it meets the *, of course matches are 
                 //satisifed before 
-                starPos = j;
-                j++; 
+                starPos = j++;
                 posInS = i;
             }
             else if ( starPos != -1 ) {//important step! restart the search!
