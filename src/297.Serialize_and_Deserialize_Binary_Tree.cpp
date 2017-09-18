@@ -47,3 +47,6 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
+How to store a general Binary Tree?
+A simple solution is to store both Inorder and Preorder traversals. This solution requires requires space twice the size of Binary Tree.
+We can save space by storing Preorder traversal and a marker for NULL pointers.
