@@ -26,10 +26,8 @@ public:
             pq.pop();
             node->next = tmp;
             node = node->next;
-            if(tmp->next) {
+            if(tmp->next) 
                 pq.push(tmp->next);
-                tmp = tmp->next;
-            }
         }
         return dummy->next;
     }
