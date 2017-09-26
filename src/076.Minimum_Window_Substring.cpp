@@ -9,7 +9,7 @@ public:
         }
         for (int begin = 0, end = 0; end < sLen; ++end) {
             if (needToFind[s[end]] == 0)
-                continue;
+                continue; //有无此句都可以
             ++hasFound[s[end]];
             if (hasFound[s[end]] <= needToFind[s[end]])
                 ++count;
