@@ -4,20 +4,20 @@ public:
         return x >= 0 && x <= m - 1 && y >= 0 && y <= n - 1;
     }
     void bfs(vector<vector<char>>& grid, int i, int j, int m, int n) {
-        queue<pair<int, int>> q; 
+        queue<pair<int, int>> q;
         q.push({i, j});
+        grid[i][j] = '2';
         int dir[4][2] = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
-        while (!q.empty()) {
-            int x = q.front().first;
-            int y = q.front().second;
+        while(!q.empty()) {
+            int r = q.front().first;
+            int c = q.front().second;
             q.pop();
-            grid[x][y] = '0';
-            for (int idx = 0; idx < 4; ++idx) {
-                int newx = x + dir[idx][0];
-                int newy = y + dir[idx][1];
-                if (isValid(newx, newy, m, n) && grid[newx][newy] == '1') {
-                    q.push({newx, newy});
-                    grid[newx][newy] = '0';
+            for(int k = 0; k < 4; ++k) {
+                int x = r + dir[k][0];
+                int y = c + dir[k][1];
+                if(isValid(x, y, m, n) && grid[x][y] == '1') {
+                    q.push({x, y});
+                    grid[x][y] = '2';
                 }
             }
         }
