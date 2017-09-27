@@ -6,7 +6,7 @@ public:
             int val = target - nums[i];
             if (m.count(val))
                 return {m[val], i}; //1 solution only
-            else
+            else //no need
                 m.insert({nums[i], i});
         }
         return {};
