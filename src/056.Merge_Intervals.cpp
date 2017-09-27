@@ -25,3 +25,6 @@ public:
         return res;
     }
 };
+
+
+//if discrete, such as [0, 0] [1, 2] => [0, 2]
