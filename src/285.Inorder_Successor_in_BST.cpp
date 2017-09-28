@@ -119,3 +119,29 @@ public:
         return NULL;
     }
 };
+
+
+/////
+class Solution {
+public:
+    bool inorder(TreeNode* root, TreeNode*& res, TreeNode* p, TreeNode*& prev) {
+        if(!root)
+            return false;
+        if(inorder(root->left, res, p, prev))
+            return true;
+        if(prev == p) {
+            res = root; //奇怪的是如果直接return的话会有错
+            return true;
+        }
+        prev = root;
+        if(inorder(root->right, res, p, prev))
+            return true;
+        return false;
+    }
+    
+    TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+        TreeNode* res = NULL, *prev = NULL;
+        inorder(root, res, p, prev);
+        return res;
+    }
+};
