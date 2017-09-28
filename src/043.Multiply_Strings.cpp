@@ -16,7 +16,7 @@ public:
             for (int j = 0; j < len1; ++j) {
                 int val1 = num1[j] - '0';
                 int tmp = res[i + j] - '0' + val1*val2 + carry; //注意由之前算过的值
-                res[i + j] = tep%10 + '0';
+                res[i + j] = tmp%10 + '0';
                 carry = tmp/10;
             }
             if (carry > 0)
