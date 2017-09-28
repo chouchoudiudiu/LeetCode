@@ -77,3 +77,45 @@ public:
         return res;
     }
 };
+
+
+O(N) iterative
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+        if(!p || !root)
+            return NULL;
+        stack<TreeNode*> stk;
+        TreeNode* node = root;
+        bool found = false;
+        while(!stk.empty() || node) {
+            if(node) {
+                stk.push(node);
+                node = node->left;
+            }
+            else {
+                TreeNode* q = stk.top();
+                stk.pop();
+                if(found)
+                    return q;
+                if(q == p)
+                    found = true;
+                node = q->right;
+                if(node) {
+                    stk.push(node);
+                    node = node->left;
+                }
+            }
+        }
+        return NULL;
+    }
+};
