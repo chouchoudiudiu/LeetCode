@@ -43,3 +43,22 @@ public:
         return pq.top();
     }
 };
+
+class Solution {
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+        priority_queue<int, vector<int>, greater<int>> pq;
+        for(auto v : nums) {
+            if(pq.size() < k)
+                pq.push(v);
+            else {
+                if(pq.top() < v) {
+                    pq.pop();
+                    pq.push(v);
+                }
+            }
+        }
+        return pq.top();
+    }
+};
+//use heap
