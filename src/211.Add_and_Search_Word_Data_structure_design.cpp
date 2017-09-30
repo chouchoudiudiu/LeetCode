@@ -49,7 +49,7 @@ public:
             return node->isWord;
         if (word[start] == '.') {
             for (int i = 0; i < 26; ++i) {
-                if (node->child[i] && search_recur(word, node->child[i], start + 1))
+                if (search_recur(word, node->child[i], start + 1))
                     return true;
             }
             return false; //if none of the child works
