@@ -2,7 +2,7 @@ class Solution {
 public:
     string UNDER20[20] = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
     string TENS[10] = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
-    string THOUSAND[4] = {"Thousand", "Million", "Billion"};
+    string THOUSAND[3] = {"Thousand", "Million", "Billion"};
     
     string numberToWords(int num) {
         if (num == 0)
