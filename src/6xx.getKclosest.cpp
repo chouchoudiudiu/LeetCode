@@ -1,5 +1,10 @@
 /*
 给定N个坐标Point，每个Point实例有x-坐标和y-坐标。题目要求函数返回离原点最近的k个坐标。
+思路：
+这道题和找第k大或第k小的题目的思路基本相同，就是在遍历所有Point的同时，维护一个size为k的max—heap，
+一旦发现size为k+1，我们就把max-heap头上最大的元素移出heap，因为这里的heap是max-heap，
+所以heap头部的元素比heap里其他的元素都要比heap里的其他元素离原点远。
+这样使得heap里的元素是到目前为止里原点最近的k的点。
 */
 
 #include <iostream>
