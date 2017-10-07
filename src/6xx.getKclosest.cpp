@@ -64,4 +64,5 @@ int main()
    //cout << getDistance(p1, p2) << endl;
 }
 
-//O(NlogK)
+//time: O(NlogK)
+//space: O(K)
