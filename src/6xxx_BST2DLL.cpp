@@ -69,6 +69,14 @@ int main()
 
 
 
+/*
+@Copyright:LintCode
+@Author:   taoleetju
+@Problem:  http://www.lintcode.com/problem/convert-binary-search-tree-to-doubly-linked-list
+@Language: C++
+@Datetime: 16-02-24 03:23
+*/
+
 /**
  * Definition of TreeNode:
  * class TreeNode {
@@ -98,31 +106,21 @@ public:
      * @return: the head of doubly list node
      */
     DoublyListNode* bstToDoublyList(TreeNode* root) {
-        DoublyListNode * head = NULL; 
-        if(!root)
-            return head;
-        DoublyListNode *last_node = NULL;
-        convert( root, last_node);
-        while( last_node && last_node->prev){
-            last_node = last_node -> prev;
-        }
-        return last_node;
+        DoublyListNode* last = NULL;
+        convert(root, last);
+        while(last && last->prev) //in this Lintcode problem, head->prev = NULL to identify the head
+            last = last->prev;
+        return last;
     }
-    
-    void convert(TreeNode * root, DoublyListNode*& pLastNode){
-        if(!root){
+    void convert(TreeNode* root, DoublyListNode*& last){
+        if(!root)
             return;
-        }
-        if( root ->left)
-            convert(root->left, pLastNode);
-        
-        DoublyListNode * current = new DoublyListNode(root->val);
-        current -> prev = pLastNode;
-        if (pLastNode){
-            pLastNode->next = current;
-        }
-        pLastNode = current;
-        if(root ->right)
-            convert(root->right, pLastNode);
+        convert(root->left, last);
+        DoublyListNode* curr = new DoublyListNode(root->val);
+        curr->prev = last;
+        if(last)
+            last->next = curr;
+        last = curr;
+        convert(root->right, last);
     }
 };
