@@ -1,3 +1,7 @@
+/*
+给定N个坐标Point，每个Point实例有x-坐标和y-坐标。题目要求函数返回离原点最近的k个坐标。
+*/
+
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -28,7 +32,7 @@ struct comp {
 
 vector<Point> kClosest(vector<Point>& array, Point origin, int k) {
     global_origin = Point(origin.x, origin.y);
-    priority_queue<Point, vector<Point>, comp> pq;
+    priority_queue<Point, vector<Point>, comp> pq;  //maxheap
     vector<Point> res;
     for(auto p : array) {
         if(pq.size() < k)
