@@ -13,3 +13,5 @@ return pair<int, int>(rnd_row, rnd_col);}
 取前k
 如果数据范围很大
 可以直接reservoir
+
+https://www.ma.utexas.edu/users/parker/sampling/repl.htm
