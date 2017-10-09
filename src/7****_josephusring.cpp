@@ -8,7 +8,7 @@ int josephus(int n, int k)
        k%n + 1 as position 1 */
     return (josephus(n - 1, k) + k-1) % n + 1;
 }
-
+//O(n)
 /*
 The problem has following recursive structure.
 
