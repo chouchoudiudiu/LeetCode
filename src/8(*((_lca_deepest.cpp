@@ -8,6 +8,7 @@ http://www.1point3acres.com/bbs/thread-199739-1-1.html
        1  
     2   3
 4      5 6   retrun 1.
+recursive 直接DFS找最底层最左和最右边的点然后求这两个点的LCA即可，iteration就变成BFS找最后一层的第一个和最后一个，找出点后求LCA即可
 */
 
 TreeNode* dfs(TreeNode* root, int & depth){
@@ -17,13 +18,16 @@ TreeNode* dfs(TreeNode* root, int & depth){
     }
     
     int ldepth, rdepth;
-    TreeNode * left = dfs(root->left, ldepth);
-    TreeNode * right = dfs(root->right, rdepth);
+    TreeNode* left = dfs(root->left, ldepth);
+    TreeNode* right = dfs(root->right, rdepth);
     depth = 1 + max(ldepth, rdepth);
     
-    if(ldepth == rdepth) return root;
-    else if(ldepth < rdepth) return right;
-    else return right;
+    if(ldepth == rdepth) 
+      return root;
+    else if(ldepth < rdepth) 
+      return right;
+    else 
+      return left;
 }
 
 int commonAncestor(TreeNode * root){
