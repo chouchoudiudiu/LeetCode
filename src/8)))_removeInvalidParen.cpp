@@ -37,7 +37,7 @@ public:
 };
 
 
-//this solution is actually incorrect...........
+//this solution is actually incorrect...........it actually returns the longest valid parentheis string
 class Solution {
 public:
     int longestValidParentheses(string s) {
