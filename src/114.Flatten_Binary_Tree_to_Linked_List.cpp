@@ -23,6 +23,6 @@ public:
         root->right = root->left;
         root->left = NULL;//CLOSE
         last->right = right;
-        helper(root->right, last);
+        helper(root->right, last); //感觉应该是right, last. 两个都可以通过OJ
     }
 };
