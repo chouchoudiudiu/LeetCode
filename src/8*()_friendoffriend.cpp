@@ -30,20 +30,22 @@ unordered_set<int> getMutualFriends(int id1, int id2) {
 vector<int> friendsOfFriends(int id1, int id2, int k) {
    unordered_set<int> nums1 = getFriends(id1);
    unordered_map<int, int> friendMap; //id, mutual friend count
-   priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; //minheap
    for(auto v1 : nums1) {
        unordered_set<int> nums2 = getFriends(v1);
        for(auto v2 : nums2) {
            if(v2 == id1 || nums1.find(v2) != nums1.end())
                continue;
-           else {
-               unordered_set<int> mutual = getMutualFriends(id1, v2);
-               friendMap[v2] = (int)mutual.size();
-           }
+           else 
+               friendMap[v2]++;
        } 
    }
-    
-   vector<int> res;
+   //sort and get top k
+   return res;
+}
+
+/*
+ priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; //minheap
+vector<int> res;
    for(auto v : friendMap) {
        if(pq.size() < k)
            pq.push({v.second, v.first});
@@ -60,5 +62,4 @@ vector<int> friendsOfFriends(int id1, int id2, int k) {
        res.push_back(pq.top().second);
        pq.pop();
    }
-   return res;
-}
+*/
