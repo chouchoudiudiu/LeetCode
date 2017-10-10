@@ -11,13 +11,11 @@ public:
         int cnt = 0;
         string output, res;
         for(auto c : s) {
-            if(c != '(' && c != ')')
-                continue;
-            else if(c == '(') {
+            if(c == '(') {
                 ++cnt;
                 output += c;
             }
-            else {
+            else if(c == ')'){
                 if(cnt == 0)
                     continue; //not adding
                 else {
