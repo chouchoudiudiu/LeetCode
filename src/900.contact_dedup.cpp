@@ -5,10 +5,10 @@
 
 using namespace std;
 
-vector<pair<int, string>> id;
+vector<int> id;
 int root(int i) {
-    while (i != id[i].first) 
-        i = id[i].first;
+    while (i != id[i]) 
+        i = id[i];
     return i;
 }
 bool find(int p, int q) { //check if p and q have the same root
@@ -18,16 +18,16 @@ void unite(int p, int q) {  //change root of p to point to root of q (smaller)
     int i = root(p);
     int j = root(q);
     if(i > j)
-        id[i].first = j;
+        id[i] = j;
     else
-        id[j].first = i;
+        id[j] = i;
 }
 
 void deduplicate(vector<pair<string, vector<string>>>& contacts, //input
                 unordered_map<int, vector<string>>& res){ //output
     unordered_map<string, unordered_set<int>> emailIDmap;
     for(int i = 0; i < contacts.size(); ++i) {
-        id.push_back({i, contacts[i].first});
+        id.push_back(i);
         for(auto email : contacts[i].second)
             emailIDmap[email].insert(i); //id
     }
