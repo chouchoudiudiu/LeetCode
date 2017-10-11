@@ -10,7 +10,42 @@ There are maximum 3 guests at time 5.
 
 (1) find min and max, get bucket, like histogram
 */
+void findMaxOverlap(vector<int>& start, vector<int>& end, int n ) {
+    sort(start.begin(), start.end());
+    sort(end.begin(), end.end());
+    
+    //similar to merge two sorted array
+    int currentOverlap = 0, maxOverlap = 0;
+    int i = 0, j = 0;
+    while(i < n && j < n) {
+        if(start[i] < end[j]) {
+            ++currentOverlap;
+            maxOverlap = max(maxOverlap, currentOverlap);
+            ++i;
+        }
+        else {
+            --currentOverlap;
+            ++j;
+        }
+    }
+    
+    cout<<maxOverlap<<" "<<endl;
+}
 
+int main() {
+    vector<int> start = {0, 3, 4, 7, 1};
+    vector<int> end = {2, 7, 6, 8, 5};
+    int n = start.size();
+    if(n == 0)
+        return 0;
+    findMaxOverlap(start, end, n);
+    return 0;   
+}
+
+
+
+
+///////////////////////////////
 #include<vector>
 #include<iostream>
 #include<algorithm>
