@@ -37,7 +37,7 @@ void findMaxOverlap(vector<int>& start, vector<int>& end, int n ) {
         }
         else {
             if(count == maxCount)
-                umap[maxCount].insert({lastStart, end[j]});//this is trying to get all valid output
+                umap[maxCount].insert({lastStart, end[j]});//this is trying to get all valid output//problematic... [1, 2] [7, 5] cant quit
             --count;
             ++j;
         }
@@ -58,3 +58,4 @@ int main() {
     for(auto v : umap[maxCount])
         cout<<v.first<<" "<<v.second;
 */
+//http://www.zrzahid.com/maximum-number-of-overlapping-intervals/
