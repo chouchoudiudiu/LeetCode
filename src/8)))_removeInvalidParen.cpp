@@ -17,7 +17,7 @@ public:
             }
             else if(c == ')'){
                 if(cnt == 0)
-                    continue; //not adding
+                    continue; //not adding,不采用，相当于删除一个右括号
                 else {
                     output += c;
                     --cnt;
