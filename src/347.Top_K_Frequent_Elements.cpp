@@ -1,3 +1,4 @@
+//the first two solutions
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
