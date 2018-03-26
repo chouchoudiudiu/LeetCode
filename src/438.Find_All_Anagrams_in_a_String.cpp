@@ -21,3 +21,27 @@ public:
 };
 //从第一次满足pLen之后就一直满足 end - begin == pLen，是一个框定
 //若sliding window长度达到，需要调整begin,如果这个字母是需要的，count--,如果不是，不用减少count
+
+class Solution {
+public:
+    vector<int> findAnagrams(string s, string p) {
+        vector<int> res;
+        int sLen = s.length(), pLen = p.length();
+        vector<int> counter(256, 0);
+        for(auto c : p)
+            ++counter[c];
+        for(int i = 0; i <= sLen - pLen; ++i) {
+            bool success = true;
+            vector<int> tmp = counter;
+            for(int j = 0; j < pLen; ++j) {
+                if(--tmp[s[j + i]] < 0) {
+                    success = false;
+                    break;
+                }
+            }
+            if(success)
+                res.push_back(i);
+        }
+        return res;
+    }
+};
