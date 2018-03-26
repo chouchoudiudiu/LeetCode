@@ -34,37 +34,33 @@ public:
  */
 class Solution {
 public:
-ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
-    int len1 = 0, len2 = 0;
-    ListNode* p = headA;
-    ListNode* q = headB;
-    while (p) {
-        ++len1;
-        p = p->next;
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode* p1 = headA;
+        ListNode* p2 = headB;
+        int len1 = 0, len2 = 0;
+        while(p1) {
+            ++len1;
+            p1 = p1->next;
+        }
+        while(p2) {
+            ++len2;
+            p2 = p2->next;
+        }
+        int diff = max(len1, len2) - min(len1, len2);
+        p1 = headA, p2 = headB;
+        while(--diff >= 0) {
+            if(len1 > len2)
+                p1 = p1->next;
+            else
+                p2 = p2->next;
+        }
+        while(p1 && p2) {
+            if(p1 == p2)
+                return p1;
+            p1 = p1->next;
+            p2 = p2->next;
+        }
+        
+        return NULL;
     }
-    while (q) {
-        ++len2;
-        q = q->next;
-    }
-    p = headA;
-    q = headB;
-    if (len1 > len2) {
-        int count = len1 - len2;
-        while (count-- > 0) 
-            p = p->next;
-    }
-    else
-    {
-        int count = len2 - len1;
-            while(count-- > 0)
-                q = q->next;
-    }
-    while (p && q) {
-        if (p == q)
-            return p;
-        p = p->next;
-        q = q->next;
-    }
-    return NULL;
-}
 };
