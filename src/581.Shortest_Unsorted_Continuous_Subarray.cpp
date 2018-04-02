@@ -27,3 +27,29 @@ public:
 //[1,2,3,4]
 
 //naive solution, sort the array and compare
+class Solution {
+public:
+    int findUnsortedSubarray(vector<int>& nums) {
+        vector<int> sorted = nums;
+        sort(sorted.begin(), sorted.end());
+        int n = sorted.size(), i = 0, j = n - 1;
+        while(i < j) {
+            if(sorted[i] != nums[i] && sorted[j] != nums[j])
+                return n;
+            if(sorted[i] == nums[i]) {
+                ++i;
+                --n;
+            }
+            if(sorted[j] == nums[j]) {
+                --j;
+                --n;
+            }
+        }
+        //if here must be i == j
+        if(i == j && sorted[i] == nums[i])
+            --n;
+        return n;
+    }
+};
+//[1]
+//[1,2,3,4]
