@@ -45,7 +45,7 @@ public:
                 --n;
             }
         }
-        //if here must be i == j
+        //if here must be i == j and single number left or i > j (1,2,3,4)
         if(i == j && sorted[i] == nums[i])
             --n;
         return n;
