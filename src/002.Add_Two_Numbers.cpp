@@ -18,8 +18,7 @@ public:
         int carry = 0;
         while(l1 || l2 || carry) {
             int sum = carry + (l1 ? l1->val : 0) + (l2 ? l2->val : 0);
-            ListNode* p = new ListNode(sum%10);
-            node->next = p;
+            node->next = new ListNode(sum%10);
             node = node->next;
             carry = sum/10;
             if(l1)
