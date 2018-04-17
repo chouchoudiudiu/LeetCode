@@ -16,3 +16,25 @@ public:
         return res;
     }
 };
+
+
+====
+    class Solution {
+public:
+    void helper(vector<vector<int>>& res, vector<int>& sol, int index, vector<int>& nums) {
+        if(index == nums.size()) {
+            res.push_back(sol);
+            return;
+        }
+        helper(res, sol, index + 1, nums);
+        sol.push_back(nums[index]);
+        helper(res, sol, index + 1, nums);
+        sol.pop_back();
+    }
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> res;
+        vector<int> sol;
+        helper(res, sol, 0, nums);
+        return res;
+    }
+};
