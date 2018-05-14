@@ -33,7 +33,7 @@ public:
     }
     
     void helper(vector<int>& nums, int target, int start, int& res) {
-        if(start >= nums.size()) {
+        if(start >= nums.size()) { //OR ==
             if(target == 0)
                 ++res;
             return;
