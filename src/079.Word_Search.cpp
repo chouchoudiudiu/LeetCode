@@ -37,3 +37,42 @@ public:
         return false;
     }
 };
+///////
+
+class Solution {
+public:
+    bool helper(vector<vector<char>>& board, int i, int j, int m, int n, string word, int idx) {
+        if(idx == word.length())
+            return true;
+        char c = board[i][j];
+        if(c != word[idx])
+            return false;
+        int dirs[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        for(int ii = 0; ii < 4; ++ii) {
+            int new_i = i + dirs[ii][0];
+            int new_j = j + dirs[ii][1];
+            board[i][j] = '#';
+            if(new_i >= 0 && new_i < m && new_j >= 0 && new_j < n) {
+                if(helper(board, new_i, new_j, m, n, word, idx + 1))
+                    return true;
+            }
+            board[i][j] = c;
+        }
+        return false;
+    }
+    bool exist(vector<vector<char>>& board, string word) {
+        if(board.empty())
+            return false;
+        int m = board.size(), n = board[0].size();
+        if(m == 1 && n == 1)
+            return word.length() == 1 && board[0][0] == word[0];
+        for(int i = 0; i < m; ++i) 
+            for(int j = 0; j < n; ++j) {
+                if(word[0] == board[i][j]) {
+                    if(helper(board, i, j, m, n, word, 0))
+                        return true;
+                }
+            }
+        return false;
+    }
+};
