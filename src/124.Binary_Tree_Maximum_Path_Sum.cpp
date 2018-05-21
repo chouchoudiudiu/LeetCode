@@ -10,7 +10,7 @@
 class Solution {
 public:
     int maxPathSum(TreeNode* root) {
-        int maxSum = INT_MIN;
+        int maxSum = INT_MIN; //因为最少要经过一个节点
         helper(root, maxSum);
         return maxSum;
     }
