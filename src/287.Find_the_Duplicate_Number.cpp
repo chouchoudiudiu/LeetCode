@@ -2,9 +2,9 @@ class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
         int low = 1, high = nums.size() - 1; //n
-        int mid = low + (high - low)/2;
         while (low < high) { //otherwise wont stop
             int count = 0;
+            int mid = low + (high - low)/2;
             for (auto v : nums) {
                 if (v <= mid) //not nums[mid]...
                     ++count;
@@ -12,11 +12,9 @@ public:
             if (count > mid) //if not in mid, it should be equal
                 high = mid; //mid itself is possible
             else
-                low = mid + 1;
-            mid = low + (high - low)/2;
-            
+                low = mid + 1;            
         }
-        return high; //low == high == mid
+        return low; //low == high == mid
     }
 };
 
