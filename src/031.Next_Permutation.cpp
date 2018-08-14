@@ -71,3 +71,20 @@ public:
        return nums;
     }
 };
+
+ /////////////////////////////////////////////////////////////
+    void nextPermutation(vector<int>& nums) {
+        if(nums.empty() || nums.size() == 1)
+            return;
+        int i = nums.size() - 2;
+        while(i >= 0 && nums[i] >= nums[i + 1])
+            --i;
+        if(i < 0) {
+            reverse(nums.begin(), nums.end());
+            return;
+        }
+        else 
+            reverse(nums.begin() + i + 1, nums.end());
+        int idx = upperSearch(nums, i + 1, nums.size() - 1, nums[i]);
+        swap(nums[idx], nums[i]);
+    }
