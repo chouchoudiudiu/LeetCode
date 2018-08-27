@@ -9,10 +9,12 @@ public:
         vector<int> dp(target + 1, 0);
         dp[0] = 1;
         for (auto v : nums) {
-            for (int i = target; i >= v; --i) //反之会如何？
+            for (int i = target; i >= v; --i) {//反之会如何？
                 dp[i] = dp[i] || dp[i - v]; //5,2,3,6 target=8; 第一个v=5, 8 7 6 5 是5往上可能或希望取到的值，取决于有没有数可以和它加到678 
-        }
-        
+                if(dp[target])
+                    return true;
+            }
+         }
         return dp[target];
     }
 };
