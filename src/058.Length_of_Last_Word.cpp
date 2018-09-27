@@ -38,3 +38,25 @@ public:
         return (start != -1 && inWord) ? i - start : lastWordLen;
     }
 };
+
+///cleaner
+
+class Solution {
+public:
+    int lengthOfLastWord(string s) {
+        int len = 0, start = 0;
+        bool inside = false;
+        for(int i = 0; i < s.length(); ++i) {
+            if(s[i] == ' ' && inside) {
+                len = i - start;
+                inside = false;
+            }
+            if(s[i] != ' ' && !inside){
+                start = i;
+                inside = true;
+            }
+        }
+
+        return inside ? s.length() - start : len;
+    }
+};
