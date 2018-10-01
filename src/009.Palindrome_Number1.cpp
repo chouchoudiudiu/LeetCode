@@ -12,3 +12,22 @@ public:
         return sum == x || sum/10 == x; //even, odd; 坏处是 要比完所有？
     }
 };
+
+
+=============
+	9. Palindrome Number
+	
+	class Solution {
+public:
+    bool isPalindrome(int x) {
+        if(x < 0)
+            return false;
+        long long rev = 0; //其实int, long 也可
+        int x_p = x; //x will change in the end
+        while(x) {
+            rev = rev*10 + x%10;
+            x /= 10;
+        }
+        return rev == x_p;
+    }
+};
