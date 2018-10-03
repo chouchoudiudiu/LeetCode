@@ -20,3 +20,20 @@ public:
             return root;
     }
 };
+
+=======
+    
+    class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if(!root)
+            return NULL;
+        int max_v = max(p->val, q->val), min_v = min(p->val, q->val);
+        if(root->val > max_v)
+            return lowestCommonAncestor(root->left, p, q);
+        if(root->val <= max_v && root->val >= min_v)
+            return root;
+        if(root->val < min_v)
+            return lowestCommonAncestor(root->right, p, q);
+    }
+};
