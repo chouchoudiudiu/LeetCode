@@ -14,3 +14,5 @@ public: //Sieve of Eratosthenes
         return cnt;
     }
 };
+
+//其实 i < sqrt(n) 就够了
