@@ -18,3 +18,23 @@ public:
         return maxLen + (hasOdd ? 1 : 0);
     }
 };
+
+============
+class Solution {
+public:
+    int longestPalindrome(string s) {
+        unordered_map<char, int> m;
+        for(auto c : s)
+            ++m[c];
+        int longest = 0, single = 0;
+        for(auto c : m) {
+            if(c.second%2 == 0)
+                longest += c.second;
+            else {
+                longest += c.second - 1;
+                single = 1;
+            }
+        }
+        return longest + single;
+    }
+};
