@@ -7,7 +7,7 @@ public:
         for(int i = 0; i < n; ++i) {
             m[nums[i]] = i;
         }
-        sort(nums.begin(), nums.end(), greater<int>());
+        sort(nums.begin(), nums.end(), greater<int>()); //sort(nums.rbegin(), nums.rend());
         for(int i = 0; i < n; ++i) {
             int pos = m[nums[i]];
             if(i == 0)
