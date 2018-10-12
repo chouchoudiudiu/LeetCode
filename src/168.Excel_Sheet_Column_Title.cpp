@@ -3,7 +3,7 @@ public:
     string convertToTitle(int n) {
         string s;
         while (n) {
-            s += char((--n)%26 + 'A'); //char
+            s += (--n)%26 + 'A'; 
             n /= 26;
         }
         return string(s.rbegin(), s.rend());
