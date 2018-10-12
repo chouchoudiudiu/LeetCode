@@ -34,7 +34,7 @@ public:
             return {};
         vector<int> res;
         TreeNode* prev = NULL;
-        int max = INT_MIN, cnt = 1;
+        int max = INT_MIN, cnt = 1; //MAX = 0 IS OKAY TOO
         inorder(root, prev, max, cnt, res);
         return res;
     }
