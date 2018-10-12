@@ -17,3 +17,25 @@ public:
         return res;
     }
 };
+
+=======
+    class Solution {
+public:
+    string convertToBase7(int num) {
+        if(num == 0)
+            return "0";
+        //long n = num;
+        bool neg = false;
+        if(num < 0) {
+            neg = true;
+            num = -num;
+        }
+        string s;
+        while(num > 0) {
+            s += num%7 + '0';
+            num /= 7;
+        }
+        reverse(s.begin(), s.end());
+        return neg ? "-" + s : s;
+    }
+};
