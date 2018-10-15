@@ -19,3 +19,6 @@ Multiply out the brackets and rearrange a bit; you get:
 
 12,345 = (1 × 9,999 + 2 × 999 + 3 × 99 + 4 × 9) + (1 + 2 + 3 + 4 + 5).
 */
+
+
+比如如果是9，如果是num%9就成了0，不对的，应该是1+(nun - 1)%9
