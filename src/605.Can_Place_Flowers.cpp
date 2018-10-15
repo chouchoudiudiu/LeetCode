@@ -7,7 +7,7 @@ public:
                 int prev = i == 0 ? 0 : flowerbed[i - 1]; 
                 int next = i == flowerbed.size() - 1 ? 0 : flowerbed[i + 1];
                 if(prev == 0 && next == 0) {
-                    flowerbed[i] = 1;
+                    flowerbed[i] = 1; //place之后值要改写！
                     ++cnt;
                 }
             }
