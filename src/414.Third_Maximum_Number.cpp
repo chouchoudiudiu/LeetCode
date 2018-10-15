@@ -17,9 +17,11 @@ public:
             else if (v > third) 
                 third = v;
         }
-        return (third != LONG_MIN  && third != second) ? third : first;
+        return third != LONG_MIN  ? third : first;
     }
 };
 
 //[1,2,2,5,3,5]
 //[1,2,-2147483648]
+
+//return (third != LONG_MIN  && third != second) ? third : first;
