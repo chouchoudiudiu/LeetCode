@@ -46,3 +46,25 @@ public:
 [0,0,0,0,0,1,0,0]
 0
 */
+//自己写的巨啰嗦。。。
+class Solution {
+public:
+    bool canPlaceFlowers(vector<int>& flowerbed, int n) {
+        int cnt = 0, prev = -1;
+        for(int i = 0; i < flowerbed.size(); ++i) {
+            if(i == flowerbed.size() - 1) {
+                if(prev != 1 && flowerbed[i] == 0)
+                    ++cnt;
+            }
+            else if(prev != 1 && flowerbed[i] == 0 && flowerbed[i + 1] != 1) {
+                ++cnt;
+                prev = 1;
+            }
+            else
+                prev = flowerbed[i];
+            if(cnt >= n)
+                return true;
+        }
+        return false;
+    }
+};
