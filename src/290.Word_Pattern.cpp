@@ -24,3 +24,30 @@ public:
 };
 
 //almost the same as Isomorphic Strings
+class Solution {
+public:
+    bool wordPattern(string pattern, string str) {
+        stringstream ss(str);
+        unordered_map<char, string> m1;
+        unordered_map<string, char> m2;
+        int i = 0;
+        for(string token; ss >> token; ++i) {
+            if(i >= pattern.size())
+                return false;
+            char c = pattern[i];
+            if(m1.find(c) == m1.end()) {
+                if(m2.find(token) != m2.end())
+                    return false;
+                else {
+                    m1[c] = token;
+                    m2[token] = c;
+                }
+            }
+            else {
+                if(m1[c] != token)
+                    return false;
+            }
+        }
+        return i == pattern.size();
+    }
+};
