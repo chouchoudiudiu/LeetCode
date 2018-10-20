@@ -27,3 +27,30 @@ public:
         return stk.top();
     }
 };
+
+=========
+    class Solution {
+public:
+    int evalRPN(vector<string>& tokens) {
+        stack<int> stk;
+        for(auto s : tokens) {
+            if(s != "*" && s != "+" && s != "-" && s != "/") 
+                stk.push(stoi(s));
+            else {
+                int val1 = stk.top();
+                stk.pop();
+                int val2 = stk.top();
+                stk.pop();
+                if(s == "+")
+                    stk.push(val1 + val2);
+                if(s == "-")
+                    stk.push(val2 - val1);
+                if(s == "*")
+                    stk.push(val1*val2);
+                if(s == "/")
+                    stk.push(val2/val1);
+            }
+        }
+        return stk.top();
+    }
+};
