@@ -23,7 +23,7 @@ public:
         int low = 0, high = nums.size() - 1;
         while(low <= high && nums[low] > nums[high]) {
             int mid = low + (high - low)/2;
-            if(nums[low] <= nums[mid])
+            if(nums[low] <= nums[mid]) //low是可能=mid的
                 low = mid + 1;
             else
                 high = mid;
