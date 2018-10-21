@@ -27,3 +27,6 @@ public:
         return m[head];
     }
 };
+
+
+好像不用         if (curr->next) 和          if (curr->random) 也可以
