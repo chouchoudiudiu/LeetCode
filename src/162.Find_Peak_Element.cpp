@@ -13,6 +13,10 @@ public:
     }
 };
 
+//最后跳出的条件是low == high, 此时的low是曾经的mid + 1, 一定满足nums[low/high] > nums[low/high - 1] 而最后的high都是满足着
+// > nums[high + 1]的；所以即所求。
+//返回high或者low 都可以因为此时两者已经相等。。
+
 /////////////////////////////////////////
 class Solution {
 public:
