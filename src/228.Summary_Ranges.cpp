@@ -25,3 +25,32 @@ public:
 };
 
 //[-2147483648,-2147483647,2147483647]
+==========
+    
+    class Solution {
+public:
+    string helper(int start, int end, vector<int>& nums) {
+        if(start == end)
+            return to_string(nums[start]);
+        else
+            return to_string(nums[start]) + "->" + to_string(nums[end]);
+    }
+    vector<string> summaryRanges(vector<int>& nums) {
+        vector<string> res;
+        if(nums.empty())
+            return res;
+        int start = 0, end = 0;
+        if(nums.size() == 1)
+            return {helper(start, end, nums)};
+        for(int i = 1; i < nums.size(); ++i) {
+            if(nums[i] == nums[i - 1] + 1)
+                ++end;
+            else {
+                res.push_back(helper(start, end, nums));
+                start = end = i;
+            }
+        }
+        res.push_back(helper(start, end, nums));
+        return res;
+    }
+};
