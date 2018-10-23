@@ -20,3 +20,21 @@ public:
 //find accumulated sum values that get most intersection, actually find 2nd max ...excluding the last (otherwise same!)
 //note there is no zero size brick
 //wallsize - number of max number in cummulated sums table
+
+class Solution {
+public:
+    int leastBricks(vector<vector<int>>& wall) {
+        int maxCnt = 0, n = wall.size();
+        unordered_map<int, int> m; //cumsum, cnt 
+        for(auto floor : wall) {
+            int sum = 0;
+            for(int i = 0; i < floor.size() - 1; ++i) {
+                sum += floor[i];
+                m[sum]++;
+                if(m[sum] > maxCnt)
+                    maxCnt = m[sum];
+            }
+        }
+        return n - maxCnt;
+    }
+};
