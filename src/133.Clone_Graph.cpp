@@ -27,7 +27,23 @@ public: //BFS
                 m[curr]->neighbors.push_back(m[v]); //->neighbors
             }
         }
-        
         return nodeCopy;
     }
 };
+
+=== kinda worse
+while(!q.empty()) {
+            auto curr = q.front();
+            q.pop();
+            vector<UndirectedGraphNode *> nCopy;
+            for(auto v : curr->neighbors) {
+                if(m.find(v) == m.end()) {
+                    q.push(v);
+                    UndirectedGraphNode *cp = new UndirectedGraphNode(v->label);
+                    m[v] = cp;
+                }
+                nCopy.push_back(m[v]);
+            }
+            m[curr]->neighbors = nCopy;
+        }
+        
