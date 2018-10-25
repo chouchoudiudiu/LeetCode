@@ -15,3 +15,26 @@ public:
         }
     }
 };
+
+
+=======
+    class Solution {
+public:
+    string reverseStr(string s, int k) {
+        string res;
+        int n = s.length();
+        for(int i = 0; i < n; i += 2*k) {
+            if(i + k <= n) {
+                string tmp = s.substr(i, k);
+                reverse(tmp.begin(), tmp.end());
+                res += tmp + s.substr(i + k, min(k, n - i));
+            }
+            else {
+                string tmp = s.substr(i);
+                reverse(tmp.begin(), tmp.end());
+                res += tmp;
+            }
+        }
+        return res;
+    }
+};
