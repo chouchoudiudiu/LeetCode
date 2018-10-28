@@ -18,7 +18,7 @@ public:
         if (!root)
             return NULL;
         if (root->val < key) {
-            root->right = deleteNode(root->right, key);
+            root->right = deleteNode(root->right, key); //note that it is not return deleteNode(root->right, key)....
         }
         else if (root->val > key) {
             root->left = deleteNode(root->left, key);
@@ -31,7 +31,7 @@ public:
             else if (!root->right)
                 return root->left;
             else {
-                TreeNode* node = getMin(root->right);//find the min value in right subtree, replace the root value with its value
+                TreeNode* node = getMin(root->right);//find the min value in right subtree(basically the leftmost child), replace the root value with its value
                 root->val = node->val;
                 root->right = deleteNode(root->right, node->val);
             }
