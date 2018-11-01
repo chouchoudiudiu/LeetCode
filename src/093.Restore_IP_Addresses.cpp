@@ -26,3 +26,19 @@ public:
     }
 };
 //"12111021121"
+//or 
+
+void restoreIP(vector<string>& res, string s, string out, int start, int part) {
+    if(start == s.length() && part == 5) {
+        out.pop_back();
+        res.push_back(out);
+    }
+    int x = 0;
+    for(int i = start; i < s.length(); ++i) {
+        x = x*10 + (s[i] - '0'); 
+        if(x >= 0 && x <= 255) 
+            restoreIP(res, s, out + to_string(x) + ".", i + 1, part + 1); //note out + 
+        if(x == 0) //no leading zeros!!
+            break;
+    }
+}
