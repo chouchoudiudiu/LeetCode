@@ -28,3 +28,5 @@ public:
         return total; 
     }
 };
+
+//long long 也不是必须的。。。
