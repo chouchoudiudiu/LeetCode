@@ -5,7 +5,7 @@ public:
     int combinationSum4(vector<int>& nums, int target) {
         vector<int> dp(target + 1, 0);
         dp[0] = 1;//choose none
-        sort(nums.begin(), nums.end());
+        //sort(nums.begin(), nums.end()); //not necessary at all
         for (int i = 1; i <= target; ++i)
             for (auto v : nums) {
                 if (v <= i) //i, not target
