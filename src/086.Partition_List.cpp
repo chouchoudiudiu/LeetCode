@@ -16,11 +16,11 @@ public:
         while(curr) {
             if (curr->val < x) {
                 p->next = curr;
-                p = curr;
+                p = p->next;
             }
             else {
                 q->next = curr;
-                q = curr;
+                q = q->next;
             }
             curr = curr->next;
         }
