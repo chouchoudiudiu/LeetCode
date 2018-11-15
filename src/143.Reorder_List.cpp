@@ -42,17 +42,13 @@ public:
         //interleave two halves, the second half is always shorter
         ListNode* l1 = head;
         ListNode* l2 = secondHead;
-        ListNode* l1Next = l1->next;
-        ListNode* l2Next = l2->next;
-        while (l2) {//shorter
-            l1Next = l1->next;
-            l2Next = l2->next;
+        while(l2) { //shorter
+            ListNode* l1Next = l1->next;
+            ListNode* l2Next = l2->next;
             l1->next = l2;
             l2->next = l1Next;
             l1 = l1Next;
             l2 = l2Next;
         }
-    
-        return;
     }
 };
