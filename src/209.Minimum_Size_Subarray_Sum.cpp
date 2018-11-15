@@ -22,3 +22,20 @@ public:
 More practice:
 If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log n).
 */
+
+class Solution {
+public:
+    int minSubArrayLen(int s, vector<int>& nums) {
+        int minLen = INT_MAX, sum = 0;
+        for(int start = 0, end = 0; end < nums.size(); ++end) {
+            sum += nums[end];
+            while(sum >= s) {
+                minLen = min(minLen, end - start + 1);
+                sum -= nums[start++];
+            }
+        }
+        return minLen == INT_MAX ? 0:minLen;
+    }
+};
+
+//sliding window? two pointers
