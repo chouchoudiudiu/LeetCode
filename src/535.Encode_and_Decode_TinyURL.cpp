@@ -31,7 +31,7 @@ public:
     
     unordered_map<string, string> long2short;
     unordered_map<long, string> id2long;
-    //recover long id, recvoer long url
+    //recover long id, recover long url
     string dict = "0123456789abcedfghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     long id = 0;
 };
