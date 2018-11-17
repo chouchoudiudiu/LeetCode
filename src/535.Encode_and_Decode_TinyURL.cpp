@@ -39,3 +39,36 @@ public:
 // Your Solution object will be instantiated and called as such:
 // Solution solution;
 // solution.decode(solution.encode(url));
+
+
+class Solution {
+public:
+
+    // Encodes a URL to a shortened URL.
+    string encode(string longUrl) {
+        if(long2short.find(longUrl) != long2short.end())
+            return long2short[longUrl];
+        long tmp = id;
+        string s;
+        while(tmp) {
+            s += dict[tmp%62];
+            tmp /= 62;
+        }
+        while(s.length() < 6)
+            s = '0' + s;
+        long2short[longUrl] = s;
+        short2long[s] = longUrl;
+        ++id;
+        return s;
+    }
+
+    // Decodes a shortened URL to its original URL.
+    string decode(string shortUrl) {
+        return short2long[shortUrl];
+    }
+    
+    unordered_map<string, string> long2short;
+    unordered_map<string, string> short2long;
+    string dict = "0123456789abcedfghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    long id = 0;
+};
