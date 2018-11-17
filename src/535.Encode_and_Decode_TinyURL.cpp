@@ -6,7 +6,7 @@ public:
         if(long2short.find(longUrl) != long2short.end())
             return long2short[longUrl];
         string s;
-        long tmp = 0;
+        long tmp = id;
         while(id) {
             s += dict[tmp%62];
             tmp /=  62;
