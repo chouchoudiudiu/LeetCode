@@ -23,3 +23,12 @@ public:
         }
     }
 };
+
+
+////
+        if(nums.empty()) {
+            if(player == 1)
+                return sum1 >= sum2;
+            if(player == 2)
+                return sum2 > sum1;
+        }
