@@ -30,3 +30,13 @@ public:
  * Logger obj = new Logger();
  * bool param_1 = obj.shouldPrintMessage(timestamp,message);
  */
+
+
+//you can also combine
+    bool shouldPrintMessage(int timestamp, string message) {
+        if(u_map.find(message) == u_map.end() || timestamp - u_map[message] >= 10) {
+            u_map[message] = timestamp;
+            return true;
+        }
+        return false;
+    }
