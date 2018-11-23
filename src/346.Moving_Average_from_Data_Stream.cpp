@@ -29,3 +29,26 @@ public:
  * MovingAverage obj = new MovingAverage(size);
  * double param_1 = obj.next(val);
  */
+
+class MovingAverage {
+public:
+    /** Initialize your data structure here. */
+    MovingAverage(int size) {
+        sz = size;
+        sum = 0.0;
+    }
+    
+    double next(int val) {
+        q.push(val);
+        sum += val;
+        if(q.size() > sz) { //at most one, no need to while
+            sum -= q.front();
+            q.pop();
+        }
+        return sum/q.size();
+    }
+    
+    int sz;
+    double sum;
+    queue<int> q;
+};
