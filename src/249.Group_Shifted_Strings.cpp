@@ -29,3 +29,17 @@ public:
         return res;
     }
 };
+
+
+////////
+ vector<vector<string>> groupStrings(vector<string>& strings) {
+        vector<vector<string>> res;
+        unordered_map<string, vector<string>> u_map;
+        for(auto s : strings) {
+            string origin = findOrigin(s);
+            u_map[origin].push_back(s);
+        }
+        for(auto m : u_map) 
+            res.push_back(m.second);
+        return res;
+    }
