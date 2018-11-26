@@ -29,3 +29,14 @@ public:
         }
     }
 };
+
+
+-------
+int helper(ListNode* node) {
+    if(!node)
+        return 1; //return 1
+    int carry = helper(node->next);
+    int sum = node->val + carry;
+    node->val = sum%10;
+    return sum/10;
+}
