@@ -19,7 +19,7 @@ public:
         q.push({0, root}); //center;
         while (!q.empty()) {
             int size = q.size();//size of this level
-            for (int i = 0; i < size; ++i) {
+            for (int i = 0; i < size; ++i) { //no need to use size!!!!!!!!!
                 TreeNode* node = q.front().second;
                 int verID = q.front().first;
                 q.pop();
