@@ -12,9 +12,9 @@ public:
             if (s[i] == t[i])
                 ++i;
             else {
-                if (m > n && s.substr(i + 1) == t.substr(i))
+                if (m > n && s.substr(i + 1) == t.substr(i)) //longer str delete one char
                     return true;
-                if (m == n && s.substr(i + 1) == t.substr(i + 1))
+                if (m == n && s.substr(i + 1) == t.substr(i + 1)) //only this char is different
                     return true;
                 return false;//all other cases
             }
