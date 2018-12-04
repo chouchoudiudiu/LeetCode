@@ -9,7 +9,7 @@ public:
         int n = nums.size();
         if (n <= 1) return 0;
         int start = 0, end = nums[0], steps = 1;
-        while (end < n - 1) { //n - 1 is the end of array
+        while (end < n - 1) { //n - 1 is the end of array; last index
             int maxPos = 0;
             for (int i = start; i <= end; ++i) {
                 maxPos = max(maxPos, i + nums[i]);
