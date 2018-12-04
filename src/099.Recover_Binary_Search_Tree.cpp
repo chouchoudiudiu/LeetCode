@@ -31,3 +31,21 @@ public:
         swap(node1->val, node2->val); // note not swap(node1, node2) or (*node1, *node2)... 
     }
 };
+
+////
+
+void inorder(TreeNode* root, TreeNode*& last, TreeNode*& node1, TreeNode*& node2) {
+        if(!root)
+            return;
+        inorder(root->left, last, node1, node2);
+        if(root->val < last->val) {
+            if(!node1) {
+                node1 = last;
+                node2 = root;
+            }
+            else 
+                node2 = root;
+        }
+        last = root;
+        inorder(root->right, last, node1, node2);
+    }
