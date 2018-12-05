@@ -16,7 +16,7 @@ public:
             res.push_back(rangeToString(lower, nums[0] - 1));
         }
         for (int i = 0; i < n - 1; ++i) { //starting from 0
-            if ((long long)nums[i + 1] > (long long)nums[i] + 1) //has gap //nums[i] != INT_MAX
+            if ((long long)nums[i + 1] > (long long)nums[i] + 1) //has gap //nums[i] != INT_MAX ll加载nums[]外面
                 res.push_back(rangeToString(nums[i] + 1, nums[i + 1] - 1));
         }
         if (nums[n - 1] != upper) {
