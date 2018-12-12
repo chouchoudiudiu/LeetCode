@@ -10,33 +10,34 @@
 class Solution {
 public:
     TreeNode* str2tree(string s) {
-        if(s.size() == 0)
+        if(s.length() == 0)
             return NULL;
-        int val = 0, i = 0;
+        int i = 0;
         if(s[0] == '-') {
             ++i;
         }
-        while(isdigit(s[i])) {
+        while(isdigit(s[i])) 
             i++;
-        }
-        int leftC = 0, rightC = 0, leftStart = i;
-        while(i < s.size()) {
+        int leftC = 0, rightC = 0, leftStart = i; //leftC means left ( count; right C means right ) count.
+        while(i < s.length()) {
             if(s[i] == '(')
                 ++leftC;
             if(s[i] == ')')
                 ++rightC;
             if(leftC == rightC)
                 break;
-            ++i;
+            ++i;   
         }
         string left = leftC == 0 ? "" : s.substr(leftStart + 1, i - leftStart - 1);
-        string right = (i == s.size() - 1 || leftC == 0) ?  "" :s.substr(i + 2, s.size() - 1 - i - 2);
+        string right = (i >= s.length() - 1) ? "" : s.substr(i + 2, s.length() - 1 - i - 2);
         TreeNode* root = new TreeNode(stoi(s.substr(0, leftStart)));
         root->left = str2tree(left);
         root->right = str2tree(right);
         return root;
     }
 };
+
+//|| leftC == 0 can be modified as (i >= s.length() - 1) ; > includes the case with all numbers!
 //"-4(2(3)(1))(6(5)(7))"
 /**
  * Definition for a binary tree node.
