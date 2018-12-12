@@ -58,18 +58,17 @@ public:
 private:
     TreeNode* build(string s, int& i) {
         int start = i;
-        if (s[i] == '-') {
+        if(s[i] == '-') 
             i++;
-        }
-        while (isdigit(s[i])) 
+        while(isdigit(s[i])) 
             i++;
         int num = stoi(s.substr(start, i - start));
         TreeNode* node = new TreeNode(num);
-        if (s[i] == '(') {
+        if(s[i] == '(') {
             node->left = build(s, ++i);
             i++;    // )
         }
-        if (s[i] == '(') {
+        if(s[i] == '(') {
             node->right = build(s, ++i);
             i++;    // )
         }
