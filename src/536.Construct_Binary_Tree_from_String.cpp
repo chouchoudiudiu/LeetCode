@@ -61,9 +61,8 @@ private:
         if (s[i] == '-') {
             i++;
         }
-        while (isdigit(s[i])) {
+        while (isdigit(s[i])) 
             i++;
-        }
         int num = stoi(s.substr(start, i - start));
         TreeNode* node = new TreeNode(num);
         if (s[i] == '(') {
