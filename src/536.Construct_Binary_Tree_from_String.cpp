@@ -28,7 +28,7 @@ public:
                 break;
             ++i;   
         }
-        string left = leftC == 0 ? "" : s.substr(leftStart + 1, i - leftStart - 1);
+        string left = (leftC == 0) ? "" : s.substr(leftStart + 1, i - leftStart - 1);
         string right = (i >= s.length() - 1) ? "" : s.substr(i + 2, s.length() - 1 - i - 2);
         TreeNode* root = new TreeNode(stoi(s.substr(0, leftStart)));
         root->left = str2tree(left);
