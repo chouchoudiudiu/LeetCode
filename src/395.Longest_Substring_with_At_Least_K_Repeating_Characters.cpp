@@ -9,10 +9,10 @@ public:
         for (auto c : s)
             ++count[c - 'a'];
         int i = 0;
-        while (i < s.length() && count[s[i] - 'a'] >= k)
+        while (i < s.length() && count[s[i] - 'a'] >= k) //要都满足才progress!!!
             ++i;
         if (i == s.length())
-            return s.length(); //important!
+            return s.length(); //important! 不然继续循环left
 
         int left = longestSubstring(s.substr(0, i), k);
         int right = longestSubstring(s.substr(i + 1), k);
