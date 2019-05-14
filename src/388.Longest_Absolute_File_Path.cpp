@@ -8,11 +8,10 @@ public:
         while (getline(ss, line)) {
             int level = line.find_last_of('\t') + 1;
             int len = line.substr(level).size();
-            if (line.find('.') != string::npos) {
+            if (line.find('.') != string::npos) 
                 res = max(res, m[level] + len);
-            } else {
-                m[level + 1] = m[level] + len + 1; //prepare for next level (as part of it, like base, '/' as + 1)
-            }
+            else 
+                m[level + 1] = m[level] + len + 1; //prepare for next level (as part of it, like base, '/' as + 1
         }
         return res;
     }
